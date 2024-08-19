@@ -62,7 +62,7 @@ const Contact = () => {
                             <div class="card contact-card mb-3">
                                 <div class="row px-3 g-0">
                                     <div class="col-md-3 d-flex align-items-center justify-content-center">
-                                        <img src="/images/faizi.jpg" alt="contact1" class="img-fluid rounded-circle contact-img my-3" width={250} />
+                                        <img src="/images/Faizi.jpg" alt="contact1" class="img-fluid rounded-circle contact-img my-3" width={250} />
                                     </div>
                                     <div class="col-md-9">
                                         <div class="card-body text-center text-md-start">
