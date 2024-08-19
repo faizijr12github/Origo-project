@@ -1,0 +1,413 @@
+p {
+  font-size: 18px;
+}
+
+.text-orange {
+  color: #ff6f00;
+}
+
+.bg-orange {
+  background-color: #ff6f00;
+}
+
+/* navbar */
+.nav-link {
+  font-size: 18px !important;
+  color: grey;
+  text-decoration: none;
+}
+
+.dropdown-item:hover .nav-link {
+  color: #ff6f00;
+  transform: translateX(10px);
+  /* Adjust the value as needed */
+  transition: transform 0.3s ease-in-out;
+}
+
+.dropdown-item:hover {
+  background-color: white !important;
+}
+
+.contact-btn {
+  border: 1px solid black !important;
+  padding: 7px 23px !important;
+  border-radius: 0px !important;
+  font-weight: bold !important;
+  background-color: white;
+  transition: color 0.4s ease, border-color 0.3s ease;
+}
+
+.contact-btn:hover {
+  color: white !important;
+  background-color: black;
+  transition: background-color 0.4s ease, color 0.3s ease;
+}
+
+/* hero-section */
+.hero-sec {
+  position: relative;
+  width: 100%;
+}
+
+.hero-sec::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 700px;
+  background-image: url('/images/hero-bg.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  filter: brightness(20%);
+  z-index: -1;
+}
+
+.hero-btn1 {
+  background-color: #ff6f00 !important;
+  color: white !important;
+  transition: color 0.4s ease, border-color 0.3s ease;
+  padding: 10px 26px !important;
+  border-radius: 0px !important;
+  font-size: 18px !important;
+  font-weight: bold !important;
+}
+
+.hero-btn1:hover {
+  background-color: black !important;
+  color: #ff6f00 !important;
+  transition: background-color 0.4s ease, color 0.3s ease;
+}
+
+/* expertise */
+
+.expertise-card {
+  margin: auto;
+  border: none !important;
+  transition: transform 0.3s ease;
+}
+
+.img-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.expertise-card-img {
+  transition: transform 0.3s ease;
+  /* Smooth transition for image scaling */
+}
+
+.expertise-card:hover .expertise-card-img {
+  transform: scale(1.1);
+}
+
+.expertise-card-title {
+  transition: color 0.3s ease;
+  /* Smooth transition for text color */
+}
+
+.expertise-card:hover .card-title {
+  color: #ff6f00;
+}
+
+.expertise-card-btn {
+  background-color: #ff6f00 !important;
+  color: white !important;
+  transition: background-color 0.3s ease, color 0.3s ease !important;
+}
+
+.expertise-card-btn:hover {
+  background-color: white !important;
+  color: #ff6f00 !important;
+  border: 1px solid #ff6f00 !important;
+}
+
+.why-origo-bg {
+  background-color: #000000;
+  border-bottom: 5px solid #ff6f00;
+}
+
+/* about us page */
+.about-hero {
+  padding-top: 50px;
+  position: relative;
+  width: 100%;
+}
+
+.about-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 700px;
+  background-image: url('/images/aboutUs-hero.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  filter: brightness(30%);
+  z-index: -1;
+}
+
+.about-hero p {
+  color: white;
+}
+
+.about-hero h1 {
+  color: #ff6f00
+}
+
+.h-700 {
+  height: 700px;
+}
+
+.hero-p {
+  border-top: 5px solid #ff6f00;
+  border-radius: 8px;
+  padding-bottom: 50px;
+}
+
+.vision {
+  background: #f8ab70;
+  border-radius: 32px;
+}
+
+/* services */
+.services {
+  background-image: url('/images/services-hero-bg.png');
+  background-size: 100% 100%;
+}
+
+.services p {
+  color: grey;
+}
+
+/* industry */
+.industry-hero {
+  padding-top: 50px;
+  position: relative;
+  width: 100%;
+}
+
+.industry-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 700px;
+  background-image: url('/images/industry-hero-img.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  filter: brightness(20%);
+  z-index: -1;
+}
+
+.industry-hero p {
+  color: white;
+}
+
+.industry-hero h1 {
+  color: #ff6f00
+}
+
+.h-600 {
+  height: 700px;
+}
+
+.hero-p {
+  border-top: 5px solid #ff6f00;
+  border-radius: 8px;
+  padding-bottom: 50px;
+}
+
+/* textile */
+
+.textile-sec2 {
+  background-color: #000000;
+  padding: 15px 0px;
+}
+
+.textile-sec2 p {
+  color: grey;
+}
+
+.dark-accordion .accordion-item {
+  background-color: #343a40;
+  color: white;
+  border: 1px solid #444;
+}
+
+.dark-accordion .accordion-header {
+  background-color: #343a40;
+  color: white;
+}
+
+.dark-accordion .accordion-button:not(.collapsed) {
+  background-color: #000000;
+  color: white;
+}
+
+.dark-accordion .accordion-button {
+  color: white;
+  background-color: #000000;
+}
+
+.dark-accordion .accordion-body {
+  background-color: #000000;
+  color: white;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+/* coal */
+
+.coal-sec2 {
+  background-image: url('/images/services-hero-bg.png');
+  background-size: 100% 100%;
+}
+
+.coal-sec2 button {
+  cursor: default !important;
+}
+
+.coal-sec-3 {
+  border-radius: 10px;
+  border-left: 5px solid #ff6f00;
+  padding-left: 20px;
+}
+
+.coal-last-sec {
+  border-bottom: 5px solid #ff6f00;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.float-animation {
+  animation: float 3s ease-in-out infinite;
+}
+
+
+/* pharma */
+.pharma-sec2 {
+  background-color: #000000;
+}
+
+.pharma-sec2-box {
+  border-radius: 10px;
+  border-right: 5px solid #ff6f00;
+  padding-right: 20px;
+}
+
+.media {
+  border-bottom: 5px solid #ff6f00;
+}
+
+/* contact */
+
+.contact-bg {
+  background-image: url('/images/form-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.form-label {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.form-control {
+  background-color: transparent !important;
+  border-radius: 0px !important;
+  border: 0px !important;
+  border-bottom: 1px solid white !important;
+  color: white !important;
+  /* Set text color to white */
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+  /* Remove blue shadow on focus */
+  border-bottom: 1px solid white !important;
+  /* Retain the white bottom border */
+}
+
+.conatct-form-btn {
+  border: 0px !important;
+  background-color: #ff6f00 !important;
+  color: white !important;
+  transition: color 0.4s ease, border-color 0.3s ease;
+  padding: 10px 26px !important;
+  border-radius: 8px !important;
+  font-size: 18px !important;
+  font-weight: bold !important;
+}
+
+.conatct-form-btn:hover {
+  background-color: black !important;
+  color: #ff6f00 !important;
+  transition: background-color 0.4s ease, color 0.3s ease;
+}
+
+.contact-card {
+  background-color: black !important;
+  border-radius: 15px !important;
+}
+
+.contact-card p {
+  color: white !important;
+  line-height: 2;
+}
+
+.contact-card h4 {
+  color: #ff6f00;
+  font-weight: bold;
+}
+
+/* Footer */
+.footer-bg {
+  background-color: #000000;
+}
+
+.slide-link {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  line-height: 2;
+  display: inline-block;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.slide-link:hover {
+  transform: translateX(10px);
+  color: #ff6f00;
+}
+
+/* css media queries  */
+
+@media only screen and (max-width: 768px) {
+  .nav-link {
+    font-size: 17px !important;
+  }
+
+  .contact-btn {
+    margin-top: 15px;
+    text-align: center;
+  }
+}
