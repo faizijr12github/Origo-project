@@ -11,7 +11,7 @@ const Industry = () => {
                         <h1 className='fw-bold'>Industry</h1>
                         <div className='hero-p mt-3'>
                             <p className='mt-4'>Origo Business Services provides comprehensive solutions across a diverse range of industries, including Textiles, Coal Energy, Pharma Packaging, Real Estate, and Creative Media. Our expertise spans these sectors, enabling us to deliver tailored services that meet the unique needs of each industry.</p>
-                            <p>Whether it's driving innovation in textile production, ensuring efficient coal sourcing, supplying high-quality pharmaceutical packaging, managing real estate projects, or producing impactful creative media, Origo is your trusted partner for success in any field.
+                            <p>Whether it&rsquo;s driving innovation in textile production, ensuring efficient coal sourcing, supplying high-quality pharmaceutical packaging, managing real estate projects, or producing impactful creative media, Origo is your trusted partner for success in any field.
                             </p>
                         </div>
                     </Col>
@@ -23,7 +23,7 @@ const Industry = () => {
                     <Col lg="5" className='mb-5'>
                         <p><i class="bi bi-check-circle-fill me-3"></i>Origo Business Services is a trusted partner in the textile industry, offering a broad range of solutions tailored to meet the needs of global markets.</p>
                         <p className='mt-3'><i class="bi bi-check-circle-fill me-3"></i>We specialize in sourcing and supplying high-quality home textiles, apparels, leather goods, and towels. Our deep industry knowledge and extensive supplier network ensure that we deliver products that meet the highest standards of quality and compliance.</p>
-                        <p className='mt-3'><i class="bi bi-check-circle-fill me-3"></i>Whether you're looking to enhance your product offerings or enter new markets, Origo provides the expertise and resources needed to succeed in the competitive world of textiles.</p>
+                        <p className='mt-3'><i class="bi bi-check-circle-fill me-3"></i>Whether you&rsquo;re looking to enhance your product offerings or enter new markets, Origo provides the expertise and resources needed to succeed in the competitive world of textiles.</p>
                     </Col>
                     <Col lg="5" className='mb-5'>
                         <img src='/images/textiles.png' alt='textile' className='img-fluid rounded' />
@@ -80,12 +80,12 @@ const Industry = () => {
                 <Container>
                     <Row className="justify-content-around align-items-center pb-5">
                         <Col lg="5" className="mt-5 text-center">
-                            <button className="btn btn-outline-light fw-bold m-3"><span className="me-5">GAR</span> 2600 – 3400</button>
-                            <button className="btn btn-outline-light fw-bold m-3"><span className="me-5">GAR</span> 3400 – 4200</button>
-                            <button className="btn btn-outline-light fw-bold m-3"><span className="me-5">GAR</span> 4200 – 5000</button>
-                            <button className="btn btn-outline-light fw-bold m-3"><span className="me-5">GAR</span> 5000 – 5800</button>
-                            <button className="btn btn-outline-light fw-bold m-3"><span className="me-5">GAR</span> 5800 – 6500</button>
-                            <button className="btn btn-outline-light fw-bold m-3"><span className="me-5">GAR</span> 6500 – 7500</button>
+                            <button className="btn btn-outline-light fw-bold m-3"><span className="me-5">GAR</span> 2600 - 3400</button>
+                            <button className="btn btn-outline-light fw-bold m-3"><span className="me-5">GAR</span> 3400 - 4200</button>
+                            <button className="btn btn-outline-light fw-bold m-3"><span className="me-5">GAR</span> 4200 - 5000</button>
+                            <button className="btn btn-outline-light fw-bold m-3"><span className="me-5">GAR</span> 5000 - 5800</button>
+                            <button className="btn btn-outline-light fw-bold m-3"><span className="me-5">GAR</span> 5800 - 6500</button>
+                            <button className="btn btn-outline-light fw-bold m-3"><span className="me-5">GAR</span> 6500 - 7500</button>
                         </Col>
                         <Col lg="5" className="mt-5">
                             <h3 className="text-orange fw-bold text-center pt-3 pb-5">Coal Product Range</h3>
@@ -157,7 +157,7 @@ const Industry = () => {
                         <p><i class="bi bi-check-circle-fill me-3"></i>
                             Origo Business Services provides expert solutions in the real estate sector, catering to both residential and commercial projects.</p>
                         <p className='mt-1'><i class="bi bi-check-circle-fill me-3"></i>We specialize in developing, marketing, and managing high-value properties that meet the diverse needs of our clients. From luxury residential developments to strategic commercial investments, our comprehensive services ensure that each project is executed with precision and tailored to maximize returns.</p>
-                        <p className='mt-1'><i class="bi bi-check-circle-fill me-3"></i>Origo’s deep market insights and commitment to excellence make us a trusted partner in the dynamic real estate landscape.</p>
+                        <p className='mt-1'><i class="bi bi-check-circle-fill me-3"></i>Origo&rsquo;s deep market insights and commitment to excellence make us a trusted partner in the dynamic real estate landscape.</p>
                     </Col>
                     <Col lg="5" className='mb-5'>
                         <img src='/images/real-estate-img1.png' alt='textile' className='img-fluid rounded' />

@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/images/origo_business_services_logo.jpg" type="image/jpeg" />
+        <link rel="icon" href="/origo_business_services_logo.jpg" type="image/jpeg" />
       </head>
       <body className={inter.className}>
         <TopNav />
