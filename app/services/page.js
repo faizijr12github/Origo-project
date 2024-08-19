@@ -28,7 +28,7 @@ const Services = () => {
                     </Col>
                     <Col lg="5" className='mb-5'>
                         <h2 className='fw-bold'>Marketing Services</h2>
-                        <p className='mt-3'>Origo Business Services delivers tailored marketing solutions designed to boost your brand’s visibility and impact. We combine innovative strategies with deep market insights to create compelling campaigns that resonate with your target audience. Whether it's digital marketing, brand positioning, or market entry strategies, our expertise ensures your business stands out in a competitive landscape, driving customer engagement and accelerating growth.</p>
+                        <p className='mt-3'>Origo Business Services delivers tailored marketing solutions designed to boost your brand’s visibility and impact. We combine innovative strategies with deep market insights to create compelling campaigns that resonate with your target audience. Whether it&rsquo;s digital marketing, brand positioning, or market entry strategies, our expertise ensures your business stands out in a competitive landscape, driving customer engagement and accelerating growth.</p>
                     </Col>
                 </Row>
             </Container>
@@ -72,7 +72,7 @@ const Services = () => {
                     </Col>
                     <Col lg="5" className='mb-5'>
                         <h2 className='fw-bold'>Business Development</h2>
-                        <p className='mt-3'>Origo Business Services offers expert Business Development services aimed at driving growth and unlocking new opportunities for your company. We work closely with you to identify potential markets, forge key relationships, and develop strategies that expand your business footprint. Whether it's entering new sectors or enhancing existing operations, our proactive approach ensures your business is positioned for sustained success and increased profitability.
+                        <p className='mt-3'>Origo Business Services offers expert Business Development services aimed at driving growth and unlocking new opportunities for your company. We work closely with you to identify potential markets, forge key relationships, and develop strategies that expand your business footprint. Whether it&rsquo;s entering new sectors or enhancing existing operations, our proactive approach ensures your business is positioned for sustained success and increased profitability.
                         </p>
                     </Col>
                 </Row>
