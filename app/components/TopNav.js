@@ -39,30 +39,7 @@ function TopNav() {
                         <Nav className="justify-content-end flex-grow-1 pe-3 me-4">
                             <Nav.Link href="/">Home</Nav.Link>
                             <Nav.Link href="/about">About Us</Nav.Link>
-                            <NavDropdown
-                                className='nav-links'
-                                title="Services"
-                                id={`offcanvasNavbarDropdown-expand-${expand}`}
-                            >
-                                <NavDropdown.Item as="span">
-                                    <Nav.Link href="/services">All Services</Nav.Link>
-                                </NavDropdown.Item>
-                                <NavDropdown.Item as="span">
-                                    <Nav.Link href="/">Marketing Services</Nav.Link>
-                                </NavDropdown.Item>
-                                <NavDropdown.Item as="span">
-                                    <Nav.Link href="/">Procurement Services</Nav.Link>
-                                </NavDropdown.Item>
-                                <NavDropdown.Item as="span">
-                                    <Nav.Link href="/">Project Execution</Nav.Link>
-                                </NavDropdown.Item>
-                                <NavDropdown.Item as="span">
-                                    <Nav.Link href="/">Strategic Partnerships</Nav.Link>
-                                </NavDropdown.Item>
-                                <NavDropdown.Item as="span">
-                                    <Nav.Link href="/">Business Development</Nav.Link>
-                                </NavDropdown.Item>
-                            </NavDropdown>
+                            <Nav.Link href="/services">Services</Nav.Link>
                             <NavDropdown
                                 className='nav-links'
                                 title="Industries"
@@ -72,19 +49,19 @@ function TopNav() {
                                     <Nav.Link href="/industry">All Industries</Nav.Link>
                                 </NavDropdown.Item>
                                 <NavDropdown.Item as="span">
-                                    <Nav.Link href="/">Textiles</Nav.Link>
+                                    <Nav.Link href="/textiles">Textiles</Nav.Link>
                                 </NavDropdown.Item>
                                 <NavDropdown.Item as="span">
-                                    <Nav.Link href="/">Coal Energy</Nav.Link>
+                                    <Nav.Link href="/coalEnergy">Coal Energy</Nav.Link>
                                 </NavDropdown.Item>
                                 <NavDropdown.Item as="span">
-                                    <Nav.Link href="/">Pharma Packaging</Nav.Link>
+                                    <Nav.Link href="/pharmaPakaging">Pharma Packaging</Nav.Link>
                                 </NavDropdown.Item>
                                 <NavDropdown.Item as="span">
-                                    <Nav.Link href="/">Real Estate</Nav.Link>
+                                    <Nav.Link href="/realEstate">Real Estate</Nav.Link>
                                 </NavDropdown.Item>
                                 <NavDropdown.Item as="span">
-                                    <Nav.Link href="/">Creative Media</Nav.Link>
+                                    <Nav.Link href="/creativeMedia">Creative Media</Nav.Link>
                                 </NavDropdown.Item>
                             </NavDropdown>
                         </Nav>

@@ -21,7 +21,7 @@ const Services = () => {
                     </Row>
                 </Container>
             </Container>
-            <Container className='mt-5'>
+            <Container className='mt-5' id='marketingServices'>
                 <Row className='justify-content-around align-items-center'>
                     <Col lg="5" className='mb-5'>
                         <img src='/images/crousel-img1.jpg' alt='mission' className='img-fluid rounded shadow' />
@@ -32,7 +32,7 @@ const Services = () => {
                     </Col>
                 </Row>
             </Container>
-            <Container className='mt-5'>
+            <Container className='mt-5' id='procurementServices'>
                 <Row className='justify-content-around align-items-center'>
                     <Col lg="5" className='mb-5'>
                         <h2 className='fw-bold'>Procurement Services</h2>
@@ -43,7 +43,7 @@ const Services = () => {
                     </Col>
                 </Row>
             </Container>
-            <Container className='mt-5'>
+            <Container className='mt-5' id='projectExecutions'>
                 <Row className='justify-content-around align-items-center'>
                     <Col lg="5" className='mb-5'>
                         <img src='/images/crousel-img3.jpg' alt='mission' className='img-fluid rounded shadow' />
@@ -54,7 +54,7 @@ const Services = () => {
                     </Col>
                 </Row>
             </Container>
-            <Container className='mt-5'>
+            <Container className='mt-5' id='strategicPartnerships'>
                 <Row className='justify-content-around align-items-center'>
                     <Col lg="5" className='mb-5'>
                         <h2 className='fw-bold'>Strategic Partnerships</h2>
@@ -65,7 +65,7 @@ const Services = () => {
                     </Col>
                 </Row>
             </Container>
-            <Container className='mt-5'>
+            <Container className='mt-5' id='businessDevelopment'>
                 <Row className='justify-content-around align-items-center'>
                     <Col lg="5" className='mb-5'>
                         <img src='/images/mission.jpg' alt='mission' className='img-fluid rounded shadow' />

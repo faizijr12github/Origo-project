@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 p {
   font-size: 18px;
 }
@@ -9,6 +13,74 @@ p {
 .bg-orange {
   background-color: #ff6f00;
 }
+
+.swiper-pagination {
+  position: relative !important;
+  margin: 50px 0px;
+}
+
+.swiper-pagination-bullet-active {
+  background: #ff8b33 !important;
+}
+
+.topbtn {
+  background-color: #ff6f00 !important;
+  color: white;
+  font-weight: bold;
+}
+
+/* top button */
+.whatsapp-btn {
+  z-index: 100;
+  position: fixed;
+  bottom: 80px; /* Adjust the distance from the bottom as needed */
+  right: 20px; /* Align with the top button */
+  background-color: #25D366; /* WhatsApp green */
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  animation: pulse 1.5s infinite;
+}
+
+.whatsapp-btn:hover {
+  background-color: #06a834; /* Darker green for hover effect */
+}
+
+.whatsapp-btn i {
+  font-size: 1.5rem; /* Adjust the icon size */
+  color: white; /* Icon color */
+}
+
+@keyframes pulse {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.1);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
+
+.topbtn {
+  z-index: 100;
+  position: fixed;
+  bottom: 20px; /* Adjust the distance from the bottom as needed */
+  right: 20px; /* Align with the top button */
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s;
+}
+
+.topbtn i {
+  font-size: 1.5rem; /* Adjust the icon size */
+  color: white; /* Icon color */
+}
+
 
 /* navbar */
 .nav-link {
@@ -44,9 +116,21 @@ p {
 }
 
 /* hero-section */
+
+.carousel-caption {
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.hero-slider-img {
+  filter: brightness(50%);
+}
+
 .hero-sec {
   position: relative;
-  width: 100%;
+  max-width: 100%;
 }
 
 .hero-sec::before {
@@ -126,7 +210,7 @@ p {
 
 .why-origo-bg {
   background-color: #000000;
-  border-bottom: 5px solid #ff6f00;
+  border-bottom: 3px solid #ff6f00;
 }
 
 /* about us page */
@@ -399,7 +483,197 @@ p {
   color: #ff6f00;
 }
 
+/* textile page */
+.textile-hero {
+  padding-top: 50px;
+  position: relative;
+  width: 100%;
+}
+
+.textile-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 700px;
+  background-image: url('/images/textile-slider.webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  filter: brightness(30%);
+  z-index: -1;
+}
+
+.textile-hero p {
+  color: white;
+}
+
+.textile-hero h1 {
+  color: #ff6f00
+}
+
+/* coal energy page */
+
+.coal-energy-hero {
+  padding-top: 50px;
+  position: relative;
+  width: 100%;
+}
+
+.coal-energy-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 700px;
+  background-image: url('/images/coal-slider.webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  filter: brightness(30%);
+  z-index: -1;
+}
+
+.coal-energy-hero p {
+  color: white;
+}
+
+.coal-energy-hero h1 {
+  color: #ff6f00
+}
+
+/* Pharma Pakaging page */
+.pharma-hero {
+  padding-top: 50px;
+  position: relative;
+  width: 100%;
+}
+
+.pharma-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 700px;
+  background-image: url('/images/pharma-slider.webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  filter: brightness(30%);
+  z-index: -1;
+}
+
+.pharma-hero p {
+  color: white;
+}
+
+.pharma-hero h1 {
+  color: #ff6f00
+}
+
+/* Real Estate Page */
+.real-estate-hero {
+  padding-top: 50px;
+  position: relative;
+  width: 100%;
+}
+
+.real-estate-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 700px;
+  background-image: url('/images/real-estate-slider.webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  filter: brightness(30%);
+  z-index: -1;
+}
+
+.real-estate-hero p {
+  color: white;
+}
+
+.real-estate-hero h1 {
+  color: #ff6f00
+}
+
+/* creative-media-page */
+
+.creative-media-hero {
+  padding-top: 50px;
+  position: relative;
+  width: 100%;
+}
+
+.creative-media-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 700px;
+  background-image: url('/images/creative-media-slider.webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  filter: brightness(30%);
+  z-index: -1;
+}
+
+.creative-media-hero p {
+  color: white;
+}
+
+.creative-media-hero h1 {
+  color: #ff6f00
+}
+
+/* downloads-page */
+
+.download-hero {
+  padding-top: 50px;
+  position: relative;
+  width: 100%;
+}
+
+.download-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 700px;
+  background-image: url('/images/downloads-bg.webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  filter: brightness(30%);
+  z-index: -1;
+}
+
+.download-hero p {
+  color: white;
+}
+
+.download-hero h1 {
+  color: #ff6f00
+}
+
+
 /* css media queries  */
+
+@media only screen and (max-width: 1024px){
+  .carousel-caption {
+    top: 45%;
+  }
+}
 
 @media only screen and (max-width: 768px) {
   .nav-link {
@@ -409,5 +683,33 @@ p {
   .contact-btn {
     margin-top: 15px;
     text-align: center;
+  }
+  .carousel-caption {
+    top: 45%;
+  }
+  .hero-slider-img {
+    height: 400px !important;
+  }
+}
+
+@media only screen and (max-width: 425px){
+  .carousel-caption {
+    top: 40%;
+  }
+  .hero-slider-img {
+    width: 100%;
+    height: 400px !important;
+  }
+}
+
+@media only screen and (max-width: 375px){
+  .carousel-caption {
+    top: 38%;
+  }
+}
+
+@media only screen and (max-width: 320px){
+  .carousel-caption {
+    top: 34%;
   }
 }

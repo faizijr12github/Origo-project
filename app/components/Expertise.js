@@ -20,12 +20,12 @@ const Expertise = () => {
                             <div className='img-container'>
                                 <Card.Img className='expertise-card-img rounded' variant="top" src="/images/crousel-img1.jpg" />
                             </div>
-                            <Card.Body>
+                            <Card.Body className='px-0'>
                                 <Card.Title className="card-title fw-bold">Marketing Services</Card.Title>
                                 <Card.Text>
                                     Innovative strategies to elevate your brand and expand market reach.
                                 </Card.Text>
-                                <Link href="" className='btn expertise-card-btn'><i class="bi bi-book me-1"></i> Read More</Link>
+                                <Link href="/services#marketingServices" className='btn expertise-card-btn'><i class="bi bi-book me-1"></i> Read More</Link>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -34,12 +34,12 @@ const Expertise = () => {
                             <div className='img-container'>
                                 <Card.Img className='expertise-card-img rounded' variant="top" src="/images/crousel-img2.jpg" />
                             </div>
-                            <Card.Body>
+                            <Card.Body className='px-0'>
                                 <Card.Title className="card-title fw-bold">Procurement Services</Card.Title>
                                 <Card.Text>
                                 Seamless sourcing of high-quality materials from trusted suppliers.
                                 </Card.Text>
-                                <Link href="" className='btn expertise-card-btn'><i class="bi bi-book me-1"></i> Read More</Link>
+                                <Link href="/services#procurementServices" className='btn expertise-card-btn'><i class="bi bi-book me-1"></i> Read More</Link>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -48,12 +48,12 @@ const Expertise = () => {
                             <div className='img-container'>
                                 <Card.Img className='expertise-card-img rounded' variant="top" src="/images/crousel-img3.jpg" />
                             </div>
-                            <Card.Body>
+                            <Card.Body className='px-0'>
                                 <Card.Title className="card-title fw-bold">Project Execution</Card.Title>
                                 <Card.Text>
                                 Precision-driven project management from concept to completion.
                                 </Card.Text>
-                                <Link href="" className='btn expertise-card-btn'><i class="bi bi-book me-1"></i> Read More</Link>
+                                <Link href="/services#projectExecutions" className='btn expertise-card-btn'><i class="bi bi-book me-1"></i> Read More</Link>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -62,12 +62,12 @@ const Expertise = () => {
                             <div className='img-container'>
                                 <Card.Img className='expertise-card-img rounded' variant="top" src="/images/crousel-img4.jpg" />
                             </div>
-                            <Card.Body>
+                            <Card.Body className='px-0'>
                                 <Card.Title className="card-title fw-bold">Strategic Partnerships</Card.Title>
                                 <Card.Text>
                                 Building collaborations that drive mutual growth and innovation.
                                 </Card.Text>
-                                <Link href="" className='btn expertise-card-btn'><i class="bi bi-book me-1"></i> Read More</Link>
+                                <Link href="/services#strategicPartnerships" className='btn expertise-card-btn'><i class="bi bi-book me-1"></i> Read More</Link>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -76,12 +76,12 @@ const Expertise = () => {
                             <div className='img-container'>
                                 <Card.Img className='expertise-card-img rounded' variant="top" src="/images/crousel-img1.jpg" />
                             </div>
-                            <Card.Body>
+                            <Card.Body className='px-0'>
                                 <Card.Title className="card-title fw-bold">Business Development</Card.Title>
                                 <Card.Text>
                                 Unlocking new opportunities and driving sustained growth
                                 </Card.Text>
-                                <Link href="" className='btn expertise-card-btn'><i class="bi bi-book me-1"></i> Read More</Link>
+                                <Link href="/services#businessDevelopment" className='btn expertise-card-btn'><i class="bi bi-book me-1"></i> Read More</Link>
                             </Card.Body>
                         </Card>
                     </Col>
