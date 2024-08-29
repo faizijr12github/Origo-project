@@ -1,14 +1,26 @@
+"use client"
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Card } from 'react-bootstrap'
+import Link from 'next/link'
+
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const CoalEnergy = () => {
+    useEffect(() => {
+        AOS.init({
+            // You can add options here
+            duration: 1400,
+        });
+    }, []);
     return (
         <>
             {/* Coal-Energy-hero */}
             <Container fluid className='coal-energy-hero'>
                 <Row className='d-flex flex-column align-items-center justify-content-center text-center h-700 pb-4'>
-                    <Col lg="6" md="8">
-                        <h1 className='fw-bold'>Coal Energy</h1>
+                    <Col lg="6" md="8" data-aos="zoom-out">
+                        <h1 className='fw-bold sevillana-regular'>Coal Energy</h1>
                         <div className='hero-p mt-3'>
                             <p className='mt-4'>Origo Business Services is a dynamic company dedicated to providing comprehensive marketing, procurement and business development solutions across various industries. Our expertise spans Textiles, Pharmaceutical Packaging, Coal Energy, Real Estate, and Creative Media projects. </p>
                         </div>
@@ -16,30 +28,32 @@ const CoalEnergy = () => {
                 </Row>
             </Container>
             <Container className='mt-5'>
-                <h2 className='fw-bold text-center py-5'>Coal Energy</h2>
+                <h2 className='fw-bold text-center py-5 sevillana-regular' data-aos="fade-up">Coal Energy</h2>
                 <Row className='justify-content-around align-items-center'>
-                    <Col lg="5" className='mb-5'>
-                        <p><i class="bi bi-check-circle-fill me-3"></i>Origo Business Services is a key player in the coal energy sector, providing reliable sourcing and procurement services for various grades of coal, including GCV/GAR from 3400 up to 7500. We cater to the energy needs of major markets in Pakistan, China, and beyond, ensuring a steady supply of high-quality coal from trusted sources in regions like South Africa, Indonesia, and Afghanistan.</p>
-                        <p className='mt-3'><i class="bi bi-check-circle-fill me-3"></i>Our commitment to quality, timely delivery, and competitive pricing makes Origo a preferred partner for businesses seeking dependable coal energy solutions.</p>
+                    <Col lg="5" className='mb-5' data-aos="fade-right" data-aos-duration="3000">
+                        <p><i className="bi bi-check-circle-fill me-3"></i>Origo Business Services is a key player in the coal energy sector, providing reliable sourcing and procurement services for various grades of coal, including GCV/GAR from 3400 up to 7500. We cater to the energy needs of major markets in Pakistan, China, and beyond, ensuring a steady supply of high-quality coal from trusted sources in regions like South Africa, Indonesia, and Afghanistan.</p>
+                        <p className='mt-3'><i className="bi bi-check-circle-fill me-3"></i>Our commitment to quality, timely delivery, and competitive pricing makes Origo a preferred partner for businesses seeking dependable coal energy solutions.</p>
                     </Col>
                     <Col lg="5" className='mb-5'>
-                        <img src='/images/coal.png' alt='textile' className='img-fluid rounded' />
+                        <img src='/images/coal.png' alt='textile' className='img-fluid rounded' data-aos="zoom-in" data-aos-duration="3000" />
                     </Col>
                 </Row>
             </Container>
             <Container fluid className="coal-sec2 py-5">
                 <Container>
                     <Row className="justify-content-around align-items-center pb-5">
-                        <Col lg="5" className="mt-5 text-center">
-                            <button className="btn btn-outline-light fw-bold m-3"><span className="me-5">GAR</span> 2600 - 3400</button>
-                            <button className="btn btn-outline-light fw-bold m-3"><span className="me-5">GAR</span> 3400 - 4200</button>
-                            <button className="btn btn-outline-light fw-bold m-3"><span className="me-5">GAR</span> 4200 - 5000</button>
-                            <button className="btn btn-outline-light fw-bold m-3"><span className="me-5">GAR</span> 5000 - 5800</button>
-                            <button className="btn btn-outline-light fw-bold m-3"><span className="me-5">GAR</span> 5800 - 6500</button>
-                            <button className="btn btn-outline-light fw-bold m-3"><span className="me-5">GAR</span> 6500 - 7500</button>
+                        <Col lg="5" className="mt-5 text-center" data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                            <button className="bg-black text-white fw-bold m-3"><span className="me-5"><i className="bi bi-graph-up me-2"></i>GAR</span> 2600 - 3400</button>
+                            <button className="bg-black text-white fw-bold m-3"><span className="me-5"><i className="bi bi-graph-up me-2"></i>GAR</span> 3400 - 4200</button>
+                            <button className="bg-black text-white fw-bold m-3"><span className="me-5"><i className="bi bi-graph-up me-2"></i>GAR</span> 4200 - 5000</button>
+                            <button className="bg-black text-white fw-bold m-3"><span className="me-5"><i className="bi bi-graph-up me-2"></i>GAR</span> 5000 - 5800</button>
+                            <button className="bg-black text-white fw-bold m-3"><span className="me-5"><i className="bi bi-graph-up me-2"></i>GAR</span> 5800 - 6500</button>
+                            <button className="bg-black text-white fw-bold m-3"><span className="me-5"><i className="bi bi-graph-up me-2"></i>GAR</span> 6500 - 7500</button>
                         </Col>
                         <Col lg="5" className="mt-5">
-                            <h3 className="text-orange fw-bold text-center pt-3 pb-5">Coal Product Range</h3>
+                            <h3 className="text-orange fw-bold text-center pt-3 pb-5 sevillana-regular" data-aos="fade-left">Coal Product Range</h3>
                         </Col>
                     </Row>
                 </Container>
@@ -48,22 +62,95 @@ const CoalEnergy = () => {
                 <Container>
                     <Row className="justify-content-around align-items-center pb-5">
                         <Col lg="5" className="mt-5">
-                            <h3 className="text-orange fw-bold text-center my-3">Coal Markets</h3>
-                            <div className='coal-sec-3'>
+                            <h3 className="text-orange fw-bold text-center my-3" data-aos="fade-down">Coal Markets</h3>
+                            <div className='coal-sec-3' data-aos="fade-right">
                                 <p>Origo excels in sourcing and supplying coal from key regions to ensure a steady and reliable energy supply. Our coal sourcing services cover:</p>
-                                <p><span className='fw-bold'><i class="bi bi-flag-fill me-1"></i>Pakistan:</span> Local sourcing for efficient energy solutions.</p>
-                                <p><span className='fw-bold'><i class="bi bi-flag-fill me-1"></i>South Africa:</span> High-quality coal with reliable delivery.</p>
-                                <p><span className='fw-bold'><i class="bi bi-flag-fill me-1"></i>Afghanistan:</span> Strategic sourcing from a key region.
+                                <p><span className='fw-bold'><i className="bi bi-flag-fill me-1"></i>Pakistan:</span> Local sourcing for efficient energy solutions.</p>
+                                <p><span className='fw-bold'><i className="bi bi-flag-fill me-1"></i>South Africa:</span> High-quality coal with reliable delivery.</p>
+                                <p><span className='fw-bold'><i className="bi bi-flag-fill me-1"></i>Afghanistan:</span> Strategic sourcing from a key region.
                                 </p>
-                                <p><span className='fw-bold'><i class="bi bi-flag-fill me-1"></i>Indonesia:</span> Competitive pricing and quality assurance.</p>
+                                <p><span className='fw-bold'><i className="bi bi-flag-fill me-1"></i>Indonesia:</span> Competitive pricing and quality assurance.</p>
                             </div>
                         </Col>
                         <Col lg="5" className="mt-5 text-center">
-                        <img src='/images/coal-img-2.png' alt='coal' className='img-fluid float-animation' />
+                            <img src='/images/coal-img-2.png' alt='coal' className='img-fluid float-animation' />
                         </Col>
 
                     </Row>
                 </Container>
+            </Container>
+            <Container fluid className='textile-sec2'>
+                <Container>
+                    <Row className='justify-content-center'>
+                        <Col lg="5" className='text-center'>
+                            <h3 className='text-orange fw-bold mb-3'>All-Inclusive Coal Sourcing</h3>
+                            <h4 className='text-white fst-italic mb-3'>We&apos;ve Got You Covered</h4>
+                        </Col>
+                    </Row>
+                </Container>
+                {/* coal cards */}
+                <Row>
+                    <Col className='mt-5' data-aos="fade-up" lg='3' md='6'>
+                        <Card className="expertise-card bg-transparent" style={{ width: '100%' }}>
+                            <div className='img-container rounded-5'>
+                                <Card.Img className='expertise-card-img rounded-5' variant="top" src="/images/pak-flag.jpg" />
+                            </div>
+                            <Card.Body className='px-3 text-center text-white'>
+                                <Card.Title className="card-title fw-bold">Pakistan</Card.Title>
+                                <Card.Text className='text-secondary'>
+                                    Some quick example text to build on the card title and make up the
+                                    bulk of the card&apos;s content.
+                                </Card.Text>
+                                <Link href="/pakCoal" className='btn expertise-card-btn rounded-5 px-3 fw-bold'><i className="bi bi-buildings me-2"></i>View Market</Link>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col className='mt-5' data-aos="fade-down" lg='3' md='6'>
+                        <Card className="expertise-card bg-transparent" style={{ width: '100%' }}>
+                            <div className='img-container rounded-5'>
+                                <Card.Img className='expertise-card-img rounded-5' variant="top" src="/images/sa-flag.jpg" />
+                            </div>
+                            <Card.Body className='px-3 text-center text-white'>
+                                <Card.Title className="card-title fw-bold">South Africa</Card.Title>
+                                <Card.Text className='text-secondary'>
+                                    Some quick example text to build on the card title and make up the
+                                    bulk of the card&apos;s content.
+                                </Card.Text>
+                                <Link href="/saCoal" className='btn expertise-card-btn rounded-5 px-3 fw-bold'><i className="bi bi-buildings me-2"></i>View Market</Link>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col className='mt-5' data-aos="fade-up" lg='3' md='6'>
+                        <Card className="expertise-card bg-transparent" style={{ width: '100%' }}>
+                            <div className='img-container rounded-5'>
+                                <Card.Img className='expertise-card-img rounded-5' variant="top" src="/images/indonesia-flag.jpg" />
+                            </div>
+                            <Card.Body className='px-3 text-center text-white'>
+                                <Card.Title className="card-title fw-bold">Indonesia</Card.Title>
+                                <Card.Text className='text-secondary'>
+                                    Some quick example text to build on the card title and make up the
+                                    bulk of the card&apos;s content.
+                                </Card.Text>
+                                <Link href="/indonesiaCoal" className='btn expertise-card-btn rounded-5 px-3 fw-bold'><i className="bi bi-buildings me-2"></i>View Market</Link>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col className='mt-5' data-aos="fade-down" lg='3' md='6'>
+                        <Card className="expertise-card bg-transparent" style={{ width: '100%' }}>
+                            <div className='img-container rounded-5'>
+                                <Card.Img className='expertise-card-img rounded-5' variant="top" src="/images/afg-flag.jpg" />
+                            </div>
+                            <Card.Body className='px-3 text-center text-white'>
+                                <Card.Title className="card-title fw-bold">Afghanistan</Card.Title>
+                                <Card.Text className='text-secondary'>
+                                    Some quick example text to build on the card title and make up the
+                                    bulk of the card&apos;s content.
+                                </Card.Text>
+                                <Link href="/afgCoal" className='btn expertise-card-btn rounded-5 px-3 fw-bold'><i className="bi bi-buildings me-2"></i>View Market</Link>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                </Row>
             </Container>
         </>
     )

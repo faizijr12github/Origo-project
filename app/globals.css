@@ -1,5 +1,15 @@
+.sevillana-regular {
+  font-family: "Sevillana", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 html {
   scroll-behavior: smooth;
+}
+
+.slider-link:hover {
+  color: #ff6f00 !important;
 }
 
 p {
@@ -33,9 +43,12 @@ p {
 .whatsapp-btn {
   z-index: 100;
   position: fixed;
-  bottom: 80px; /* Adjust the distance from the bottom as needed */
-  right: 20px; /* Align with the top button */
-  background-color: #25D366; /* WhatsApp green */
+  bottom: 80px;
+  /* Adjust the distance from the bottom as needed */
+  right: 20px;
+  /* Align with the top button */
+  background-color: #25D366;
+  /* WhatsApp green */
   border: none;
   cursor: pointer;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -43,31 +56,38 @@ p {
 }
 
 .whatsapp-btn:hover {
-  background-color: #06a834; /* Darker green for hover effect */
+  background-color: #06a834;
+  /* Darker green for hover effect */
 }
 
 .whatsapp-btn i {
-  font-size: 1.5rem; /* Adjust the icon size */
-  color: white; /* Icon color */
+  font-size: 1.5rem;
+  /* Adjust the icon size */
+  color: white;
+  /* Icon color */
 }
 
 @keyframes pulse {
   0% {
-      transform: scale(1);
+    transform: scale(1);
   }
+
   50% {
-      transform: scale(1.1);
+    transform: scale(1.1);
   }
+
   100% {
-      transform: scale(1);
+    transform: scale(1);
   }
 }
 
 .topbtn {
   z-index: 100;
   position: fixed;
-  bottom: 20px; /* Adjust the distance from the bottom as needed */
-  right: 20px; /* Align with the top button */
+  bottom: 20px;
+  /* Adjust the distance from the bottom as needed */
+  right: 20px;
+  /* Align with the top button */
   border: none;
   padding: 10px;
   cursor: pointer;
@@ -77,15 +97,23 @@ p {
 }
 
 .topbtn i {
-  font-size: 1.5rem; /* Adjust the icon size */
-  color: white; /* Icon color */
+  font-size: 1.5rem;
+  /* Adjust the icon size */
+  color: white;
+  /* Icon color */
 }
 
 
 /* navbar */
+
 .nav-link {
   font-size: 18px !important;
-  color: grey;
+  color: black !important;
+  text-decoration: none;
+}
+.nav-link:hover {
+  font-size: 18px !important;
+  color: #ff6f00 !important;
   text-decoration: none;
 }
 
@@ -213,26 +241,28 @@ p {
   border-bottom: 3px solid #ff6f00;
 }
 
-/* about us page */
-.about-hero {
-  padding-top: 50px;
-  position: relative;
-  width: 100%;
+.why-origo-bg img {
+  width: 100px;
+  margin: auto;
 }
 
-.about-hero::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 700px;
-  background-image: url('/images/aboutUs-hero.jpg');
+/* about us page */
+.about-hero {
+  background-color: rgba(0, 0, 0, 0.6);
+  background-image: url('/images/aboutUs-hero.webp');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  filter: brightness(30%);
-  z-index: -1;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  min-height: 500px;
+  background-blend-mode: darken;
+}
+
+.about-hero-content {
+  border-top: 5px solid #ff6f00;
+  border-radius: 8px;
 }
 
 .about-hero p {
@@ -268,91 +298,22 @@ p {
   color: grey;
 }
 
-/* industry */
-.industry-hero {
-  padding-top: 50px;
-  position: relative;
-  width: 100%;
-}
-
-.industry-hero::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 700px;
-  background-image: url('/images/industry-hero-img.jpg');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  filter: brightness(20%);
-  z-index: -1;
-}
-
-.industry-hero p {
-  color: white;
-}
-
-.industry-hero h1 {
-  color: #ff6f00
-}
-
-.h-600 {
-  height: 700px;
-}
-
-.hero-p {
-  border-top: 5px solid #ff6f00;
-  border-radius: 8px;
-  padding-bottom: 50px;
-}
-
 /* textile */
 
 .textile-sec2 {
   background-color: #000000;
-  padding: 15px 0px;
+  padding: 60px 0px;
+  border-bottom: 4px solid #ff6f00;
 }
 
 .textile-sec2 p {
-  color: grey;
+  color: rgb(151, 151, 151);
 }
 
-.dark-accordion .accordion-item {
-  background-color: #343a40;
-  color: white;
-  border: 1px solid #444;
-}
-
-.dark-accordion .accordion-header {
-  background-color: #343a40;
-  color: white;
-}
-
-.dark-accordion .accordion-button:not(.collapsed) {
-  background-color: #000000;
-  color: white;
-}
-
-.dark-accordion .accordion-button {
-  color: white;
-  background-color: #000000;
-}
-
-.dark-accordion .accordion-body {
-  background-color: #000000;
-  color: white;
-}
-
-.accordion-button:focus {
-  box-shadow: none !important;
-}
 /* coal */
 
 .coal-sec2 {
-  background-image: url('/images/services-hero-bg.png');
-  background-size: 100% 100%;
+  background-color: #000000;
 }
 
 .coal-sec2 button {
@@ -373,9 +334,11 @@ p {
   0% {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(-10px);
   }
+
   100% {
     transform: translateY(0);
   }
@@ -385,26 +348,10 @@ p {
   animation: float 3s ease-in-out infinite;
 }
 
-
-/* pharma */
-.pharma-sec2 {
-  background-color: #000000;
-}
-
-.pharma-sec2-box {
-  border-radius: 10px;
-  border-right: 5px solid #ff6f00;
-  padding-right: 20px;
-}
-
-.media {
-  border-bottom: 5px solid #ff6f00;
-}
-
 /* contact */
 
 .contact-bg {
-  background-image: url('/images/form-bg.png');
+  background-image: url('/images/form-bg.webp');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -485,24 +432,21 @@ p {
 
 /* textile page */
 .textile-hero {
-  padding-top: 50px;
-  position: relative;
-  width: 100%;
-}
-
-.textile-hero::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 700px;
+  background-color: rgba(0, 0, 0, 0.6);
   background-image: url('/images/textile-slider.webp');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  filter: brightness(30%);
-  z-index: -1;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  min-height: 500px;
+  background-blend-mode: darken;
+}
+
+.textile-hero-content {
+  border-top: 5px solid #ff6f00;
+  border-radius: 8px;
 }
 
 .textile-hero p {
@@ -512,6 +456,7 @@ p {
 .textile-hero h1 {
   color: #ff6f00
 }
+
 
 /* coal energy page */
 
@@ -544,118 +489,22 @@ p {
   color: #ff6f00
 }
 
-/* Pharma Pakaging page */
-.pharma-hero {
-  padding-top: 50px;
-  position: relative;
-  width: 100%;
-}
-
-.pharma-hero::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 700px;
-  background-image: url('/images/pharma-slider.webp');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  filter: brightness(30%);
-  z-index: -1;
-}
-
-.pharma-hero p {
-  color: white;
-}
-
-.pharma-hero h1 {
-  color: #ff6f00
-}
-
-/* Real Estate Page */
-.real-estate-hero {
-  padding-top: 50px;
-  position: relative;
-  width: 100%;
-}
-
-.real-estate-hero::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 700px;
-  background-image: url('/images/real-estate-slider.webp');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  filter: brightness(30%);
-  z-index: -1;
-}
-
-.real-estate-hero p {
-  color: white;
-}
-
-.real-estate-hero h1 {
-  color: #ff6f00
-}
-
-/* creative-media-page */
-
-.creative-media-hero {
-  padding-top: 50px;
-  position: relative;
-  width: 100%;
-}
-
-.creative-media-hero::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 700px;
-  background-image: url('/images/creative-media-slider.webp');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  filter: brightness(30%);
-  z-index: -1;
-}
-
-.creative-media-hero p {
-  color: white;
-}
-
-.creative-media-hero h1 {
-  color: #ff6f00
-}
-
 /* downloads-page */
-
 .download-hero {
-  padding-top: 50px;
-  position: relative;
-  width: 100%;
-}
-
-.download-hero::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 700px;
+  background-color: rgba(0, 0, 0, 0.6);
   background-image: url('/images/downloads-bg.webp');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  filter: brightness(30%);
-  z-index: -1;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  background-blend-mode: darken;
+}
+
+.download-hero-content {
+  border-top: 5px solid #ff6f00;
+  border-radius: 8px;
 }
 
 .download-hero p {
@@ -666,10 +515,25 @@ p {
   color: #ff6f00
 }
 
+/* Home Textiles */
+.htcards:hover {
+  cursor: grab;
+}
+
+/* Pakistan coal page */
+.pakCoal-head {
+  background-image: url('/images/coal/coal-bg-hero.png');
+  background-size: cover;
+  background-position: center;
+  padding: 25px 0px 60px 0px;
+}
+.section3-coal {
+  background-color: #d9d9db;
+}
 
 /* css media queries  */
 
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1024px) {
   .carousel-caption {
     top: 45%;
   }
@@ -684,31 +548,34 @@ p {
     margin-top: 15px;
     text-align: center;
   }
+
   .carousel-caption {
     top: 45%;
   }
+
   .hero-slider-img {
     height: 400px !important;
   }
 }
 
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 425px) {
   .carousel-caption {
     top: 40%;
   }
+
   .hero-slider-img {
     width: 100%;
     height: 400px !important;
   }
 }
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 375px) {
   .carousel-caption {
     top: 38%;
   }
 }
 
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 320px) {
   .carousel-caption {
     top: 34%;
   }

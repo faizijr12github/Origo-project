@@ -1,14 +1,23 @@
 import React from 'react'
 import { Col, Container, Row, Card } from 'react-bootstrap'
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const WhyOrigo = () => {
+  useEffect(() => {
+    AOS.init({
+        // You can add options here
+        duration: 1300,
+    });
+}, []);
   return (
     <>
       <Container fluid className='why-origo-bg py-5'>
-        <h1 className='text-center text-orange fw-bold mt-5'>Why Choose Origo <i class="bi bi-patch-question-fill"></i></h1>
+        <h1 data-aos="fade-down" className='text-center text-orange fw-bold mt-5 sevillana-regular'>Why Choose Origo <i className="bi bi-patch-question-fill"></i></h1>
         <Container>
-          <Row className='justify-content-between align-items-center'>
-            <Col className='mt-5' lg="5">
+          <Row className='justify-content-around align-items-center'>
+            <Col data-aos="fade-right" className='mt-5' lg="5">
               <Card className='border-0 bg-black text-center'>
                 <Card.Img className='rounded-circle float-animation' variant="top" src="/images/Comprehensive-Solutions.png" />
                 <Card.Body>
@@ -19,7 +28,7 @@ const WhyOrigo = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col className='mt-5' lg="5">
+            <Col data-aos="fade-left" className='mt-5' lg="5">
               <Card className='border-0 bg-black text-center'>
                 <Card.Img className='rounded-circle float-animation' variant="top" src="/images/global-reach.png" />
                 <Card.Body>
@@ -31,7 +40,7 @@ const WhyOrigo = () => {
               </Card>
             </Col>
           </Row>
-          <Row className='justify-content-around align-items-center'>
+          <Row data-aos="fade-up" className='justify-content-around align-items-center'>
             <Col className='mt-5' lg="5">
               <Card className='border-0 bg-black text-center'>
                 <Card.Img className='rounded-circle float-animation' variant="top" src="/images/Quality-Assurance.gif" />
@@ -56,7 +65,7 @@ const WhyOrigo = () => {
             </Col>
           </Row>
           <Row className='justify-content-around align-items-center'>
-            <Col className='mt-5' lg="5">
+            <Col data-aos="fade-right" className='mt-5' lg="5">
               <Card className='border-0 bg-black text-center'>
                 <Card.Img className='rounded-circle float-animation' variant="top" src="/images/Strategic-Partnerships.png" />
                 <Card.Body>
@@ -67,7 +76,7 @@ const WhyOrigo = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col className='mt-5' lg="5">
+            <Col data-aos="fade-left" className='mt-5' lg="5">
               <Card className='border-0 bg-black text-center'>
                 <Card.Img className='rounded-circle float-animation' variant="top" src="/images/Industry-Expertise.gif" />
                 <Card.Body>
@@ -79,7 +88,7 @@ const WhyOrigo = () => {
               </Card>
             </Col>
           </Row>
-          <Row className='justify-content-around align-items-center'>
+          <Row data-aos="fade-up" className='justify-content-around align-items-center'>
             <Col className='mt-5' lg="5">
               <Card className='border-0 bg-black text-center'>
                 <Card.Img className='rounded-circle float-animation' variant="top" src="/images/Customer-Centric-Approach.gif" />
@@ -104,7 +113,7 @@ const WhyOrigo = () => {
             </Col>
           </Row>
           <Row className='justify-content-around align-items-center'>
-            <Col className='mt-5' lg="5">
+            <Col data-aos="fade-right" className='mt-5' lg="5">
               <Card className='border-0 bg-black text-center'>
                 <Card.Img className='rounded-circle float-animation' variant="top" src="/images/Connecting-Buyers.gif" />
                 <Card.Body>
@@ -115,7 +124,7 @@ const WhyOrigo = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col className='mt-5' lg="5">
+            <Col data-aos="fade-left" className='mt-5' lg="5">
               <Card className='border-0 bg-black text-center'>
                 <Card.Img className='rounded-circle float-animation' variant="top" src="/images/Price-Negotiations.png" />
                 <Card.Body>
