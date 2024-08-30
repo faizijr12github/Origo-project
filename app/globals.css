@@ -4,6 +4,10 @@
   font-style: normal;
 }
 
+.swiper-button-prev, .swiper-button-next {
+  color: #f8ab70 !important;
+}
+
 html, body {
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -86,9 +90,7 @@ p {
   z-index: 100;
   position: fixed;
   bottom: 20px;
-  /* Adjust the distance from the bottom as needed */
   right: 20px;
-  /* Align with the top button */
   border: none;
   padding: 10px;
   cursor: pointer;
@@ -99,11 +101,8 @@ p {
 
 .topbtn i {
   font-size: 1.5rem;
-  /* Adjust the icon size */
   color: white;
-  /* Icon color */
 }
-
 
 /* navbar */
 
@@ -116,17 +115,6 @@ p {
   font-size: 18px !important;
   color: #ff6f00 !important;
   text-decoration: none;
-}
-
-.dropdown-item:hover .nav-link {
-  color: #ff6f00;
-  transform: translateX(10px);
-  /* Adjust the value as needed */
-  transition: transform 0.3s ease-in-out;
-}
-
-.dropdown-item:hover {
-  background-color: white !important;
 }
 
 .contact-btn {
@@ -145,36 +133,41 @@ p {
 }
 
 /* hero-section */
-
-.carousel-caption {
-  position: absolute;
-  top: 55%;
-  transform: translateY(-50%);
-  text-align: center;
-}
-
-.hero-slider-img {
-  filter: brightness(50%);
-}
-
-.hero-sec {
-  position: relative;
-  max-width: 100%;
-}
-
-.hero-sec::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 700px;
-  background-image: url('/images/hero-bg.jpeg');
+.home-hero {
+  background-color: rgba(0, 0, 0, 0.6);
+  background-image: url('/images/hero-bg.webp');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  filter: brightness(20%);
-  z-index: -1;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  min-height: 620px;
+  background-blend-mode: darken;
+}
+.home-hero1 {
+  background-color: rgba(0, 0, 0, 0.6);
+  background-image: url('/images/textile-slider.webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  min-height: 620px;
+  background-blend-mode: darken;
+}
+.home-hero2 {
+  background-color: rgba(0, 0, 0, 0.6);
+  background-image: url('/images/coal-slider.webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  min-height: 620px;
+  background-blend-mode: darken;
 }
 
 .hero-btn1 {
@@ -209,7 +202,6 @@ p {
 
 .expertise-card-img {
   transition: transform 0.3s ease;
-  /* Smooth transition for image scaling */
 }
 
 .expertise-card:hover .expertise-card-img {
@@ -218,7 +210,6 @@ p {
 
 .expertise-card-title {
   transition: color 0.3s ease;
-  /* Smooth transition for text color */
 }
 
 .expertise-card:hover .card-title {
@@ -412,9 +403,6 @@ p {
 }
 
 /* Footer */
-.footer-bg {
-  background-color: #000000;
-}
 
 .slide-link {
   text-decoration: none;
@@ -535,12 +523,6 @@ p {
 
 /* css media queries  */
 
-@media only screen and (max-width: 1024px) {
-  .carousel-caption {
-    top: 45%;
-  }
-}
-
 @media only screen and (max-width: 768px) {
   .nav-link {
     font-size: 17px !important;
@@ -549,36 +531,5 @@ p {
   .contact-btn {
     margin-top: 15px;
     text-align: center;
-  }
-
-  .carousel-caption {
-    top: 45%;
-  }
-
-  .hero-slider-img {
-    height: 400px !important;
-  }
-}
-
-@media only screen and (max-width: 425px) {
-  .carousel-caption {
-    top: 40%;
-  }
-
-  .hero-slider-img {
-    width: 100%;
-    height: 400px !important;
-  }
-}
-
-@media only screen and (max-width: 375px) {
-  .carousel-caption {
-    top: 38%;
-  }
-}
-
-@media only screen and (max-width: 320px) {
-  .carousel-caption {
-    top: 34%;
   }
 }

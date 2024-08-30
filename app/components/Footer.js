@@ -6,7 +6,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 const Footer = () => {
     return (
         <>
-            <Container fluid className='footer-bg py-5'>
+            <Container fluid className='bg-black py-5'>
                 <Container>
                     <Row className='justify-content-evenly'>
                         <Col lg="4" md="6">
