@@ -18,8 +18,9 @@ const Garments = () => {
     return (
         <>
             <Container fluid className='py-5'>
-                <Row className='justify-content-center align-items-center'>
-                    <Col lg="2"><h2 className='text-center fst-italic fw-bold sevillana-regular' data-aos="fade-right">Garments</h2></Col>
+            <h2 className='text-center fst-italic fw-bold sevillana-regular mb-3'>Garments</h2>
+            <p className='text-center'>Women, Men and Children</p>
+                <Row className='justify-content-center'>
                     <Col lg="9" className='mt-5'><GarmentsSlider /></Col>
                 </Row>
             </Container>

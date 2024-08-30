@@ -16,14 +16,14 @@ const Expertise = () => {
             <Container className='expertise'>
                 <Row data-aos="fade-down" className='justify-content-center text-center mt-5'>
                     <Col lg="7" md="9">
-                        <h1 className='fw-bold sevillana-regular'>Our Expertise</h1>
+                        <h1 className='fw-bold sevillana-regular'>Our Services</h1>
                         <p className='mt-3'>At Origo Business Services, we deliver tailored solutions across Marketing, Procurement, Project Execution, Strategic Partnerships, and Business Development. Our expertise drives growth and operational excellence across diverse industries.</p>
                     </Col>
                 </Row>
             </Container>
             <Container>
-                <Row data-aos="fade-up" className='mb-5 justify-content-evenly'>
-                    <Col className='mt-5' lg='4' md='6'>
+                <Row className='mb-5 justify-content-evenly'>
+                    <Col data-aos="fade-up" className='mt-5' lg='4' md='6'>
                         <Card className="expertise-card" style={{ width: '100%' }}>
                             <div className='img-container rounded-5'>
                                 <Card.Img className='expertise-card-img rounded-5' variant="top" src="/images/crousel-img1.jpg" />
@@ -36,7 +36,7 @@ const Expertise = () => {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col className='mt-5' lg='4' md='6'>
+                    <Col data-aos="fade-down" className='mt-5' lg='4' md='6'>
                         <Card className="expertise-card" style={{ width: '100%' }}>
                             <div className='img-container rounded-5'>
                                 <Card.Img className='expertise-card-img rounded-5' variant="top" src="/images/crousel-img2.jpg" />
@@ -49,7 +49,7 @@ const Expertise = () => {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col className='mt-5' lg='4' md='6'>
+                    <Col data-aos="fade-up" className='mt-5' lg='4' md='6'>
                         <Card className="expertise-card" style={{ width: '100%' }}>
                             <div className='img-container rounded-5'>
                                 <Card.Img className='expertise-card-img rounded-5' variant="top" src="/images/crousel-img3.jpg" />
@@ -62,7 +62,7 @@ const Expertise = () => {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col className='mt-5' lg='4' md='6'>
+                    <Col data-aos="fade-right" className='mt-5' lg='4' md='6'>
                         <Card className="expertise-card" style={{ width: '100%' }}>
                             <div className='img-container rounded-5'>
                                 <Card.Img className='expertise-card-img rounded-5' variant="top" src="/images/crousel-img4.jpg" />
@@ -75,7 +75,7 @@ const Expertise = () => {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col className='mt-5' lg='4' md='6'>
+                    <Col data-aos="fade-left" className='mt-5' lg='4' md='6'>
                         <Card className="expertise-card" style={{ width: '100%' }}>
                             <div className='img-container rounded-5'>
                                 <Card.Img className='expertise-card-img rounded-5' variant="top" src="/images/Goal.jpg" />

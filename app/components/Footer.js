@@ -12,10 +12,10 @@ const Footer = () => {
                         <Col lg="4" md="6">
                             <div className='pt-5 text-white'>
                                 <img src='/images/origo_business_services_logo.jpg' alt='logo' className='img-fluid rounded mb-4' width={80} />
-                                <p>221B Baker Street, P.O Box 353 Park <br /> Road, USA - 215431</p>
-                                <p>AskOrigo@Gmail.Com</p>
+                                <p><i className="bi bi-geo-alt-fill me-1"></i>82-E, Wapda Town <br /> Bagewal Road, Faisalabad, Pakistan</p>
+                                <p><i className="bi bi-envelope-fill me-2"></i><a href="mailto:AskOrigo@Gmail.Com" className='text-white'>askOrigo@Gmail.Com</a></p>
                                 <ul className="list-unstyled mylinks">
-                                <li><Link className='btn btn-outline-light rounded-circle fs-5 mt-4' href="https://www.linkedin.com/company/origo-business-services" target='blank'><i className="bi bi-linkedin"></i></Link></li>
+                                <li><Link className='btn btn-outline-light rounded-circle fs-5 mt-3' href="https://www.linkedin.com/company/origo-business-services" target='blank'><i className="bi bi-linkedin"></i></Link></li>
                             </ul>
                             </div>
                         </Col>

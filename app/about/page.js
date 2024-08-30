@@ -66,6 +66,14 @@ const About = () => {
                     </Col>
                 </Row>
             </Container>
+            <Container className='text-white my-5'>
+                <Row className=' justify-content-center text-center'>
+                    <Col className='vision p-5 shadow-lg' lg="9" md="8" sm="11" data-aos="fade-up">
+                        <h2 className='mt-4 fw-bold sevillana-regular'><i className="bi bi-gem me-2"></i>Social Responsibility</h2>
+                        <p className='mt-3 text-center px-3'>At Origo, corporate social responsibility is at the core of our business. We are committed to ethical practices in every aspect of our operations, from sourcing materials to energy production. Our initiatives focus on minimizing environmental impact, supporting local communities, and promoting sustainability. By investing in clean technologies and empowering our workforce, we strive to create a positive, lasting impact on society and the planet. Origo believes that true success is measured not just by profit, but by the difference we make in the world.</p>
+                    </Col>
+                </Row>
+            </Container>
         </>
     )
 }

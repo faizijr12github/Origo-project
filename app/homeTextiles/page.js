@@ -17,8 +17,9 @@ const HomeTextiles = () => {
     return (
         <>
             <Container fluid className='py-5'>
-                <Row className='justify-content-center align-items-center'>
-                    <Col lg="2"><h2 className='text-center fst-italic fw-bold sevillana-regular'>Home<br /> Textiles</h2></Col>
+            <h2 className='text-center fst-italic fw-bold sevillana-regular mb-3'>Home Textiles</h2>
+            <p className='text-center'>Complete product range for every home.</p>
+                <Row className='justify-content-center'>
                     <Col lg="9" className='mt-5'><HomeTextilesHeroSlider /></Col>
                 </Row>
             </Container>

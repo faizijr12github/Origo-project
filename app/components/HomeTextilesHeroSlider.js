@@ -47,7 +47,7 @@ const HomeTextilesHeroSlider = () => {
                                             spaceBetween: 30,
                                         },
                                         1024: {
-                                            slidesPerView: 7,
+                                            slidesPerView: 4,
                                             spaceBetween: 40,
                                         },
                                     }}
@@ -56,7 +56,7 @@ const HomeTextilesHeroSlider = () => {
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Card.Img className='expertise-card-img rounded-circle' variant="top" src="/images/homeTextiles/White-fabrics-slider.jpg" />
+                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/homeTextiles/White-fabrics-slider.jpg" />
                                             </div>
                                             <Card.Body className='px-0 mt-1 text-center'>
                                                 <Link href="/textiles" className='text-decoration-none slider-link fw-bold text-dark'>White Fabrics</Link>
@@ -66,7 +66,7 @@ const HomeTextilesHeroSlider = () => {
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Card.Img className='expertise-card-img rounded-circle' variant="top" src="/images/homeTextiles/Dyed-fabrics-slider.jpg" />
+                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/homeTextiles/Dyed-fabrics-slider.jpg" />
                                             </div>
                                             <Card.Body className='px-0 mt-1 text-center'>
                                                 <Link href="/textiles" className='text-decoration-none slider-link fw-bold text-dark'>Dyed fabrics</Link>
@@ -76,7 +76,7 @@ const HomeTextilesHeroSlider = () => {
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Card.Img className='expertise-card-img rounded-circle' variant="top" src="/images/homeTextiles/Print-fabrics-slider.jpg" />
+                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/homeTextiles/Print-fabrics-slider.jpg" />
                                             </div>
                                             <Card.Body className='px-0 mt-1 text-center'>
                                                 <Link href="/textiles" className='text-decoration-none slider-link fw-bold text-dark'>Print Fabrics</Link>
@@ -86,7 +86,7 @@ const HomeTextilesHeroSlider = () => {
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Card.Img className='expertise-card-img rounded-circle' variant="top" src="/images/homeTextiles/Sheet-Sets-slider.jpg" />
+                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/homeTextiles/Sheet-Sets-slider.jpg" />
                                             </div>
                                             <Card.Body className='px-0 mt-1 text-center'>
                                                 <Link href="/textiles" className='text-decoration-none slider-link fw-bold text-dark'>Sheet Sets</Link>
@@ -96,7 +96,7 @@ const HomeTextilesHeroSlider = () => {
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Card.Img className='expertise-card-img rounded-circle' variant="top" src="/images/homeTextiles/QuiltCoverSets-slider.jpg" />
+                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/homeTextiles/QuiltCoverSets-slider.jpg" />
                                             </div>
                                             <Card.Body className='px-0 mt-1 text-center'>
                                                 <Link href="/textiles" className='text-decoration-none slider-link fw-bold text-dark'>Quilt Cover Sets</Link>
@@ -106,7 +106,7 @@ const HomeTextilesHeroSlider = () => {
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Card.Img className='expertise-card-img rounded-circle' variant="top" src="/images/homeTextiles/comforter-sets-slider.jpg" />
+                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/homeTextiles/comforter-sets-slider.jpg" />
                                             </div>
                                             <Card.Body className='px-0 mt-1 text-center'>
                                                 <Link href="/textiles" className='text-decoration-none slider-link fw-bold text-dark'>Comforter Sets</Link>
@@ -116,7 +116,7 @@ const HomeTextilesHeroSlider = () => {
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Card.Img className='expertise-card-img rounded-circle' variant="top" src="/images/homeTextiles/mattress-covers-slider.jpg" />
+                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/homeTextiles/mattress-covers-slider.jpg" />
                                             </div>
                                             <Card.Body className='px-0 mt-1 text-center'>
                                                 <Link href="/textiles" className='text-decoration-none slider-link fw-bold text-dark'>Mattress Covers</Link>
@@ -126,7 +126,7 @@ const HomeTextilesHeroSlider = () => {
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Card.Img className='expertise-card-img rounded-circle' variant="top" src="/images/homeTextiles/duvet-cover-slider.jpg" />
+                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/homeTextiles/duvet-cover-slider.jpg" />
                                             </div>
                                             <Card.Body className='px-0 mt-1 text-center'>
                                                 <Link href="/textiles" className='text-decoration-none slider-link fw-bold text-dark'>Duvet Covers</Link>
@@ -136,7 +136,7 @@ const HomeTextilesHeroSlider = () => {
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Card.Img className='expertise-card-img rounded-circle' variant="top" src="/images/homeTextiles/valances-slider.jpg" />
+                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/homeTextiles/valances-slider.jpg" />
                                             </div>
                                             <Card.Body className='px-0 mt-1 text-center'>
                                                 <Link href="/textiles" className='text-decoration-none slider-link fw-bold text-dark'>Valances</Link>
@@ -146,7 +146,7 @@ const HomeTextilesHeroSlider = () => {
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Card.Img className='expertise-card-img rounded-circle' variant="top" src="/images/homeTextiles/curtains-slider.jpg" />
+                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/homeTextiles/curtains-slider.jpg" />
                                             </div>
                                             <Card.Body className='px-0 mt-1 text-center'>
                                                 <Link href="/textiles" className='text-decoration-none slider-link fw-bold text-dark'>Curtains</Link>
@@ -156,7 +156,7 @@ const HomeTextilesHeroSlider = () => {
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Card.Img className='expertise-card-img rounded-circle' variant="top" src="/images/homeTextiles/Ironing-boards-slider.jpg" />
+                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/homeTextiles/Ironing-boards-slider.jpg" />
                                             </div>
                                             <Card.Body className='px-0 mt-1 text-center'>
                                                 <Link href="/textiles" className='text-decoration-none slider-link fw-bold text-dark'>Ironing boards</Link>
@@ -166,7 +166,7 @@ const HomeTextilesHeroSlider = () => {
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Card.Img className='expertise-card-img rounded-circle' variant="top" src="/images/homeTextiles/individual-Flat-sheets.jpg" />
+                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/homeTextiles/individual-Flat-sheets.jpg" />
                                             </div>
                                             <Card.Body className='px-0 mt-1 text-center'>
                                                 <Link href="/textiles" className='text-decoration-none slider-link fw-bold text-dark'>Individual Flat Sheets</Link>
@@ -176,7 +176,7 @@ const HomeTextilesHeroSlider = () => {
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Card.Img className='expertise-card-img rounded-circle' variant="top" src="/images/homeTextiles/fitted-sheets-slider.jpg" />
+                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/homeTextiles/fitted-sheets-slider.jpg" />
                                             </div>
                                             <Card.Body className='px-0 mt-1 text-center'>
                                                 <Link href="/textiles" className='text-decoration-none slider-link fw-bold text-dark'>Fitted Sheets</Link>
@@ -186,7 +186,7 @@ const HomeTextilesHeroSlider = () => {
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Card.Img className='expertise-card-img rounded-circle' variant="top" src="/images/homeTextiles/pillow-cases-slider.jpg" />
+                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/homeTextiles/pillow-cases-slider.jpg" />
                                             </div>
                                             <Card.Body className='px-0 mt-1 text-center'>
                                                 <Link href="/textiles" className='text-decoration-none slider-link fw-bold text-dark'>Pillow Cases</Link>
@@ -196,7 +196,7 @@ const HomeTextilesHeroSlider = () => {
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Card.Img className='expertise-card-img rounded-circle' variant="top" src="/images/homeTextiles/Hotel-sheeting-slider.jpg" />
+                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/homeTextiles/Hotel-sheeting-slider.jpg" />
                                             </div>
                                             <Card.Body className='px-0 mt-1 text-center'>
                                                 <Link href="/textiles" className='text-decoration-none slider-link fw-bold text-dark'>Hotel Sheeting</Link>
