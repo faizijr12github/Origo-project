@@ -35,7 +35,7 @@ const CoalEnergy = () => {
                         <p className='mt-3'><i className="bi bi-check-circle-fill me-3"></i>Our commitment to quality, timely delivery, and competitive pricing makes Origo a preferred partner for businesses seeking dependable coal energy solutions.</p>
                     </Col>
                     <Col lg="5" className='mb-5'>
-                        <img src='/images/coal.png' alt='textile' className='img-fluid rounded' data-aos="zoom-in" data-aos-duration="3000" />
+                        <img loading="lazy" src='/images/coal.png' alt='textile' className='img-fluid rounded' data-aos="zoom-in" data-aos-duration="3000" />
                     </Col>
                 </Row>
             </Container>
@@ -73,7 +73,7 @@ const CoalEnergy = () => {
                             </div>
                         </Col>
                         <Col lg="5" className="mt-5 text-center">
-                            <img src='/images/coal-img-2.png' alt='coal' className='img-fluid float-animation' />
+                            <img loading="lazy" src='/images/coal-img-2.png' alt='coal' className='img-fluid float-animation' />
                         </Col>
 
                     </Row>
@@ -93,7 +93,7 @@ const CoalEnergy = () => {
                     <Col className='mt-5' data-aos="fade-up" lg='3' md='6'>
                         <Card className="expertise-card bg-transparent" style={{ width: '100%' }}>
                             <div className='img-container rounded-5'>
-                                <Card.Img className='expertise-card-img rounded-5' variant="top" src="/images/pak-flag.jpg" />
+                                <Card.Img loading="lazy" className='expertise-card-img rounded-5' variant="top" src="/images/pak-flag.jpg" />
                             </div>
                             <Card.Body className='px-3 text-center text-white'>
                                 <Card.Title className="card-title fw-bold">Pakistan</Card.Title>
@@ -108,7 +108,7 @@ const CoalEnergy = () => {
                     <Col className='mt-5' data-aos="fade-down" lg='3' md='6'>
                         <Card className="expertise-card bg-transparent" style={{ width: '100%' }}>
                             <div className='img-container rounded-5'>
-                                <Card.Img className='expertise-card-img rounded-5' variant="top" src="/images/sa-flag.jpg" />
+                                <Card.Img loading="lazy" className='expertise-card-img rounded-5' variant="top" src="/images/sa-flag.jpg" />
                             </div>
                             <Card.Body className='px-3 text-center text-white'>
                                 <Card.Title className="card-title fw-bold">South Africa</Card.Title>
@@ -123,7 +123,7 @@ const CoalEnergy = () => {
                     <Col className='mt-5' data-aos="fade-up" lg='3' md='6'>
                         <Card className="expertise-card bg-transparent" style={{ width: '100%' }}>
                             <div className='img-container rounded-5'>
-                                <Card.Img className='expertise-card-img rounded-5' variant="top" src="/images/indonesia-flag.jpg" />
+                                <Card.Img loading="lazy" className='expertise-card-img rounded-5' variant="top" src="/images/indonesia-flag.jpg" />
                             </div>
                             <Card.Body className='px-3 text-center text-white'>
                                 <Card.Title className="card-title fw-bold">Indonesia</Card.Title>
@@ -138,7 +138,7 @@ const CoalEnergy = () => {
                     <Col className='mt-5' data-aos="fade-down" lg='3' md='6'>
                         <Card className="expertise-card bg-transparent" style={{ width: '100%' }}>
                             <div className='img-container rounded-5'>
-                                <Card.Img className='expertise-card-img rounded-5' variant="top" src="/images/afg-flag.jpg" />
+                                <Card.Img loading="lazy" className='expertise-card-img rounded-5' variant="top" src="/images/afg-flag.jpg" />
                             </div>
                             <Card.Body className='px-3 text-center text-white'>
                                 <Card.Title className="card-title fw-bold">Afghanistan</Card.Title>

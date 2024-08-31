@@ -15,11 +15,11 @@ const Testimonials = () => {
     }, []);
     return (
         <>
-        <h2 className='text-center mt-5 fw-bold sevillana-regular' data-aos="fade-down">Testimonials<i class="bi bi-chat-quote-fill ms-2"></i></h2>
+        <h2 className='text-center mt-5 fw-bold sevillana-regular' data-aos="fade-down">Testimonials<i className="bi bi-chat-quote-fill ms-2"></i></h2>
             <Container fluid className='mb-5'>
                 <Row className='justify-content-evenly align-items-center'>
-                    <Col className='mt-5' lg="5" data-aos="zoom-in" data-aos-duration="3000">
-                        <div className="card contact-card mb-3 shadow-lg p-3 rounded-5">
+                    <Col className='mt-5' lg="5" md="6" data-aos="zoom-in" data-aos-duration="3000">
+                        <div className="card bg-black text-white mb-3 shadow-lg p-3 rounded-5">
                             <div className="row px-3 g-0">
                                 <div className="col-md-3 d-flex align-items-center justify-content-center">
                                     <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp" alt="contact1" className="img-fluid rounded-circle contact-img my-3" />
@@ -34,8 +34,8 @@ const Testimonials = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col className='mt-5' lg="5" data-aos="zoom-in" data-aos-duration="3000">
-                        <div className="card contact-card mb-3 shadow-lg p-3 rounded-5">
+                    <Col className='mt-5' lg="5" md="6" data-aos="zoom-in" data-aos-duration="3000">
+                        <div className="card bg-black text-white mb-3 shadow-lg p-3 rounded-5">
                             <div className="row px-3 g-0">
                                 <div className="col-md-3 d-flex align-items-center justify-content-center">
                                     <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp" alt="contact1" className="img-fluid rounded-circle contact-img my-3" />

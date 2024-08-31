@@ -16,7 +16,7 @@ function TopNav() {
 
                 <Link href="/" passHref>
                     <Navbar.Brand>
-                        <img src='/images/origo_business_services_logo.jpg' alt='logo' className='img-fluid rounded' width={80} />
+                        <img loading="lazy" src='/images/origo_business_services_logo.jpg' alt='origo-logo' className='img-fluid rounded' width={80} />
                     </Navbar.Brand>
                 </Link>
 
@@ -30,7 +30,7 @@ function TopNav() {
                         <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
                             <Link href="/" passHref>
                                 <Navbar.Brand>
-                                    <img src='/images/origo_business_services_logo.jpg' alt='logo' className='img-fluid rounded' width={80} />
+                                    <img loading="lazy" src='/images/origo_business_services_logo.jpg' alt='origo-logo' className='img-fluid rounded' width={80} />
                                 </Navbar.Brand>
                             </Link>
                         </Offcanvas.Title>

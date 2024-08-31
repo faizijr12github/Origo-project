@@ -49,14 +49,14 @@ const About = () => {
                         </p>
                     </Col>
                     <Col lg="5" className='mb-5 order-first order-lg-last'>
-                        <img src='/images/mission.jpg' alt='mission' className='img-fluid rounded-5 shadow' data-aos="zoom-out"/>
+                        <img loading="lazy" src='/images/mission.jpg' alt='mission' className='img-fluid rounded-5 shadow' data-aos="zoom-out"/>
                     </Col>
                 </Row>
             </Container>
             <Container className='pt-5 text-center'>
                 <Row className='justify-content-around align-items-center'>
                     <Col lg="5" className='mb-5'>
-                        <img src='/images/Goal.jpg' alt='mission' className='img-fluid rounded-5 shadow' data-aos="fade-down-right"/>
+                        <img loading="lazy" src='/images/Goal.jpg' alt='mission' className='img-fluid rounded-5 shadow' data-aos="fade-down-right"/>
                     </Col>
                     <Col lg="5" className='mb-5' data-aos="zoom-in-left">
                         <h2 className='fw-bold sevillana-regular'>

@@ -37,7 +37,7 @@ const Textiles = () => {
                         <p className='mt-3'><i className="bi bi-check-circle-fill me-3"></i>Whether you&rsquo;re looking to enhance your product offerings or enter new markets, Origo provides the expertise and resources needed to succeed in the competitive world of textiles.</p>
                     </Col>
                     <Col lg="5" className='mb-5 order-first order-lg-last'>
-                        <img src='/images/textiles.png' alt='textile' className='img-fluid rounded' data-aos="zoom-in" data-aos-duration="3000"/>
+                        <img loading="lazy" src='/images/textiles.png' alt='textile' className='img-fluid rounded' data-aos="zoom-in" data-aos-duration="3000"/>
                     </Col>
                 </Row>
             </Container>
@@ -53,7 +53,7 @@ const Textiles = () => {
                         <Col className='mt-5' lg='4' md='6'>
                             <Card className="expertise-card bg-transparent" style={{ width: '100%' }}>
                                 <div className='img-container rounded-5'>
-                                    <Card.Img className='expertise-card-img rounded-5' variant="top" src="/images/homeTextiles/shirts.webp" />
+                                    <Card.Img loading="lazy" className='expertise-card-img rounded-5' variant="top" src="/images/homeTextiles/shirts.webp" />
                                 </div>
                                 <Card.Body className='px-3 text-center text-white'>
                                     <Card.Title className="card-title fw-bold">Home Textiles</Card.Title>
@@ -68,7 +68,7 @@ const Textiles = () => {
                         <Col className='mt-5' lg='4' md='6'>
                             <Card className="expertise-card bg-transparent" style={{ width: '100%' }}>
                                 <div className='img-container rounded-5'>
-                                    <Card.Img className='expertise-card-img rounded-5' variant="top" src="/images/homeTextiles/garments.jpg" />
+                                    <Card.Img loading="lazy" className='expertise-card-img rounded-5' variant="top" src="/images/homeTextiles/garments.jpg" />
                                 </div>
                                 <Card.Body className='px-3 text-center text-white'>
                                     <Card.Title className="card-title fw-bold">Garments</Card.Title>
@@ -83,7 +83,7 @@ const Textiles = () => {
                         <Col className='mt-5' lg='4' md='6'>
                             <Card className="expertise-card bg-transparent" style={{ width: '100%' }}>
                                 <div className='img-container rounded-5'>
-                                    <Card.Img className='expertise-card-img rounded-5' variant="top" src="/images/homeTextiles/towels.jpg" />
+                                    <Card.Img loading="lazy" className='expertise-card-img rounded-5' variant="top" src="/images/homeTextiles/towels.jpg" />
                                 </div>
                                 <Card.Body className='px-3 text-center text-white'>
                                     <Card.Title className="card-title fw-bold">Towels</Card.Title>

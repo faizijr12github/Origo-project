@@ -71,7 +71,7 @@ const Hero = () => {
                     <h3 className='fw-bold mb-3 text-white'>Responsibly Sourced, Expertly Crafted</h3>
                     <div>
                       <p className='text-white'>Responsibly Sourced, Expertly CraftedWe source the finest materials globally to create textiles that embody quality and sustainability</p>
-                      <Link href={'/'} className='hero-btn1 btn'>Learn More</Link>
+                      <Link href={'/textiles'} className='hero-btn1 btn'>Learn More</Link>
                     </div>
                   </Col>
                 </Row>
@@ -83,7 +83,7 @@ const Hero = () => {
                     <h3 className='fw-bold mb-3 text-white'>Powering Progress, Powering Opportunities</h3>
                     <div>
                       <p className='text-white'>We source our coal responsibly, ensuring dependable energy solutions that support both industry and environmental stewardship.</p>
-                      <Link href={'/'} className='hero-btn1 btn'>Learn More</Link>
+                      <Link href={'/coalEnergy'} className='hero-btn1 btn'>Learn More</Link>
                     </div>
                   </Col>
                 </Row>

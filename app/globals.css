@@ -5,7 +5,7 @@
 }
 
 .swiper-button-prev, .swiper-button-next {
-  color: #f8ab70 !important;
+  color: white !important;
 }
 
 html, body {
@@ -24,7 +24,6 @@ p {
 .text-orange {
   color: #ff6f00;
 }
-
 .bg-orange {
   background-color: #ff6f00;
 }
@@ -49,11 +48,8 @@ p {
   z-index: 100;
   position: fixed;
   bottom: 80px;
-  /* Adjust the distance from the bottom as needed */
   right: 20px;
-  /* Align with the top button */
   background-color: #25D366;
-  /* WhatsApp green */
   border: none;
   cursor: pointer;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -62,14 +58,11 @@ p {
 
 .whatsapp-btn:hover {
   background-color: #06a834;
-  /* Darker green for hover effect */
 }
 
 .whatsapp-btn i {
   font-size: 1.5rem;
-  /* Adjust the icon size */
   color: white;
-  /* Icon color */
 }
 
 @keyframes pulse {
