@@ -22,7 +22,7 @@ const IndonesiaCoal = () => {
                         <Col lg="5" className='mt-5' data-aos="fade-right">
                             <h2 className='text-danger fw-bold'>Indonesia</h2>
                             <h2 className='fst-italic'>Coal Market</h2>
-                            <p>As a leading coal exporter, Indonesia provides diverse, high-quality coal grades to power industries worldwide. With its strategic location and robust infrastructure, Indonesia ensures reliable, efficient coal supply, meeting the demands of global markets. Trust Indonesia's coal market for sustainable energy solutions that drive industrial growth and energy security.
+                            <p>As a leading coal exporter, Indonesia provides diverse, high-quality coal grades to power industries worldwide. With its strategic location and robust infrastructure, Indonesia ensures reliable, efficient coal supply, meeting the demands of global markets. Trust Indonesia&apos;s coal market for sustainable energy solutions that drive industrial growth and energy security.
                             </p>
                         </Col>
                         <Col lg="4" className='mt-5'>
@@ -58,7 +58,7 @@ const IndonesiaCoal = () => {
                     <Col lg="5" className='mt-5' data-aos="fade-right">
                         <h2 className='fw-bold'>Market Analysis</h2>
                         <h3 className='text-danger fst-italic'>Dynamics of the Indonesian Coal Market</h3>
-                        <p>The Indonesian coal market remains a critical player in the global energy sector, driven by robust demand from Asia and beyond. Market analysis shows that while Indonesia continues to benefit from strong export volumes, it also faces challenges such as fluctuating prices, regulatory shifts, and increasing environmental concerns. Understanding these dynamics is crucial for stakeholders aiming to leverage Indonesia's strategic position as a leading coal supplier and to navigate the complexities of the global coal trade effectively.</p>
+                        <p>The Indonesian coal market remains a critical player in the global energy sector, driven by robust demand from Asia and beyond. Market analysis shows that while Indonesia continues to benefit from strong export volumes, it also faces challenges such as fluctuating prices, regulatory shifts, and increasing environmental concerns. Understanding these dynamics is crucial for stakeholders aiming to leverage Indonesia&apos;s strategic position as a leading coal supplier and to navigate the complexities of the global coal trade effectively.</p>
                     </Col>
                     <Col lg="4" className='mt-5'>
                         <div>

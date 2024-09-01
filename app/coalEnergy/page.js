@@ -22,7 +22,7 @@ const CoalEnergy = () => {
                     <Col lg="6" md="8" data-aos="zoom-out">
                         <h1 className='fw-bold sevillana-regular'>Coal Energy</h1>
                         <div className='hero-p mt-3'>
-                            <p className='mt-4'>At Origo Coal, we specialize in sourcing and delivering high-quality coal from the world's leading coal markets, including Indonesia, South Africa, and Afghanistan. With a commitment to excellence, we ensure that our clients receive the finest coal tailored to their specific energy needs. Whether you're fueling power plants, industrial facilities, or global trade, trust Origo Coal to provide reliable, sustainable, and competitively priced coal solutions that power your success.
+                            <p className='mt-4'>At Origo Coal, we specialize in sourcing and delivering high-quality coal from the world&apos;s leading coal markets, including Indonesia, South Africa, and Afghanistan. With a commitment to excellence, we ensure that our clients receive the finest coal tailored to their specific energy needs. Whether you&apos;re fueling power plants, industrial facilities, or global trade, trust Origo Coal to provide reliable, sustainable, and competitively priced coal solutions that power your success.
                             </p>
                         </div>
                     </Col>

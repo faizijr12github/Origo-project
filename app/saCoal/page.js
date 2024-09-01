@@ -22,7 +22,7 @@ const SaCoal = () => {
                         <Col lg="5" className='mt-5' data-aos="fade-right">
                             <h2 className='text-success fw-bold'>South Africa</h2>
                             <h2 className='fst-italic'>Coal Market</h2>
-                            <p>South Africa's coal market is a cornerstone of the global energy sector, renowned for its vast reserves and consistent production. As a leading exporter, South Africa provides high-quality coal to power industries and economies worldwide. With its strategic location and robust mining infrastructure, the South African coal market continues to be a reliable source of energy, driving growth and sustainability on a global scale.
+                            <p>South Africa&apos;s coal market is a cornerstone of the global energy sector, renowned for its vast reserves and consistent production. As a leading exporter, South Africa provides high-quality coal to power industries and economies worldwide. With its strategic location and robust mining infrastructure, the South African coal market continues to be a reliable source of energy, driving growth and sustainability on a global scale.
                             </p>
                         </Col>
                         <Col lg="4" className='mt-5'>
@@ -58,7 +58,7 @@ const SaCoal = () => {
                     <Col lg="5" className='mt-5' data-aos="fade-right">
                         <h2 className='fw-bold'>Market Analysis</h2>
                         <h3 className='text-success fst-italic'>Understanding the South African Coal Market Dynamics</h3>
-                        <p>The South African coal market plays a pivotal role in the global energy landscape, with demand driven by both domestic consumption and strong export markets, particularly in Asia. Analysis of current trends highlights the country's ability to maintain competitive pricing while navigating regulatory changes and increasing pressure for sustainable practices. As South Africa continues to be a key supplier of high-quality coal, understanding the market dynamics, including export trends, infrastructure developments, and geopolitical factors, is essential for capitalizing on its strategic position in the global energy market.</p>
+                        <p>The South African coal market plays a pivotal role in the global energy landscape, with demand driven by both domestic consumption and strong export markets, particularly in Asia. Analysis of current trends highlights the country&apos;s ability to maintain competitive pricing while navigating regulatory changes and increasing pressure for sustainable practices. As South Africa continues to be a key supplier of high-quality coal, understanding the market dynamics, including export trends, infrastructure developments, and geopolitical factors, is essential for capitalizing on its strategic position in the global energy market.</p>
                     </Col>
                     <Col lg="4" className='mt-5'>
                         <div>

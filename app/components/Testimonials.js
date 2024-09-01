@@ -20,7 +20,7 @@ const Testimonials = () => {
                 <Row className='justify-content-evenly align-items-center'>
                     <Col className='mt-5' lg="5" md="6" data-aos="zoom-in" data-aos-duration="3000">
                         <div className='card p-5 rounded-5 bg-black text-white'>
-                            <p>"Origo Business Services has been an exceptional partner in our textile sourcing needs. Their deep market knowledge and extensive network have consistently provided us with high-quality materials at competitive prices. The team&apos;s attention to detail, prompt communication, and commitment to excellence make them a reliable and trusted partner in our supply chain. I highly recommend Origo for anyone seeking top-tier sourcing solutions."</p>
+                            <p>&quot;Origo Business Services has been an exceptional partner in our textile sourcing needs. Their deep market knowledge and extensive network have consistently provided us with high-quality materials at competitive prices. The team&apos;s attention to detail, prompt communication, and commitment to excellence make them a reliable and trusted partner in our supply chain. I highly recommend Origo for anyone seeking top-tier sourcing solutions.&quot;</p>
                             <div>
                                 <h4 className="card-title mt-3 mb-1">— Rajeev Sharma</h4>
                                 <p className='text-orange fw-bold'>Chairman - Golden Warp, Australia</p>
@@ -29,7 +29,7 @@ const Testimonials = () => {
                     </Col>
                     <Col className='mt-5' lg="5" md="6" data-aos="zoom-in" data-aos-duration="3000">
                         <div className='card p-5 rounded-5 bg-black text-white'>
-                            <p>"Origo Business Services has been instrumental in streamlining our coal sourcing process. Their deep understanding of the market, coupled with their ability to secure high-quality coal from top suppliers, has significantly enhanced our operations. The team's professionalism, transparency, and commitment to delivering on time have made them a trusted partner. I highly recommend Origo for anyone seeking reliable and efficient coal sourcing solutions."
+                            <p>&quot;Origo Business Services has been instrumental in streamlining our coal sourcing process. Their deep understanding of the market, coupled with their ability to secure high-quality coal from top suppliers, has significantly enhanced our operations. The team&apos;s professionalism, transparency, and commitment to delivering on time have made them a trusted partner. I highly recommend Origo for anyone seeking reliable and efficient coal sourcing solutions.&quot;
                             </p>
                             <div>
                                 <h4 className="card-title mt-3 mb-1">— Ira Susanty</h4>

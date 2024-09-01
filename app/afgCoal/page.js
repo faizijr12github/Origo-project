@@ -21,7 +21,7 @@ const AfghanistanCoal = () => {
                         <Col lg="5" className='mt-5' data-aos="fade-right">
                             <h2 className='text-danger fw-bold'>Afghanistan</h2>
                             <h2 className='fst-italic'>Coal Market</h2>
-                            <p>Afghanistan's coal market is emerging as a significant energy resource, offering high-quality coal to meet growing regional demands. With its rich deposits and strategic location, Afghanistan is poised to become a key player in the energy supply chain, providing reliable and competitively priced coal solutions for industries across South Asia and beyond.
+                            <p>Afghanistan&apos;s coal market is emerging as a significant energy resource, offering high-quality coal to meet growing regional demands. With its rich deposits and strategic location, Afghanistan is poised to become a key player in the energy supply chain, providing reliable and competitively priced coal solutions for industries across South Asia and beyond.
                             </p>
                         </Col>
                         <Col lg="4" className='mt-5'>
@@ -57,7 +57,7 @@ const AfghanistanCoal = () => {
                         <Col lg="5" className='mt-5' data-aos="fade-right">
                             <h2 className='fw-bold'>Market Analysis</h2>
                             <h3 className='text-danger fst-italic'>Potential of the Afghan Coal Market</h3>
-                            <p>The Afghan coal market is gaining attention as a growing energy resource in South Asia. Despite challenges such as limited infrastructure and political instability, Afghanistan&apos;s abundant coal reserves present significant opportunities for both domestic consumption and export. Market analysis indicates increasing demand from neighboring countries, coupled with Afghanistan's strategic location, positions it as a potential key supplier in the region. Understanding the evolving market dynamics, including regulatory developments and investment opportunities, is crucial for stakeholders looking to capitalize on Afghanistan&apos;s coal potential.
+                            <p>The Afghan coal market is gaining attention as a growing energy resource in South Asia. Despite challenges such as limited infrastructure and political instability, Afghanistan&apos;s abundant coal reserves present significant opportunities for both domestic consumption and export. Market analysis indicates increasing demand from neighboring countries, coupled with Afghanistan&apos;s strategic location, positions it as a potential key supplier in the region. Understanding the evolving market dynamics, including regulatory developments and investment opportunities, is crucial for stakeholders looking to capitalize on Afghanistan&apos;s coal potential.
                             </p>
                         </Col>
                         <Col lg="4" className='mt-5'>
