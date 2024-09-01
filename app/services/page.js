@@ -59,7 +59,7 @@ const Services = () => {
             <Container className='mt-5' id='projectExecutions'>
                 <Row className='justify-content-around align-items-center'>
                     <Col lg="5" className='mb-5'>
-                        <img loading="lazy" src='/images/crousel-img3.jpg' alt='mission' className='img-fluid rounded-5 shadow' data-aos="fade-right"/>
+                        <img loading="lazy" src='/images/crousel-img4.jpg' alt='mission' className='img-fluid rounded-5 shadow' data-aos="fade-right"/>
                     </Col>
                     <Col lg="5" className='mb-5' data-aos="fade-up">
                         <h2 className='fw-bold'><i className="bi bi-check-circle-fill me-2"></i>Project Execution</h2>
@@ -74,7 +74,7 @@ const Services = () => {
                         <p className='mt-3'>Origo Business Services specializes in building strategic partnerships that drive mutual growth and innovation. We connect businesses with complementary strengths, fostering collaborations that enhance market reach, share resources, and create new opportunities. Our expertise in identifying and aligning with the right partners ensures that each partnership is strategically beneficial, paving the way for long-term success and sustainable competitive advantage in the global marketplace.</p>
                     </Col>
                     <Col lg="5" className='mb-5 order-first order-lg-last'>
-                        <img loading="lazy" src='/images/crousel-img4.jpg' alt='mission' className='img-fluid rounded-5 shadow' data-aos="fade-left"/>
+                        <img loading="lazy" src='/images/crousel-img3.jpg' alt='mission' className='img-fluid rounded-5 shadow' data-aos="fade-left"/>
                     </Col>
                 </Row>
             </Container>

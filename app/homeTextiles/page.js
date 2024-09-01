@@ -17,8 +17,9 @@ const HomeTextiles = () => {
     return (
         <>
             <Container fluid className='py-5'>
-            <h2 className='text-center fst-italic fw-bold sevillana-regular mb-3'>Home Textiles</h2>
-            <p className='text-center'>Complete product range for every home.</p>
+                <h2 className='text-center fst-italic fw-bold sevillana-regular mb-3'>Home Textiles</h2>
+                <p className='text-center'>Elegance and comfort woven into every thread of our home textiles
+                </p>
                 <Row className='justify-content-center'>
                     <Col lg="9" className='mt-5'><HomeTextilesHeroSlider /></Col>
                 </Row>
@@ -234,7 +235,7 @@ const HomeTextiles = () => {
             </Container>
             {/* comforter sets */}
             <Container>
-                <h2 className='pt-5 text-center fst-italic text-orange'>Comforter sets</h2>
+                <h2 className='pt-5 text-center fst-italic text-orange'>Comforter Sets</h2>
             </Container>
             <Container fluid>
                 <Row className='justify-content-evenly' data-aos="fade-up">
@@ -273,9 +274,50 @@ const HomeTextiles = () => {
                     </Col>
                 </Row>
             </Container>
+            {/* Bed & Bath */}
+            <Container>
+                <h2 className='pt-5 text-center fst-italic text-orange'>Bed & Bath</h2>
+            </Container>
+            <Container fluid>
+                <Row className='justify-content-evenly' data-aos="fade-up">
+                    <Col className='mt-5' lg='3' md='6'>
+                        <Card className="expertise-card rounded-0" style={{ width: '100%' }}>
+                            <div className='img-container rounded-0'>
+                                <Card.Img className='expertise-card-img rounded-0' variant="top" src="/images/homeTextiles/comforter-sets-slider.jpg" />
+                            </div>
+                            <Card.Body className='px-0 text-center'>
+                                <Card.Title className="card-title fw-bold">Bed & Bath</Card.Title>
+                                <Card.Text>Dummy text for the product</Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col className='mt-5' lg='3' md='6'>
+                        <Card className="expertise-card rounded-0" style={{ width: '100%' }}>
+                            <div className='img-container rounded-0'>
+                                <Card.Img className='expertise-card-img rounded-0' variant="top" src="/images/homeTextiles/comforter-sets-slider.jpg" />
+                            </div>
+                            <Card.Body className='px-0 text-center'>
+                                <Card.Title className="card-title fw-bold">Bed & Bath</Card.Title>
+                                <Card.Text>Dummy text for the product</Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col className='mt-5' lg='3' md='6'>
+                        <Card className="expertise-card rounded-0" style={{ width: '100%' }}>
+                            <div className='img-container rounded-0'>
+                                <Card.Img className='expertise-card-img rounded-0' variant="top" src="/images/homeTextiles/comforter-sets-slider.jpg" />
+                            </div>
+                            <Card.Body className='px-0 text-center'>
+                                <Card.Title className="card-title fw-bold">Bed & Bath</Card.Title>
+                                <Card.Text>Dummy text for the product</Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                </Row>
+            </Container>
             {/* mattress covers */}
             <Container>
-                <h2 className='pt-5 text-center fst-italic text-orange'>Mattress covers</h2>
+                <h2 className='pt-5 text-center fst-italic text-orange'>Mattress Covers</h2>
             </Container>
             <Container fluid>
                 <Row className='justify-content-evenly' data-aos="fade-up">
@@ -316,7 +358,7 @@ const HomeTextiles = () => {
             </Container>
             {/* Duvet covers */}
             <Container>
-                <h2 className='pt-5 text-center fst-italic text-orange'>Duvet covers</h2>
+                <h2 className='pt-5 text-center fst-italic text-orange'>Duvet Covers</h2>
             </Container>
             <Container fluid>
                 <Row className='justify-content-evenly' data-aos="fade-up">
@@ -396,9 +438,50 @@ const HomeTextiles = () => {
                     </Col>
                 </Row>
             </Container>
+            {/* Curtains */}
+            <Container>
+                <h2 className='pt-5 text-center fst-italic text-orange'>Curtains</h2>
+            </Container>
+            <Container fluid>
+                <Row className='justify-content-evenly' data-aos="fade-up">
+                    <Col className='mt-5' lg='3' md='6'>
+                        <Card className="expertise-card rounded-0" style={{ width: '100%' }}>
+                            <div className='img-container rounded-0'>
+                                <Card.Img className='expertise-card-img rounded-0' variant="top" src="/images/homeTextiles/valances-slider.jpg" />
+                            </div>
+                            <Card.Body className='px-0 text-center'>
+                                <Card.Title className="card-title fw-bold">Curtains</Card.Title>
+                                <Card.Text>Dummy text for the product</Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col className='mt-5' lg='3' md='6'>
+                        <Card className="expertise-card rounded-0" style={{ width: '100%' }}>
+                            <div className='img-container rounded-0'>
+                                <Card.Img className='expertise-card-img rounded-0' variant="top" src="/images/homeTextiles/valances-slider.jpg" />
+                            </div>
+                            <Card.Body className='px-0 text-center'>
+                                <Card.Title className="card-title fw-bold">Curtains</Card.Title>
+                                <Card.Text>Dummy text for the product</Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col className='mt-5' lg='3' md='6'>
+                        <Card className="expertise-card rounded-0" style={{ width: '100%' }}>
+                            <div className='img-container rounded-0'>
+                                <Card.Img className='expertise-card-img rounded-0' variant="top" src="/images/homeTextiles/valances-slider.jpg" />
+                            </div>
+                            <Card.Body className='px-0 text-center'>
+                                <Card.Title className="card-title fw-bold">Curtains</Card.Title>
+                                <Card.Text>Dummy text for the product</Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                </Row>
+            </Container>
             {/* Ironing boards */}
             <Container>
-                <h2 className='pt-5 text-center fst-italic text-orange'>Ironing boards</h2>
+                <h2 className='pt-5 text-center fst-italic text-orange'>Ironing Boards</h2>
             </Container>
             <Container fluid>
                 <Row className='justify-content-evenly' data-aos="fade-up">
@@ -480,7 +563,7 @@ const HomeTextiles = () => {
             </Container>
             {/* Fitted sheets */}
             <Container>
-                <h2 className='pt-5 text-center fst-italic text-orange'>Fitted sheets</h2>
+                <h2 className='pt-5 text-center fst-italic text-orange'>Fitted Sheets</h2>
             </Container>
             <Container fluid>
                 <Row className='justify-content-evenly' data-aos="fade-up">
@@ -562,7 +645,7 @@ const HomeTextiles = () => {
             </Container>
             {/* Hotel sheeting */}
             <Container>
-                <h2 className='pt-5 text-center fst-italic text-orange'>Hotel sheeting</h2>
+                <h2 className='pt-5 text-center fst-italic text-orange'>Hotel Sheeting</h2>
             </Container>
             <Container fluid className='mb-5'>
                 <Row className='justify-content-evenly' data-aos="fade-up">

@@ -18,8 +18,9 @@ const Towel = () => {
     return (
         <>
             <Container fluid className='py-5'>
-            <h2 className='text-center fst-italic fw-bold sevillana-regular mb-3'>Towels</h2>
-            <p className='text-center'>A complete range of Towels</p>
+                <h2 className='text-center fst-italic fw-bold sevillana-regular mb-3'>Towels</h2>
+                <p className='text-center'>Softness and durability in every towel, designed to elevate your everyday
+                </p>
                 <Row className='justify-content-center'>
                     <Col lg="9" className='mt-5'><TowelSlider /></Col>
                 </Row>
@@ -69,7 +70,7 @@ const Towel = () => {
             </Container>
             {/* Bath Linen */}
             <Container>
-                <h2 className='pt-5 text-center fst-italic text-orange'>Bath Linens</h2>
+                <h2 className='pt-5 text-center fst-italic text-orange'>Bath Linen</h2>
             </Container>
             <Container fluid>
                 <Row className='justify-content-evenly' data-aos="fade-up">
@@ -110,7 +111,7 @@ const Towel = () => {
             </Container>
             {/* Terry & Waffle Bathrobes */}
             <Container>
-                <h2 className='pt-5 text-center fst-italic text-orange'>Terry & Waffle Bathrobes</h2>
+                <h2 className='pt-5 text-center fst-italic text-orange'>Terry & Waffle Bathrobe</h2>
             </Container>
             <Container fluid>
                 <Row className='justify-content-evenly' data-aos="fade-up">
@@ -151,7 +152,7 @@ const Towel = () => {
             </Container>
             {/* Bath Towel */}
             <Container>
-                <h2 className='pt-5 text-center fst-italic text-orange'>Bath Towel</h2>
+                <h2 className='pt-5 text-center fst-italic text-orange'>Bath Towels</h2>
             </Container>
             <Container fluid>
                 <Row className='justify-content-evenly' data-aos="fade-up">
@@ -192,7 +193,7 @@ const Towel = () => {
             </Container>
             {/* Hand Towel */}
             <Container>
-                <h2 className='pt-5 text-center fst-italic text-orange'>Hand Towel</h2>
+                <h2 className='pt-5 text-center fst-italic text-orange'>Hand Towels</h2>
             </Container>
             <Container fluid>
                 <Row className='justify-content-evenly' data-aos="fade-up">
@@ -233,7 +234,7 @@ const Towel = () => {
             </Container>
             {/* Bath Sheet */}
             <Container>
-                <h2 className='pt-5 text-center fst-italic text-orange'>Bath Sheet</h2>
+                <h2 className='pt-5 text-center fst-italic text-orange'>Bath Sheets</h2>
             </Container>
             <Container fluid>
                 <Row className='justify-content-evenly' data-aos="fade-up">
@@ -315,7 +316,7 @@ const Towel = () => {
             </Container>
             {/* Bath Mat */}
             <Container>
-                <h2 className='pt-5 text-center fst-italic text-orange'>Bath Mat</h2>
+                <h2 className='pt-5 text-center fst-italic text-orange'>Bath Mats</h2>
             </Container>
             <Container fluid>
                 <Row className='justify-content-evenly' data-aos="fade-up">
@@ -356,7 +357,7 @@ const Towel = () => {
             </Container>
             {/* Beach Towel */}
             <Container>
-                <h2 className='pt-5 text-center fst-italic text-orange'>Beach Towel</h2>
+                <h2 className='pt-5 text-center fst-italic text-orange'>Beach Towels</h2>
             </Container>
             <Container fluid>
                 <Row className='justify-content-evenly' data-aos="fade-up">
@@ -397,7 +398,7 @@ const Towel = () => {
             </Container>
             {/* Guest Towel */}
             <Container>
-                <h2 className='pt-5 text-center fst-italic text-orange'>Guest Towel</h2>
+                <h2 className='pt-5 text-center fst-italic text-orange'>Guest Towels</h2>
             </Container>
             <Container fluid>
                 <Row className='justify-content-evenly' data-aos="fade-up">
@@ -438,7 +439,7 @@ const Towel = () => {
             </Container>
             {/* Kids Hooded Towel */}
             <Container>
-                <h2 className='pt-5 text-center fst-italic text-orange'>Kids Hooded Towel</h2>
+                <h2 className='pt-5 text-center fst-italic text-orange'>Kids Hooded Towels</h2>
             </Container>
             <Container fluid>
                 <Row className='justify-content-evenly' data-aos="fade-up">
@@ -479,7 +480,7 @@ const Towel = () => {
             </Container>
             {/* Spa Towel */}
             <Container>
-                <h2 className='pt-5 text-center fst-italic text-orange'>Spa Towel</h2>
+                <h2 className='pt-5 text-center fst-italic text-orange'>Spa Towels</h2>
             </Container>
             <Container fluid>
                 <Row className='justify-content-evenly' data-aos="fade-up">
@@ -520,7 +521,7 @@ const Towel = () => {
             </Container>
             {/* Gym Towel */}
             <Container>
-                <h2 className='pt-5 text-center fst-italic text-orange'>Gym Towel</h2>
+                <h2 className='pt-5 text-center fst-italic text-orange'>Gym Towels</h2>
             </Container>
             <Container fluid>
                 <Row className='justify-content-evenly' data-aos="fade-up">

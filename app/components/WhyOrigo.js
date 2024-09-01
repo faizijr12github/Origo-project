@@ -19,7 +19,7 @@ const WhyOrigo = () => {
           <Row className='justify-content-around align-items-center'>
             <Col data-aos="fade-right" className='mt-5' lg="5">
               <Card className='border-0 bg-black text-center'>
-                <Card.Img className='rounded-circle float-animation' variant="top" src="/images/Comprehensive-Solutions.png" />
+                <Card.Img loading="lazy" className='rounded-circle float-animation' variant="top" src="/images/Comprehensive-Solutions.png" />
                 <Card.Body>
                   <Card.Title><h2 className='fw-bold text-orange'>Comprehensive Solutions</h2></Card.Title>
                   <Card.Text className='text-white'>
@@ -30,7 +30,7 @@ const WhyOrigo = () => {
             </Col>
             <Col data-aos="fade-left" className='mt-5' lg="5">
               <Card className='border-0 bg-black text-center'>
-                <Card.Img className='rounded-circle float-animation' variant="top" src="/images/global-reach.png" />
+                <Card.Img loading="lazy" className='rounded-circle float-animation' variant="top" src="/images/global-reach.png" />
                 <Card.Body>
                   <Card.Title><h2 className='fw-bold text-orange'>Global Reach</h2></Card.Title>
                   <Card.Text className='text-white'>
@@ -43,7 +43,7 @@ const WhyOrigo = () => {
           <Row data-aos="fade-up" className='justify-content-around align-items-center'>
             <Col className='mt-5' lg="5">
               <Card className='border-0 bg-black text-center'>
-                <Card.Img className='rounded-circle float-animation' variant="top" src="/images/Quality-Assurance.gif" />
+                <Card.Img loading="lazy" className='rounded-circle float-animation' variant="top" src="/images/Quality-Assurance.gif" />
                 <Card.Body>
                   <Card.Title><h2 className='fw-bold text-orange'>Quality Assurance</h2></Card.Title>
                   <Card.Text className='text-white'>
@@ -54,7 +54,7 @@ const WhyOrigo = () => {
             </Col>
             <Col className='mt-5' lg="5">
               <Card className='border-0 bg-black text-center'>
-                <Card.Img className='rounded-circle float-animation' variant="top" src="/images/Innovation-Creativity.gif" />
+                <Card.Img loading="lazy" className='rounded-circle float-animation' variant="top" src="/images/Innovation-Creativity.gif" />
                 <Card.Body>
                   <Card.Title><h2 className='fw-bold text-orange'>Innovation and Creativity</h2></Card.Title>
                   <Card.Text className='text-white'>
@@ -67,7 +67,7 @@ const WhyOrigo = () => {
           <Row className='justify-content-around align-items-center'>
             <Col data-aos="fade-right" className='mt-5' lg="5">
               <Card className='border-0 bg-black text-center'>
-                <Card.Img className='rounded-circle float-animation' variant="top" src="/images/Strategic-Partnerships.png" />
+                <Card.Img loading="lazy" className='rounded-circle float-animation' variant="top" src="/images/Strategic-Partnerships.png" />
                 <Card.Body>
                   <Card.Title><h2 className='fw-bold text-orange'>Strategic Partnerships</h2></Card.Title>
                   <Card.Text className='text-white'>
@@ -78,7 +78,7 @@ const WhyOrigo = () => {
             </Col>
             <Col data-aos="fade-left" className='mt-5' lg="5">
               <Card className='border-0 bg-black text-center'>
-                <Card.Img className='rounded-circle float-animation' variant="top" src="/images/Industry-Expertise.gif" />
+                <Card.Img loading="lazy" className='rounded-circle float-animation' variant="top" src="/images/Industry-Expertise.gif" />
                 <Card.Body>
                   <Card.Title><h2 className='fw-bold text-orange'>Industry Expertise</h2></Card.Title>
                   <Card.Text className='text-white'>
@@ -91,7 +91,7 @@ const WhyOrigo = () => {
           <Row data-aos="fade-up" className='justify-content-around align-items-center'>
             <Col className='mt-5' lg="5">
               <Card className='border-0 bg-black text-center'>
-                <Card.Img className='rounded-circle float-animation' variant="top" src="/images/Customer-Centric-Approach.gif" />
+                <Card.Img loading="lazy" className='rounded-circle float-animation' variant="top" src="/images/Customer-Centric-Approach.gif" />
                 <Card.Body>
                   <Card.Title><h2 className='fw-bold text-orange'>Customer-Centric Approach</h2></Card.Title>
                   <Card.Text className='text-white'>
@@ -102,7 +102,7 @@ const WhyOrigo = () => {
             </Col>
             <Col className='mt-5' lg="5">
               <Card className='border-0 bg-black text-center'>
-                <Card.Img className='rounded-circle float-animation' variant="top" src="/images/Sustainable-Practices.png" />
+                <Card.Img loading="lazy" className='rounded-circle float-animation' variant="top" src="/images/Sustainable-Practices.png" />
                 <Card.Body>
                   <Card.Title><h2 className='fw-bold text-orange'>Sustainable Practices</h2></Card.Title>
                   <Card.Text className='text-white'>
@@ -115,7 +115,7 @@ const WhyOrigo = () => {
           <Row className='justify-content-around align-items-center'>
             <Col data-aos="fade-right" className='mt-5' lg="5">
               <Card className='border-0 bg-black text-center'>
-                <Card.Img className='rounded-circle float-animation' variant="top" src="/images/Connecting-Buyers.gif" />
+                <Card.Img loading="lazy" className='rounded-circle float-animation' variant="top" src="/images/Connecting-Buyers.gif" />
                 <Card.Body>
                   <Card.Title><h2 className='fw-bold text-orange'>Connecting Buyers with Unfamiliar Suppliers</h2></Card.Title>
                   <Card.Text className='text-white'>
@@ -126,7 +126,7 @@ const WhyOrigo = () => {
             </Col>
             <Col data-aos="fade-left" className='mt-5' lg="5">
               <Card className='border-0 bg-black text-center'>
-                <Card.Img className='rounded-circle float-animation' variant="top" src="/images/Price-Negotiations.png" />
+                <Card.Img loading="lazy" className='rounded-circle float-animation' variant="top" src="/images/Price-Negotiations.png" />
                 <Card.Body>
                   <Card.Title><h2 className='fw-bold text-orange'>Excellent Price Negotiations</h2></Card.Title>
                   <Card.Text className='text-white'>

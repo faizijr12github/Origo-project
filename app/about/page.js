@@ -22,9 +22,9 @@ const About = () => {
                     <Col lg="7" md="10" data-aos="zoom-out">
                         <h1 className='fw-bold mb-3 sevillana-regular'>About Origo</h1>
                         <div className='about-hero-content'>
-                            <p className='mt-4'>Origo Business Services is a dynamic company dedicated to providing comprehensive marketing, procurement and business development solutions across various industries. Our expertise spans Textiles, Pharmaceutical Packaging, Coal Energy, Real Estate, and Creative Media projects. </p>
-                            <p>We offer a full spectrum of services designed to meet the unique needs of our clients, helping them achieve their business goals. We work with competent suppliers who hold valid certifications and social compliances required for global trade.
-                                Additionally, Origo actively invites foreign business communities to introduce their products to the thriving Pakistani market, unlocking vast potential and new opportunities.
+                            <p className='mt-4'>Origo Business Services is a dynamic company dedicated to providing comprehensive marketing, procurement, and business development solutions in the Textiles and Coal Energy sectors. Our expertise lies in these critical industries, where we deliver tailored services to meet the unique needs of our clients and help them achieve their business goals.
+                            </p>
+                            <p>We collaborate with trusted suppliers who uphold the highest standards of certification and social compliance, ensuring excellence in global trade. Origo also actively engages with international business communities, facilitating the introduction of their products into the thriving Pakistani market and unlocking vast potential for growth and innovation.
                             </p>
                         </div>
                     </Col>
@@ -49,14 +49,14 @@ const About = () => {
                         </p>
                     </Col>
                     <Col lg="5" className='mb-5 order-first order-lg-last'>
-                        <img loading="lazy" src='/images/mission.jpg' alt='mission' className='img-fluid rounded-5 shadow' data-aos="zoom-out"/>
+                        <img loading="lazy" src='/images/mission.jpg' alt='mission' className='img-fluid rounded-5 shadow' data-aos="zoom-out" />
                     </Col>
                 </Row>
             </Container>
             <Container className='pt-5 text-center'>
                 <Row className='justify-content-around align-items-center'>
                     <Col lg="5" className='mb-5'>
-                        <img loading="lazy" src='/images/Goal.jpg' alt='mission' className='img-fluid rounded-5 shadow' data-aos="fade-down-right"/>
+                        <img loading="lazy" src='/images/Goal.jpg' alt='mission' className='img-fluid rounded-5 shadow' data-aos="fade-down-right" />
                     </Col>
                     <Col lg="5" className='mb-5' data-aos="zoom-in-left">
                         <h2 className='fw-bold sevillana-regular'>

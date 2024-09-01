@@ -19,7 +19,7 @@ const Garments = () => {
         <>
             <Container fluid className='py-5'>
             <h2 className='text-center fst-italic fw-bold sevillana-regular mb-3'>Garments</h2>
-            <p className='text-center'>Women, Men and Children</p>
+            <p className='text-center'>Crafting garments that blend style, comfort, and quality in every stitch</p>
                 <Row className='justify-content-center'>
                     <Col lg="9" className='mt-5'><GarmentsSlider /></Col>
                 </Row>
@@ -28,7 +28,7 @@ const Garments = () => {
             {/* Long dress */}
             <Container>
                 <h2 className='text-center pt-5 sevillana-regular' data-aos="zoom-out"><span className='bg-black text-white px-5 py-3 rounded-5 shadow'>Women&apos;s</span></h2>
-                <h2 className='pt-5 text-center fst-italic text-orange'>Long dress</h2>
+                <h2 className='pt-5 text-center fst-italic text-orange'>Long Dresses</h2>
             </Container>
             <Container fluid>
                 <Row className='justify-content-evenly' data-aos="fade-up">
@@ -151,7 +151,7 @@ const Garments = () => {
             </Container>
             {/* Sweater */}
             <Container>
-                <h2 className='pt-5 text-center fst-italic text-orange'>Sweater</h2>
+                <h2 className='pt-5 text-center fst-italic text-orange'>Sweaters</h2>
             </Container>
             <Container fluid>
                 <Row className='justify-content-evenly' data-aos="fade-up">
@@ -192,7 +192,7 @@ const Garments = () => {
             </Container>
             {/* Skirt */}
             <Container>
-                <h2 className='pt-5 text-center fst-italic text-orange'>Skirt</h2>
+                <h2 className='pt-5 text-center fst-italic text-orange'>Skirts</h2>
             </Container>
             <Container fluid>
                 <Row className='justify-content-evenly' data-aos="fade-up">
@@ -274,7 +274,7 @@ const Garments = () => {
             </Container>
             {/* Dress pants */}
             <Container>
-                <h2 className='pt-5 text-center fst-italic text-orange'>Dress pants</h2>
+                <h2 className='pt-5 text-center fst-italic text-orange'>Dress Pants</h2>
             </Container>
             <Container fluid>
                 <Row className='justify-content-evenly' data-aos="fade-up">
@@ -315,7 +315,7 @@ const Garments = () => {
             </Container>
             {/* Tank Top */}
             <Container>
-                <h2 className='pt-5 text-center fst-italic text-orange'>Tank Top</h2>
+                <h2 className='pt-5 text-center fst-italic text-orange'>Tank Tops</h2>
             </Container>
             <Container fluid>
                 <Row className='justify-content-evenly' data-aos="fade-up">
@@ -604,7 +604,7 @@ const Garments = () => {
             {/* T-Shirt */}
             <Container>
                 <h2 className='text-center pt-5 sevillana-regular' data-aos="zoom-in"><span className='bg-black text-white px-5 py-3 rounded-5 shadow'>Children&apos;s</span></h2>
-                <h2 className='pt-5 text-center fst-italic text-orange'>T-Shirt</h2>
+                <h2 className='pt-5 text-center fst-italic text-orange'>T-Shirts</h2>
             </Container>
             <Container fluid>
                 <Row className='justify-content-evenly' data-aos="fade-up">
@@ -645,7 +645,7 @@ const Garments = () => {
             </Container>
             {/* Polo Shirt */}
             <Container>
-                <h2 className='pt-5 text-center fst-italic text-orange'>Polo Shirt</h2>
+                <h2 className='pt-5 text-center fst-italic text-orange'>Polo Shirts</h2>
             </Container>
             <Container fluid>
                 <Row className='justify-content-evenly' data-aos="fade-up">
@@ -727,7 +727,7 @@ const Garments = () => {
             </Container>
             {/* Romper */}
             <Container>
-                <h2 className='pt-5 text-center fst-italic text-orange'>Romper</h2>
+                <h2 className='pt-5 text-center fst-italic text-orange'>Rompers</h2>
             </Container>
             <Container fluid>
                 <Row className='justify-content-evenly' data-aos="fade-up">
@@ -768,7 +768,7 @@ const Garments = () => {
             </Container>
             {/* Bib */}
             <Container>
-                <h2 className='pt-5 text-center fst-italic text-orange'>Bib</h2>
+                <h2 className='pt-5 text-center fst-italic text-orange'>Bibs</h2>
             </Container>
             <Container fluid>
                 <Row className='justify-content-evenly' data-aos="fade-up">
@@ -893,7 +893,7 @@ const Garments = () => {
             {/* Basic T-Shirt */}
             <Container>
                 <h2 className='text-center pt-5 sevillana-regular' data-aos="zoom-in"><span className='bg-black text-white px-5 py-3 rounded-5 shadow'>Men&apos;s</span></h2>
-                <h2 className='pt-5 text-center fst-italic text-orange'>Basic T-Shirt</h2>
+                <h2 className='pt-5 text-center fst-italic text-orange'>Basic T-Shirts</h2>
             </Container>
             <Container fluid>
                 <Row className='justify-content-evenly' data-aos="fade-up">
@@ -934,7 +934,7 @@ const Garments = () => {
             </Container>
             {/* Polo Shirt */}
             <Container>
-                <h2 className='pt-5 text-center fst-italic text-orange'>Polo Shirt</h2>
+                <h2 className='pt-5 text-center fst-italic text-orange'>Polo Shirts</h2>
             </Container>
             <Container fluid>
                 <Row className='justify-content-evenly' data-aos="fade-up">
@@ -975,7 +975,7 @@ const Garments = () => {
             </Container>
             {/* Night wears */}
             <Container>
-                <h2 className='pt-5 text-center fst-italic text-orange'>Night wears</h2>
+                <h2 className='pt-5 text-center fst-italic text-orange'>Nightwears</h2>
             </Container>
             <Container fluid>
                 <Row className='justify-content-evenly' data-aos="fade-up">
@@ -1057,7 +1057,7 @@ const Garments = () => {
             </Container>
             {/* Inner wears */}
             <Container>
-                <h2 className='pt-5 text-center fst-italic text-orange'>Inner wears</h2>
+                <h2 className='pt-5 text-center fst-italic text-orange'>Innerwears</h2>
             </Container>
             <Container fluid>
                 <Row className='justify-content-evenly' data-aos="fade-up">
@@ -1139,7 +1139,7 @@ const Garments = () => {
             </Container>
             {/* Pajamas set */}
             <Container>
-                <h2 className='pt-5 text-center fst-italic text-orange'>Pajamas set</h2>
+                <h2 className='pt-5 text-center fst-italic text-orange'>Pajama Sets</h2>
             </Container>
             <Container fluid>
                 <Row className='justify-content-evenly' data-aos="fade-up">
@@ -1180,7 +1180,7 @@ const Garments = () => {
             </Container>
             {/* Pullover */}
             <Container>
-                <h2 className='pt-5 text-center fst-italic text-orange'>Pullover</h2>
+                <h2 className='pt-5 text-center fst-italic text-orange'>Pullovers</h2>
             </Container>
             <Container fluid>
                 <Row className='justify-content-evenly' data-aos="fade-up">
@@ -1262,7 +1262,7 @@ const Garments = () => {
             </Container>
             {/* Hooded jackets */}
             <Container>
-                <h2 className='pt-5 text-center fst-italic text-orange'>Hooded jackets</h2>
+                <h2 className='pt-5 text-center fst-italic text-orange'>Hooded Jackets</h2>
             </Container>
             <Container fluid className='mb-5'>
                 <Row className='justify-content-evenly' data-aos="fade-up">

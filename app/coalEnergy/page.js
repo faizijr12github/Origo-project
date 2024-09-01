@@ -22,7 +22,8 @@ const CoalEnergy = () => {
                     <Col lg="6" md="8" data-aos="zoom-out">
                         <h1 className='fw-bold sevillana-regular'>Coal Energy</h1>
                         <div className='hero-p mt-3'>
-                            <p className='mt-4'>Origo Business Services is a dynamic company dedicated to providing comprehensive marketing, procurement and business development solutions across various industries. Our expertise spans Textiles, Pharmaceutical Packaging, Coal Energy, Real Estate, and Creative Media projects. </p>
+                            <p className='mt-4'>At Origo Coal, we specialize in sourcing and delivering high-quality coal from the world's leading coal markets, including Indonesia, South Africa, and Afghanistan. With a commitment to excellence, we ensure that our clients receive the finest coal tailored to their specific energy needs. Whether you're fueling power plants, industrial facilities, or global trade, trust Origo Coal to provide reliable, sustainable, and competitively priced coal solutions that power your success.
+                            </p>
                         </div>
                     </Col>
                 </Row>
@@ -53,7 +54,7 @@ const CoalEnergy = () => {
                             <button className="bg-black text-white fw-bold m-3"><span className="me-5"><i className="bi bi-graph-up me-2"></i>GAR</span> 6500 - 7500</button>
                         </Col>
                         <Col lg="5" className="mt-5">
-                            <h3 className="text-orange fw-bold text-center pt-3 pb-5 sevillana-regular" data-aos="fade-left">Coal Product Range</h3>
+                            <h3 className="text-orange fw-bold text-center pt-3 pb-5 sevillana-regular" data-aos="fade-left">Coal Grades</h3>
                         </Col>
                     </Row>
                 </Container>

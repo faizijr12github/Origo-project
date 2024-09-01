@@ -20,9 +20,10 @@ const IndonesiaCoal = () => {
                 <Container>
                     <Row className='justify-content-evenly align-items-center'>
                         <Col lg="5" className='mt-5' data-aos="fade-right">
-                            <h2 className='fw-bold'>Coal Energy</h2>
-                            <h2 className='text-danger fst-italic'>Indonesia</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s</p>
+                            <h2 className='text-danger fw-bold'>Indonesia</h2>
+                            <h2 className='fst-italic'>Coal Market</h2>
+                            <p>As a leading coal exporter, Indonesia provides diverse, high-quality coal grades to power industries worldwide. With its strategic location and robust infrastructure, Indonesia ensures reliable, efficient coal supply, meeting the demands of global markets. Trust Indonesia's coal market for sustainable energy solutions that drive industrial growth and energy security.
+                            </p>
                         </Col>
                         <Col lg="4" className='mt-5'>
                             <div>
@@ -35,6 +36,7 @@ const IndonesiaCoal = () => {
             <Container>
                 <IndonesiaCoalSlider/>
             </Container>
+            {/* Indonesian Coal Grades */}
             <Container className='mb-5'>
                 <Row className='justify-content-evenly align-items-center'>
                     <Col lg="4" className='mt-5'>
@@ -43,19 +45,20 @@ const IndonesiaCoal = () => {
                         </div>
                     </Col>
                     <Col lg="5" className='mt-5' data-aos="fade-right">
-                        <h2 className='fw-bold'>Heading</h2>
-                        <h2 className='text-success fst-italic'>Sub Heading</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s</p>
+                        <h2 className='fw-bold'>Indonesian Coal Grades</h2>
+                        <h3 className='text-danger fst-italic'>Solutions for Global Energy Demands</h3>
+                        <p>Indonesia offers a wide range of coal grades, each tailored to meet specific industrial needs. The primary grades include high-calorific ICI 1 (6500 kcal/kg GAR), mid-calorific ICI 2 (5800 kcal/kg GAR) and ICI 3 (5000 kcal/kg GAR), and lower-calorific ICI 4 (4200 kcal/kg GAR) and ICI 5 (3400 kcal/kg GAR). These grades provide versatile energy solutions, whether for power generation, industrial applications, or export markets, making Indonesian coal a key resource in the global energy supply chain.</p>
                     </Col>
                 </Row>
             </Container>
+            {/* Market Analysis */}
             <Container fluid className='section3-coal py-5'>
             <Container>
                 <Row className='justify-content-evenly align-items-center'>
                     <Col lg="5" className='mt-5' data-aos="fade-right">
-                        <h2 className='fw-bold'>Heading</h2>
-                        <h2 className='text-success fst-italic'>Sub Heading</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s</p>
+                        <h2 className='fw-bold'>Market Analysis</h2>
+                        <h3 className='text-danger fst-italic'>Dynamics of the Indonesian Coal Market</h3>
+                        <p>The Indonesian coal market remains a critical player in the global energy sector, driven by robust demand from Asia and beyond. Market analysis shows that while Indonesia continues to benefit from strong export volumes, it also faces challenges such as fluctuating prices, regulatory shifts, and increasing environmental concerns. Understanding these dynamics is crucial for stakeholders aiming to leverage Indonesia's strategic position as a leading coal supplier and to navigate the complexities of the global coal trade effectively.</p>
                     </Col>
                     <Col lg="4" className='mt-5'>
                         <div>

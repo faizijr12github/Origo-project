@@ -22,7 +22,7 @@ const Textiles = () => {
                     <Col lg="7" md="10" data-aos="zoom-out">
                         <h1 className='fw-bold mb-3'>Textiles</h1>
                         <div className='textile-hero-content'>
-                            <p className='mt-4'>Origo Business Services is a dynamic company dedicated to providing comprehensive marketing, procurement and business development solutions across various industries. Our expertise spans Textiles, Pharmaceutical Packaging, Coal Energy, Real Estate, and Creative Media projects. </p>
+                            <p className='mt-4'>From raw materials to finished fabrics, Origo Textiles delivers superior procurement services across all textile categories worldwide. We meticulously source only the finest materials, ensuring unmatched quality and reliability in every thread. Our extensive global network and expert team guarantee seamless supply chain solutions tailored to meet your specific needs.</p>
                         </div>
                     </Col>
                 </Row>
@@ -58,8 +58,7 @@ const Textiles = () => {
                                 <Card.Body className='px-3 text-center text-white'>
                                     <Card.Title className="card-title fw-bold">Home Textiles</Card.Title>
                                     <Card.Text className='text-secondary'>
-                                        Some quick example text to build on the card title and make up the
-                                        bulk of the card&apos;s content.
+                                    Elegance and comfort woven into every thread of our home textiles
                                     </Card.Text>
                                     <Link href="/homeTextiles" className='btn expertise-card-btn rounded-5 px-3 fw-bold'>View products</Link>
                                 </Card.Body>
@@ -73,8 +72,7 @@ const Textiles = () => {
                                 <Card.Body className='px-3 text-center text-white'>
                                     <Card.Title className="card-title fw-bold">Garments</Card.Title>
                                     <Card.Text className='text-secondary'>
-                                        Some quick example text to build on the card title and make up the
-                                        bulk of the card&apos;s content.
+                                    Crafting garments that blend style, comfort, and quality in every stitch
                                     </Card.Text>
                                     <Link href="/garments" className='btn expertise-card-btn rounded-5 px-3 fw-bold'>View products</Link>
                                 </Card.Body>
@@ -88,8 +86,7 @@ const Textiles = () => {
                                 <Card.Body className='px-3 text-center text-white'>
                                     <Card.Title className="card-title fw-bold">Towels</Card.Title>
                                     <Card.Text className='text-secondary'>
-                                        Some quick example text to build on the card title and make up the
-                                        bulk of the card&apos;s content.
+                                    Softness and durability in every towel, designed to elevate your everyday
                                     </Card.Text>
                                     <Link href="/towels" className='btn expertise-card-btn rounded-5 px-3 fw-bold'>View products</Link>
                                 </Card.Body>

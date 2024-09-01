@@ -203,6 +203,26 @@ const HomeTextilesHeroSlider = () => {
                                             </Card.Body>
                                         </Card>
                                     </SwiperSlide>
+                                    <SwiperSlide>
+                                        <Card className='border-0 htcards' style={{ width: '100%' }}>
+                                            <div className='img-container'>
+                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/homeTextiles/Hotel-sheeting-slider.jpg" />
+                                            </div>
+                                            <Card.Body className='px-0 mt-1 text-center'>
+                                                <Link href="/textiles" className='text-decoration-none slider-link fw-bold text-dark'>Bed & Bath</Link>
+                                            </Card.Body>
+                                        </Card>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <Card className='border-0 htcards' style={{ width: '100%' }}>
+                                            <div className='img-container'>
+                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/homeTextiles/Hotel-sheeting-slider.jpg" />
+                                            </div>
+                                            <Card.Body className='px-0 mt-1 text-center'>
+                                                <Link href="/textiles" className='text-decoration-none slider-link fw-bold text-dark'>Curtains</Link>
+                                            </Card.Body>
+                                        </Card>
+                                    </SwiperSlide>
                                 </Swiper>
                             </Col>
                         </Row>

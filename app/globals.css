@@ -298,7 +298,16 @@ p {
 /* coal */
 
 .coal-sec2 {
-  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-image: url('/images/coalProductRange-bg.webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  min-height: 400px;
+  background-blend-mode: darken;
 }
 
 .coal-sec2 button {
