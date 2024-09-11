@@ -26,7 +26,7 @@ const Expertise = () => {
                     <Col data-aos="fade-up" className='mt-5' lg='4' md='6'>
                         <Card className="expertise-card" style={{ width: '100%' }}>
                             <div className='img-container rounded-5'>
-                                <Card.Img loading="lazy" className='expertise-card-img rounded-5' variant="top" src="/images/crousel-img1.jpg" />
+                                <Card.Img loading="lazy" className='expertise-card-img rounded-5' variant="top" src="/images/crousel-img1.webp" />
                             </div>
                             <Card.Body className='px-2 text-center'>
                                 <Card.Title className="card-title fw-bold">Marketing Services</Card.Title>
@@ -39,7 +39,7 @@ const Expertise = () => {
                     <Col data-aos="fade-down" className='mt-5' lg='4' md='6'>
                         <Card className="expertise-card" style={{ width: '100%' }}>
                             <div className='img-container rounded-5'>
-                                <Card.Img loading="lazy" className='expertise-card-img rounded-5' variant="top" src="/images/crousel-img2.jpg" />
+                                <Card.Img loading="lazy" className='expertise-card-img rounded-5' variant="top" src="/images/crousel-img2.webp" />
                             </div>
                             <Card.Body className='px-2 text-center'>
                                 <Card.Title className="card-title fw-bold">Procurement Services</Card.Title>
@@ -52,7 +52,7 @@ const Expertise = () => {
                     <Col data-aos="fade-up" className='mt-5' lg='4' md='6'>
                         <Card className="expertise-card" style={{ width: '100%' }}>
                             <div className='img-container rounded-5'>
-                                <Card.Img loading="lazy" className='expertise-card-img rounded-5' variant="top" src="/images/crousel-img3.jpg" />
+                                <Card.Img loading="lazy" className='expertise-card-img rounded-5' variant="top" src="/images/crousel-img3.webp" />
                             </div>
                             <Card.Body className='px-2 text-center'>
                                 <Card.Title className="card-title fw-bold">Project Execution</Card.Title>
@@ -65,7 +65,7 @@ const Expertise = () => {
                     <Col data-aos="fade-right" className='mt-5' lg='4' md='6'>
                         <Card className="expertise-card" style={{ width: '100%' }}>
                             <div className='img-container rounded-5'>
-                                <Card.Img loading="lazy" className='expertise-card-img rounded-5' variant="top" src="/images/crousel-img4.jpg" />
+                                <Card.Img loading="lazy" className='expertise-card-img rounded-5' variant="top" src="/images/crousel-img4.webp" />
                             </div>
                             <Card.Body className='px-2 text-center'>
                                 <Card.Title className="card-title fw-bold">Strategic Partnerships</Card.Title>
@@ -78,7 +78,7 @@ const Expertise = () => {
                     <Col data-aos="fade-left" className='mt-5' lg='4' md='6'>
                         <Card className="expertise-card" style={{ width: '100%' }}>
                             <div className='img-container rounded-5'>
-                                <Card.Img loading="lazy" className='expertise-card-img rounded-5' variant="top" src="/images/Goal.jpg" />
+                                <Card.Img loading="lazy" className='expertise-card-img rounded-5' variant="top" src="/images/Goal.webp" />
                             </div>
                             <Card.Body className='px-2 text-center'>
                                 <Card.Title className="card-title fw-bold">Business Development</Card.Title>

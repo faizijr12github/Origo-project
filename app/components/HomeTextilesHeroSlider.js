@@ -56,170 +56,140 @@ const HomeTextilesHeroSlider = () => {
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/homeTextiles/White-fabrics-slider.jpg" />
+                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/Home Textiles/Fabrics/White Fabric/White Fabrics 6.webp" />
                                             </div>
                                             <Card.Body className='px-0 mt-1 text-center'>
-                                                <Link href="/textiles" className='text-decoration-none slider-link fw-bold text-dark'>White Fabrics</Link>
+                                                <Link href="#whiteFabrics" className='text-decoration-none slider-link fw-bold text-dark'>White Fabrics</Link>
                                             </Card.Body>
                                         </Card>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/homeTextiles/Dyed-fabrics-slider.jpg" />
+                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/Home Textiles/Fabrics/Dyed Fabrics/Dyed Fabrics 2.webp" />
                                             </div>
                                             <Card.Body className='px-0 mt-1 text-center'>
-                                                <Link href="/textiles" className='text-decoration-none slider-link fw-bold text-dark'>Dyed fabrics</Link>
+                                                <Link href="#DyedFabrics" className='text-decoration-none slider-link fw-bold text-dark'>Dyed Fabrics</Link>
                                             </Card.Body>
                                         </Card>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/homeTextiles/Print-fabrics-slider.jpg" />
+                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/Home Textiles/Fabrics/Print Fabrics/Print Fabrics 6.webp" />
                                             </div>
                                             <Card.Body className='px-0 mt-1 text-center'>
-                                                <Link href="/textiles" className='text-decoration-none slider-link fw-bold text-dark'>Print Fabrics</Link>
+                                                <Link href="#PrintFabrics" className='text-decoration-none slider-link fw-bold text-dark'>Print Fabrics</Link>
                                             </Card.Body>
                                         </Card>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/homeTextiles/Sheet-Sets-slider.jpg" />
+                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/Home Textiles/Madeups/Sheet Sets/Sheet Sets 3.webp" />
                                             </div>
                                             <Card.Body className='px-0 mt-1 text-center'>
-                                                <Link href="/textiles" className='text-decoration-none slider-link fw-bold text-dark'>Sheet Sets</Link>
+                                                <Link href="#SheetSets" className='text-decoration-none slider-link fw-bold text-dark'>Sheet Sets</Link>
                                             </Card.Body>
                                         </Card>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/homeTextiles/QuiltCoverSets-slider.jpg" />
+                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/Home Textiles/Madeups/Quilt Cover Sets/Quilt Cover Sets 3.webp" />
                                             </div>
                                             <Card.Body className='px-0 mt-1 text-center'>
-                                                <Link href="/textiles" className='text-decoration-none slider-link fw-bold text-dark'>Quilt Cover Sets</Link>
+                                                <Link href="#QuiltCovers" className='text-decoration-none slider-link fw-bold text-dark'>Quilt Cover Sets</Link>
                                             </Card.Body>
                                         </Card>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/homeTextiles/comforter-sets-slider.jpg" />
+                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/Home Textiles/Madeups/Comforter Set/Comforter Sets 6.webp" />
                                             </div>
                                             <Card.Body className='px-0 mt-1 text-center'>
-                                                <Link href="/textiles" className='text-decoration-none slider-link fw-bold text-dark'>Comforter Sets</Link>
+                                                <Link href="#ComforterSets" className='text-decoration-none slider-link fw-bold text-dark'>Comforter Sets</Link>
                                             </Card.Body>
                                         </Card>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/homeTextiles/mattress-covers-slider.jpg" />
+                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/Home Textiles/Madeups/Mattress Cover/Mattress Covers 6.webp" />
                                             </div>
                                             <Card.Body className='px-0 mt-1 text-center'>
-                                                <Link href="/textiles" className='text-decoration-none slider-link fw-bold text-dark'>Mattress Covers</Link>
+                                                <Link href="#MattressCover" className='text-decoration-none slider-link fw-bold text-dark'>Mattress Covers</Link>
                                             </Card.Body>
                                         </Card>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/homeTextiles/duvet-cover-slider.jpg" />
+                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/Home Textiles/Madeups/Valance Sheets/Valance Sheets 1.webp" />
                                             </div>
                                             <Card.Body className='px-0 mt-1 text-center'>
-                                                <Link href="/textiles" className='text-decoration-none slider-link fw-bold text-dark'>Duvet Covers</Link>
+                                                <Link href="#Valance" className='text-decoration-none slider-link fw-bold text-dark'>Valances</Link>
                                             </Card.Body>
                                         </Card>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/homeTextiles/valances-slider.jpg" />
+                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/Home Textiles/Madeups/Curtains/Curtains 2.webp" />
                                             </div>
                                             <Card.Body className='px-0 mt-1 text-center'>
-                                                <Link href="/textiles" className='text-decoration-none slider-link fw-bold text-dark'>Valances</Link>
+                                                <Link href="#Curtains" className='text-decoration-none slider-link fw-bold text-dark'>Curtains</Link>
                                             </Card.Body>
                                         </Card>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/homeTextiles/curtains-slider.jpg" />
+                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/Home Textiles/Madeups/Ironing Board Cover/Ironing Board Cover 3.webp" />
                                             </div>
                                             <Card.Body className='px-0 mt-1 text-center'>
-                                                <Link href="/textiles" className='text-decoration-none slider-link fw-bold text-dark'>Curtains</Link>
+                                                <Link href="#IroningBoard" className='text-decoration-none slider-link fw-bold text-dark'>Ironing Boards</Link>
                                             </Card.Body>
                                         </Card>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/homeTextiles/Ironing-boards-slider.jpg" />
+                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/Home Textiles/Madeups/Individual Flat Sheets/Individual Flat Sheets 5.webp" />
                                             </div>
                                             <Card.Body className='px-0 mt-1 text-center'>
-                                                <Link href="/textiles" className='text-decoration-none slider-link fw-bold text-dark'>Ironing boards</Link>
+                                                <Link href="#IndividualFlatSheets" className='text-decoration-none slider-link fw-bold text-dark'>Individual Flat Sheets</Link>
                                             </Card.Body>
                                         </Card>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/homeTextiles/individual-Flat-sheets.jpg" />
+                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/Home Textiles/Madeups/Fitted Sheets/Fitted Sheet 6.webp" />
                                             </div>
                                             <Card.Body className='px-0 mt-1 text-center'>
-                                                <Link href="/textiles" className='text-decoration-none slider-link fw-bold text-dark'>Individual Flat Sheets</Link>
+                                                <Link href="#FittedSheets" className='text-decoration-none slider-link fw-bold text-dark'>Fitted Sheets</Link>
                                             </Card.Body>
                                         </Card>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/homeTextiles/fitted-sheets-slider.jpg" />
+                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/Home Textiles/Madeups/Pillow Cases/Pillow Cases 2.webp" />
                                             </div>
                                             <Card.Body className='px-0 mt-1 text-center'>
-                                                <Link href="/textiles" className='text-decoration-none slider-link fw-bold text-dark'>Fitted Sheets</Link>
+                                                <Link href="#PillowCases" className='text-decoration-none slider-link fw-bold text-dark'>Pillow Cases</Link>
                                             </Card.Body>
                                         </Card>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/homeTextiles/pillow-cases-slider.jpg" />
+                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/Home Textiles/Madeups/Hotel Sheeting/Hotel Sheeting 2.webp" />
                                             </div>
                                             <Card.Body className='px-0 mt-1 text-center'>
-                                                <Link href="/textiles" className='text-decoration-none slider-link fw-bold text-dark'>Pillow Cases</Link>
-                                            </Card.Body>
-                                        </Card>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <Card className='border-0 htcards' style={{ width: '100%' }}>
-                                            <div className='img-container'>
-                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/homeTextiles/Hotel-sheeting-slider.jpg" />
-                                            </div>
-                                            <Card.Body className='px-0 mt-1 text-center'>
-                                                <Link href="/textiles" className='text-decoration-none slider-link fw-bold text-dark'>Hotel Sheeting</Link>
-                                            </Card.Body>
-                                        </Card>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <Card className='border-0 htcards' style={{ width: '100%' }}>
-                                            <div className='img-container'>
-                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/homeTextiles/Hotel-sheeting-slider.jpg" />
-                                            </div>
-                                            <Card.Body className='px-0 mt-1 text-center'>
-                                                <Link href="/textiles" className='text-decoration-none slider-link fw-bold text-dark'>Bed & Bath</Link>
-                                            </Card.Body>
-                                        </Card>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <Card className='border-0 htcards' style={{ width: '100%' }}>
-                                            <div className='img-container'>
-                                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/homeTextiles/Hotel-sheeting-slider.jpg" />
-                                            </div>
-                                            <Card.Body className='px-0 mt-1 text-center'>
-                                                <Link href="/textiles" className='text-decoration-none slider-link fw-bold text-dark'>Curtains</Link>
+                                                <Link href="#HotelSheeting" className='text-decoration-none slider-link fw-bold text-dark'>Hotel Sheeting</Link>
                                             </Card.Body>
                                         </Card>
                                     </SwiperSlide>

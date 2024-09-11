@@ -20,7 +20,7 @@ const About = () => {
             <Container fluid className='about-hero py-5'>
                 <Row className='justify-content-center'>
                     <Col lg="7" md="10" data-aos="zoom-out">
-                        <h1 className='fw-bold mb-3 sevillana-regular'>About Origo</h1>
+                        <h1 className='fw-bold mb-3'>About Origo</h1>
                         <div className='about-hero-content'>
                             <p className='mt-4'>Origo Business Services is a dynamic company dedicated to providing comprehensive marketing, procurement, and business development solutions in the Textiles and Coal Energy sectors. Our expertise lies in these critical industries, where we deliver tailored services to meet the unique needs of our clients and help them achieve their business goals.
                             </p>
@@ -49,14 +49,14 @@ const About = () => {
                         </p>
                     </Col>
                     <Col lg="5" className='mb-5 order-first order-lg-last'>
-                        <img loading="lazy" src='/images/mission.jpg' alt='mission' className='img-fluid rounded-5 shadow' data-aos="zoom-out" />
+                        <img loading="lazy" src='/images/mission.webp' alt='mission' className='img-fluid rounded-5 shadow' data-aos="zoom-out" />
                     </Col>
                 </Row>
             </Container>
             <Container className='pt-5 text-center'>
                 <Row className='justify-content-around align-items-center'>
                     <Col lg="5" className='mb-5'>
-                        <img loading="lazy" src='/images/Goal.jpg' alt='mission' className='img-fluid rounded-5 shadow' data-aos="fade-down-right" />
+                        <img loading="lazy" src='/images/Goal.webp' alt='mission' className='img-fluid rounded-5 shadow' data-aos="fade-down-right" />
                     </Col>
                     <Col lg="5" className='mb-5' data-aos="zoom-in-left">
                         <h2 className='fw-bold sevillana-regular'>

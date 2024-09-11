@@ -27,7 +27,7 @@ const Contact = () => {
                                 <span className='text-orange me-2'>
                                     <i className="bi bi-envelope-fill"></i>
                                 </span>
-                                <a href="mailto:AskOrigo@Gmail.Com" className='text-white'>askOrigo@Gmail.Com</a>
+                                <a href="mailto:AskOrigo@Gmail.Com" className='text-white'>askorigo@gmail.Com</a>
                             </p>
                             <p><span className='text-orange me-2'><i className="bi bi-linkedin"></i></span><Link className='text-white' href={'https://www.linkedin.com/company/origo-business-services '} target='blank'>linkedin</Link></p>
                         </Col>

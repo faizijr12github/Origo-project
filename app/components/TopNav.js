@@ -16,7 +16,7 @@ function TopNav() {
 
                 <Link href="/" passHref>
                     <Navbar.Brand>
-                        <img loading="lazy" src='/images/origo_business_services_logo.jpg' alt='origo-logo' className='img-fluid rounded' width={80} />
+                        <img loading="lazy" src='/images/origo_business_services_logo.webp' alt='origo-logo' className='img-fluid rounded' width={80} />
                     </Navbar.Brand>
                 </Link>
 
@@ -30,13 +30,13 @@ function TopNav() {
                         <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
                             <Link href="/" passHref>
                                 <Navbar.Brand>
-                                    <img loading="lazy" src='/images/origo_business_services_logo.jpg' alt='origo-logo' className='img-fluid rounded' width={80} />
+                                    <img loading="lazy" src='/images/origo_business_services_logo.webp' alt='origo-logo' className='img-fluid rounded' width={80} />
                                 </Navbar.Brand>
                             </Link>
                         </Offcanvas.Title>
                     </Offcanvas.Header>
                     <Offcanvas.Body>
-                        <Nav className="justify-content-center align-items-center flex-grow-1">
+                        <Nav className="justify-content-center flex-grow-1">
                             <Nav.Link href="/"><i className="bi bi-house-fill"></i></Nav.Link>
                             <Nav.Link href="/about">About Us</Nav.Link>
                             <Nav.Link href="/services">Services</Nav.Link>

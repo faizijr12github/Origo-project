@@ -11,9 +11,9 @@ const Footer = () => {
                     <Row className='justify-content-evenly'>
                         <Col lg="4" md="6">
                             <div className='pt-5 text-white'>
-                                <img src='/images/origo_business_services_logo.jpg' alt='logo' className='img-fluid rounded mb-4' width={80} />
+                                <img src='/images/origo_business_services_logo.webp' alt='logo' className='img-fluid rounded mb-4' width={80} />
                                 <p><i className="bi bi-geo-alt-fill me-1"></i>82-E, Wapda Town <br /> Bagewal Road, Faisalabad, Pakistan</p>
-                                <p><i className="bi bi-envelope-fill me-2"></i><a href="mailto:AskOrigo@Gmail.Com" className='text-white'>askOrigo@Gmail.Com</a></p>
+                                <p><i className="bi bi-envelope-fill me-2"></i><a href="mailto:AskOrigo@Gmail.Com" className='text-white'>askorigo@gmail.Com</a></p>
                                 <ul className="list-unstyled mylinks">
                                 <li><Link className='btn btn-outline-light rounded-circle fs-5 mt-3' href="https://www.linkedin.com/company/origo-business-services" target='blank'><i className="bi bi-linkedin"></i></Link></li>
                             </ul>
@@ -30,21 +30,20 @@ const Footer = () => {
                             </ul>
                         </Col>
                         <Col lg="2" md="6" className='pt-5'>
-                        <h4 className='text-white fw-bold'>Support</h4>
-                            <ul className="list-unstyled mt-4">
-                                <li><Link href="/" className="slide-link">Privacy policy</Link></li>
-                                <li><Link href="/" className="slide-link">Terms & Conditions</Link></li>
-                                <li><Link href="/industry" className="slide-link">FAQs</Link></li>
+                        <h4 className='text-white fw-bold'>Industries</h4>
+                        <ul className="list-unstyled mt-4 text-white lh-lg">
+                                <li>Textiles</li>
+                                <li>Coal Energy</li>
                             </ul>
                         </Col>
                         <Col lg="3" md="6" className='pt-5'>
                         <h4 className='text-white fw-bold'>Core Features</h4>
-                            <ul className="list-unstyled mt-4">
-                                <li><Link href="/" className="slide-link">Marketing</Link></li>
-                                <li><Link href="/" className="slide-link">Procurement</Link></li>
-                                <li><Link href="/industry" className="slide-link">Project Execution</Link></li>
-                                <li><Link href="/industry" className="slide-link">Strategic Partnerships</Link></li>
-                                <li><Link href="/industry" className="slide-link">Business Development</Link></li>
+                            <ul className="list-unstyled mt-4 text-white lh-lg">
+                                <li>Marketing</li>
+                                <li>Procurement</li>
+                                <li>Project Execution</li>
+                                <li>Strategic Partnerships</li>
+                                <li>Business Development</li>
                             </ul>
                         </Col>
                     </Row>

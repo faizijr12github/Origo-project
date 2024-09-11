@@ -15,13 +15,13 @@ const AfgCoalSlider = () => {
             <Container className='mt-5'>
                 <Container>
                     <h2 className='text-orange text-center fst-italic fs-1'>
-                        Coal
+                        Afghan Coal
                     </h2>
                 </Container>
                 <Container>
                     <Row className='justify-content-center mt-5'>
                         <Col>
-                            <Swiper
+                        <Swiper
                                 modules={[Pagination, A11y, Autoplay]}
                                 autoplay={{
                                     delay: 2000, // Delay between slides in milliseconds (3000ms = 3s)
@@ -48,79 +48,43 @@ const AfgCoalSlider = () => {
                                 <SwiperSlide>
                                     <Card className="expertise-card" style={{ width: '100%' }}>
                                         <div className='img-container rounded-5'>
-                                            <Card.Img className='expertise-card-img rounded-5' variant="top" src="/images/coal/coal.jpg" />
+                                            <Card.Img className='expertise-card-img rounded-5' variant="top" src="/images/Afghanistan Coal/Afghanistan Coal 1.webp" />
                                         </div>
-                                        <Card.Body className='px-0 mt-1 text-center'>
-                                            <Card.Title className="card-title fw-bold">Coal</Card.Title>
-                                            <Card.Text>
-                                                Innovative strategies to elevate your brand and expand market reach.
-                                            </Card.Text>
-                                        </Card.Body>
                                     </Card>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <Card className="expertise-card" style={{ width: '100%' }}>
                                         <div className='img-container rounded-5'>
-                                            <Card.Img className='expertise-card-img rounded-5' variant="top" src="/images/coal/coal.jpg" />
+                                            <Card.Img className='expertise-card-img rounded-5' variant="top" src="/images/Afghanistan Coal/Afghanistan Coal 2.webp" />
                                         </div>
-                                        <Card.Body className='px-0 mt-1 text-center'>
-                                            <Card.Title className="card-title fw-bold">Coal</Card.Title>
-                                            <Card.Text>
-                                                Innovative strategies to elevate your brand and expand market reach.
-                                            </Card.Text>
-                                        </Card.Body>
                                     </Card>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <Card className="expertise-card" style={{ width: '100%' }}>
                                         <div className='img-container rounded-5'>
-                                            <Card.Img className='expertise-card-img rounded-5' variant="top" src="/images/coal/coal.jpg" />
+                                            <Card.Img className='expertise-card-img rounded-5' variant="top" src="/images/Afghanistan Coal/Afghanistan Coal 3.webp" />
                                         </div>
-                                        <Card.Body className='px-0 mt-1 text-center'>
-                                            <Card.Title className="card-title fw-bold">Coal</Card.Title>
-                                            <Card.Text>
-                                                Innovative strategies to elevate your brand and expand market reach.
-                                            </Card.Text>
-                                        </Card.Body>
                                     </Card>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <Card className="expertise-card" style={{ width: '100%' }}>
                                         <div className='img-container rounded-5'>
-                                            <Card.Img className='expertise-card-img rounded-5' variant="top" src="/images/coal/coal.jpg" />
+                                            <Card.Img className='expertise-card-img rounded-5' variant="top" src="/images/Afghanistan Coal/Afghanistan Coal 4.webp" />
                                         </div>
-                                        <Card.Body className='px-0 mt-1 text-center'>
-                                            <Card.Title className="card-title fw-bold">Coal</Card.Title>
-                                            <Card.Text>
-                                                Innovative strategies to elevate your brand and expand market reach.
-                                            </Card.Text>
-                                        </Card.Body>
                                     </Card>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <Card className="expertise-card" style={{ width: '100%' }}>
                                         <div className='img-container rounded-5'>
-                                            <Card.Img className='expertise-card-img rounded-5' variant="top" src="/images/coal/coal.jpg" />
+                                            <Card.Img className='expertise-card-img rounded-5' variant="top" src="/images/Afghanistan Coal/Afghanistan Coal 5.webp" />
                                         </div>
-                                        <Card.Body className='px-0 mt-1 text-center'>
-                                            <Card.Title className="card-title fw-bold">Coal</Card.Title>
-                                            <Card.Text>
-                                                Innovative strategies to elevate your brand and expand market reach.
-                                            </Card.Text>
-                                        </Card.Body>
                                     </Card>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <Card className="expertise-card" style={{ width: '100%' }}>
                                         <div className='img-container rounded-5'>
-                                            <Card.Img className='expertise-card-img rounded-5' variant="top" src="/images/coal/coal.jpg" />
+                                            <Card.Img className='expertise-card-img rounded-5' variant="top" src="/images/Afghanistan Coal/Afghanistan Coal 6.webp" />
                                         </div>
-                                        <Card.Body className='px-0 mt-1 text-center'>
-                                            <Card.Title className="card-title fw-bold">Coal</Card.Title>
-                                            <Card.Text>
-                                                Innovative strategies to elevate your brand and expand market reach.
-                                            </Card.Text>
-                                        </Card.Body>
                                     </Card>
                                 </SwiperSlide>
                             </Swiper>

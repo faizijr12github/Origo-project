@@ -18,9 +18,9 @@ const CoalEnergy = () => {
         <>
             {/* Coal-Energy-hero */}
             <Container fluid className='coal-energy-hero'>
-                <Row className='d-flex flex-column align-items-center justify-content-center text-center h-700 pb-4'>
+                <Row className='d-flex flex-column align-items-center justify-content-center text-center'>
                     <Col lg="6" md="8" data-aos="zoom-out">
-                        <h1 className='fw-bold sevillana-regular'>Coal Energy</h1>
+                        <h1 className='fw-bold'>Coal Energy</h1>
                         <div className='hero-p mt-3'>
                             <p className='mt-4'>At Origo Coal, we specialize in sourcing and delivering high-quality coal from the world&apos;s leading coal markets, including Indonesia, South Africa, and Afghanistan. With a commitment to excellence, we ensure that our clients receive the finest coal tailored to their specific energy needs. Whether you&apos;re fueling power plants, industrial facilities, or global trade, trust Origo Coal to provide reliable, sustainable, and competitively priced coal solutions that power your success.
                             </p>
@@ -28,7 +28,7 @@ const CoalEnergy = () => {
                     </Col>
                 </Row>
             </Container>
-            <Container className='mt-5'>
+            <Container>
                 <h2 className='fw-bold text-center py-5 sevillana-regular' data-aos="fade-up">Coal Energy</h2>
                 <Row className='justify-content-around align-items-center'>
                     <Col lg="5" className='mb-5' data-aos="fade-right" data-aos-duration="3000">
@@ -36,7 +36,7 @@ const CoalEnergy = () => {
                         <p className='mt-3'><i className="bi bi-check-circle-fill me-3"></i>Our commitment to quality, timely delivery, and competitive pricing makes Origo a preferred partner for businesses seeking dependable coal energy solutions.</p>
                     </Col>
                     <Col lg="5" className='mb-5'>
-                        <img loading="lazy" src='/images/coal.png' alt='textile' className='img-fluid rounded' data-aos="zoom-in" data-aos-duration="3000" />
+                        <img loading="lazy" src='/images/coal.webp' alt='textile' className='img-fluid rounded' data-aos="zoom-in" data-aos-duration="3000" />
                     </Col>
                 </Row>
             </Container>
@@ -74,7 +74,7 @@ const CoalEnergy = () => {
                             </div>
                         </Col>
                         <Col lg="5" className="mt-5 text-center">
-                            <img loading="lazy" src='/images/coal-img-2.png' alt='coal' className='img-fluid float-animation' />
+                            <img loading="lazy" src='/images/coal-img-2.webp' alt='coal' className='img-fluid float-animation' />
                         </Col>
 
                     </Row>
@@ -94,7 +94,7 @@ const CoalEnergy = () => {
                     <Col className='mt-5' data-aos="fade-up" lg='3' md='6'>
                         <Card className="expertise-card bg-transparent" style={{ width: '100%' }}>
                             <div className='img-container rounded-5'>
-                                <Card.Img loading="lazy" className='expertise-card-img rounded-5' variant="top" src="/images/pak-flag.jpg" />
+                                <Card.Img loading="lazy" className='expertise-card-img rounded-5' variant="top" src="/images/pak-flag.webp" />
                             </div>
                             <Card.Body className='px-3 text-center text-white'>
                                 <Card.Title className="card-title fw-bold">Pakistan</Card.Title>
@@ -109,7 +109,7 @@ const CoalEnergy = () => {
                     <Col className='mt-5' data-aos="fade-down" lg='3' md='6'>
                         <Card className="expertise-card bg-transparent" style={{ width: '100%' }}>
                             <div className='img-container rounded-5'>
-                                <Card.Img loading="lazy" className='expertise-card-img rounded-5' variant="top" src="/images/sa-flag.jpg" />
+                                <Card.Img loading="lazy" className='expertise-card-img rounded-5' variant="top" src="/images/sa-flag.webp" />
                             </div>
                             <Card.Body className='px-3 text-center text-white'>
                                 <Card.Title className="card-title fw-bold">South Africa</Card.Title>
@@ -124,7 +124,7 @@ const CoalEnergy = () => {
                     <Col className='mt-5' data-aos="fade-up" lg='3' md='6'>
                         <Card className="expertise-card bg-transparent" style={{ width: '100%' }}>
                             <div className='img-container rounded-5'>
-                                <Card.Img loading="lazy" className='expertise-card-img rounded-5' variant="top" src="/images/indonesia-flag.jpg" />
+                                <Card.Img loading="lazy" className='expertise-card-img rounded-5' variant="top" src="/images/indonesia-flag.webp" />
                             </div>
                             <Card.Body className='px-3 text-center text-white'>
                                 <Card.Title className="card-title fw-bold">Indonesia</Card.Title>
@@ -139,7 +139,7 @@ const CoalEnergy = () => {
                     <Col className='mt-5' data-aos="fade-down" lg='3' md='6'>
                         <Card className="expertise-card bg-transparent" style={{ width: '100%' }}>
                             <div className='img-container rounded-5'>
-                                <Card.Img loading="lazy" className='expertise-card-img rounded-5' variant="top" src="/images/afg-flag.jpg" />
+                                <Card.Img loading="lazy" className='expertise-card-img rounded-5' variant="top" src="/images/afg-flag.webp" />
                             </div>
                             <Card.Body className='px-3 text-center text-white'>
                                 <Card.Title className="card-title fw-bold">Afghanistan</Card.Title>

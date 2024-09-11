@@ -3,13 +3,12 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Link from 'next/link';
 // Import Swiper core and required modules
-import { A11y, EffectFade, Autoplay, Navigation, Scrollbar } from 'swiper/modules';
+import { A11y, Autoplay, Navigation, Scrollbar } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/scrollbar';
-import 'swiper/css/effect-fade';
 // AOS
 import { useEffect } from 'react';
 import AOS from 'aos';
@@ -28,13 +27,12 @@ const Hero = () => {
         <Row className='justify-content-center'>
           <Col>
             <Swiper
-              modules={[A11y, Autoplay, EffectFade, Navigation, Scrollbar]}
+              modules={[A11y, Autoplay, Navigation, Scrollbar]}
               autoplay={{
                 delay: 3000,
                 disableOnInteraction: false,
               }}
               loop={true}
-              effect="fade"
               spaceBetween={50}
               navigation={true} // Adds navigation controls (prev/next buttons)
               scrollbar={{ draggable: true }} // Adds draggable scrollbar
