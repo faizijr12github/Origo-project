@@ -12,6 +12,7 @@ import { Autoplay } from 'swiper/modules';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Image from 'next/image';
 
 const WomenJeansSlider = () => {
     useEffect(() => {
@@ -52,45 +53,94 @@ const WomenJeansSlider = () => {
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/garments/Women Garments/Women Denim Jeans/Women Denim Jeans 1.webp" />
+                                        <Image
+                                            src="/images/garments/Women Garments/Women Denim Jeans/Women Denim Jeans 1.webp"
+                                            alt="Women Denim Jeans 1"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/garments/Women Garments/Women Denim Jeans/Women Denim Jeans 2.webp" />
+                                        <Image
+                                            src="/images/garments/Women Garments/Women Denim Jeans/Women Denim Jeans 2.webp"
+                                            alt="Women Denim Jeans 2"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/garments/Women Garments/Women Denim Jeans/Women Denim Jeans 3.webp" />
+                                        <Image
+                                            src="/images/garments/Women Garments/Women Denim Jeans/Women Denim Jeans 3.webp"
+                                            alt="Women Denim Jeans 3"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/garments/Women Garments/Women Denim Jeans/Women Denim Jeans 4.webp" />
+                                        <Image
+                                            src="/images/garments/Women Garments/Women Denim Jeans/Women Denim Jeans 4.webp"
+                                            alt="Women Denim Jeans 4"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/garments/Women Garments/Women Denim Jeans/Women Denim Jeans 5.webp" />
+                                        <Image
+                                            src="/images/garments/Women Garments/Women Denim Jeans/Women Denim Jeans 5.webp"
+                                            alt="Women Denim Jeans 5"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/garments/Women Garments/Women Denim Jeans/Women Denim Jeans 6.webp" />
+                                        <Image
+                                            src="/images/garments/Women Garments/Women Denim Jeans/Women Denim Jeans 6.webp"
+                                            alt="Women Denim Jeans 6"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
+
                         </Swiper>
                     </Col>
                 </Row>

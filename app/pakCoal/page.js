@@ -40,7 +40,7 @@ const PakCoal = () => {
                 <Row className='justify-content-evenly align-items-center'>
                     <Col lg="4" className='mt-5'>
                         <div>
-                            <img src='/images/coal/coal-img1.png' alt='img' className='img-fluid rounded-5 shadow-lg' data-aos="fade-up" />
+                            <img loading='lazy' src='/images/coal/coal-img1.png' alt='thar-coal' className='img-fluid rounded-5 shadow-lg' data-aos="fade-up" />
                         </div>
                     </Col>
                     <Col lg="5" className='mt-5' data-aos="fade-right">
@@ -57,7 +57,7 @@ const PakCoal = () => {
                         <Col lg="5" className='mt-5' data-aos="fade-right">
                             <h2 className='fw-bold'>Balochistan Coal</h2>
                             <h3 className='text-success fst-italic'>A Vital Resource for Industrial Growth</h3>
-                            <p>Balochistan Coal is a crucial asset in Pakistan&apos;s energy sector, known for its high-quality reserves that support various industries across the country. The coal from Balochistan, with its significant deposits, plays a vital role in powering cement, brick, and power plants. As the region continues to develop its mining infrastructure, Balochistan Coal remains a key contributor to Pakistan’s economic and industrial growth.</p>
+                            <p>Balochistan Coal is a crucial asset in Pakistan&apos;s energy sector, known for its high-quality reserves that support various industries across the country. The coal from Balochistan, with its significant deposits, plays a vital role in powering cement, brick, and power plants. As the region continues to develop its mining infrastructure, Balochistan Coal remains a key contributor to Pakistan&apos;s economic and industrial growth.</p>
                         </Col>
                         <Col lg="4" className='mt-5'>
                             <div>

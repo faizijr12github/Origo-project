@@ -12,6 +12,7 @@ import { Autoplay } from 'swiper/modules';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Image from 'next/image';
 
 const FittedSheetSlider = () => {
     useEffect(() => {
@@ -52,45 +53,94 @@ const FittedSheetSlider = () => {
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/Home Textiles/Madeups/Fitted Sheets/Fitted Sheet 1.webp" />
+                                        <Image
+                                            src="/images/Home Textiles/Madeups/Individual Flat Sheets/Individual Flat Sheet 1.webp"
+                                            alt="Individual Flat Sheet 1"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/Home Textiles/Madeups/Fitted Sheets/Fitted Sheet 2.webp" />
+                                        <Image
+                                            src="/images/Home Textiles/Madeups/Individual Flat Sheets/Individual Flat Sheets 2.webp"
+                                            alt="Individual Flat Sheets 2"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/Home Textiles/Madeups/Fitted Sheets/Fitted Sheet 3.webp" />
+                                        <Image
+                                            src="/images/Home Textiles/Madeups/Individual Flat Sheets/Individual Flat Sheets 3.webp"
+                                            alt="Individual Flat Sheets 3"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/Home Textiles/Madeups/Fitted Sheets/Fitted Sheet 4.webp" />
+                                        <Image
+                                            src="/images/Home Textiles/Madeups/Individual Flat Sheets/Individual Flat Sheets 4.webp"
+                                            alt="Individual Flat Sheets 4"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/Home Textiles/Madeups/Fitted Sheets/Fitted Sheet 5.webp" />
+                                        <Image
+                                            src="/images/Home Textiles/Madeups/Individual Flat Sheets/Individual Flat Sheets 5.webp"
+                                            alt="Individual Flat Sheets 5"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/Home Textiles/Madeups/Fitted Sheets/Fitted Sheet 6.webp" />
+                                        <Image
+                                            src="/images/Home Textiles/Madeups/Individual Flat Sheets/Individual Flat Sheets 6.webp"
+                                            alt="Individual Flat Sheets 6"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
+
                         </Swiper>
                     </Col>
                 </Row>

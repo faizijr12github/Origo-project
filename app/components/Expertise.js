@@ -3,6 +3,7 @@ import { Col, Container, Row, Card } from 'react-bootstrap'
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Image from 'next/image';
 
 const Expertise = () => {
     useEffect(() => {
@@ -26,7 +27,15 @@ const Expertise = () => {
                     <Col data-aos="fade-up" className='mt-5' lg='4' md='6'>
                         <Card className="expertise-card" style={{ width: '100%' }}>
                             <div className='img-container rounded-5'>
-                                <Card.Img loading="lazy" className='expertise-card-img rounded-5' variant="top" src="/images/crousel-img1.webp" />
+                                <Image
+                                    className='expertise-card-img rounded-5'
+                                    src="/images/crousel-img1.jpg"
+                                    alt="Marketing Services"
+                                    width={500}
+                                    height={300}
+                                    layout="responsive"
+                                    loading="lazy"
+                                />
                             </div>
                             <Card.Body className='px-2 text-center'>
                                 <Card.Title className="card-title fw-bold">Marketing Services</Card.Title>
@@ -39,7 +48,15 @@ const Expertise = () => {
                     <Col data-aos="fade-down" className='mt-5' lg='4' md='6'>
                         <Card className="expertise-card" style={{ width: '100%' }}>
                             <div className='img-container rounded-5'>
-                                <Card.Img loading="lazy" className='expertise-card-img rounded-5' variant="top" src="/images/crousel-img2.webp" />
+                                <Image
+                                    className='expertise-card-img rounded-5'
+                                    src="/images/crousel-img2.jpg"
+                                    alt="Procurement Services"
+                                    width={500}
+                                    height={300}
+                                    layout="responsive"
+                                    loading="lazy"
+                                />
                             </div>
                             <Card.Body className='px-2 text-center'>
                                 <Card.Title className="card-title fw-bold">Procurement Services</Card.Title>
@@ -48,11 +65,20 @@ const Expertise = () => {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
+
                     </Col>
                     <Col data-aos="fade-up" className='mt-5' lg='4' md='6'>
                         <Card className="expertise-card" style={{ width: '100%' }}>
                             <div className='img-container rounded-5'>
-                                <Card.Img loading="lazy" className='expertise-card-img rounded-5' variant="top" src="/images/crousel-img3.webp" />
+                                <Image
+                                    className='expertise-card-img rounded-5'
+                                    src="/images/crousel-img3.jpg"
+                                    alt="Project Execution"
+                                    width={500}
+                                    height={300}
+                                    layout="responsive"
+                                    loading="lazy"
+                                />
                             </div>
                             <Card.Body className='px-2 text-center'>
                                 <Card.Title className="card-title fw-bold">Project Execution</Card.Title>
@@ -61,11 +87,20 @@ const Expertise = () => {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
+
                     </Col>
                     <Col data-aos="fade-right" className='mt-5' lg='4' md='6'>
                         <Card className="expertise-card" style={{ width: '100%' }}>
                             <div className='img-container rounded-5'>
-                                <Card.Img loading="lazy" className='expertise-card-img rounded-5' variant="top" src="/images/crousel-img4.webp" />
+                                <Image
+                                    className='expertise-card-img rounded-5'
+                                    src="/images/crousel-img4.jpg"
+                                    alt="Strategic Partnerships"
+                                    width={500}
+                                    height={300}
+                                    layout="responsive"
+                                    loading="lazy"
+                                />
                             </div>
                             <Card.Body className='px-2 text-center'>
                                 <Card.Title className="card-title fw-bold">Strategic Partnerships</Card.Title>
@@ -74,16 +109,25 @@ const Expertise = () => {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
+
                     </Col>
                     <Col data-aos="fade-left" className='mt-5' lg='4' md='6'>
                         <Card className="expertise-card" style={{ width: '100%' }}>
                             <div className='img-container rounded-5'>
-                                <Card.Img loading="lazy" className='expertise-card-img rounded-5' variant="top" src="/images/Goal.webp" />
+                                <Image
+                                    className='expertise-card-img rounded-5'
+                                    src="/images/Goal.jpg"
+                                    alt="Business Development"
+                                    width={500}
+                                    height={300}
+                                    layout="responsive"
+                                    loading="lazy"
+                                />
                             </div>
                             <Card.Body className='px-2 text-center'>
                                 <Card.Title className="card-title fw-bold">Business Development</Card.Title>
                                 <Card.Text>
-                                    Unlocking new opportunities and driving sustained growth
+                                    Unlocking new opportunities and driving sustained growth.
                                 </Card.Text>
                             </Card.Body>
                         </Card>

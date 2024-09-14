@@ -5,6 +5,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Image from 'next/image';
 
 const About = () => {
 
@@ -49,14 +50,36 @@ const About = () => {
                         </p>
                     </Col>
                     <Col lg="5" className='mb-5 order-first order-lg-last'>
-                        <img loading="lazy" src='/images/mission.webp' alt='mission' className='img-fluid rounded-5 shadow' data-aos="zoom-out" />
+                        <div className='img-container rounded-5 shadow' data-aos="zoom-out">
+                            <Image
+                                src='/images/mission.jpg'
+                                alt='Mission'
+                                layout="responsive"
+                                width={100}
+                                height={100}
+                                loading="lazy"
+                                className='img-fluid'
+                            />
+                        </div>
+
                     </Col>
                 </Row>
             </Container>
             <Container className='pt-5 text-center'>
                 <Row className='justify-content-around align-items-center'>
                     <Col lg="5" className='mb-5'>
-                        <img loading="lazy" src='/images/Goal.webp' alt='mission' className='img-fluid rounded-5 shadow' data-aos="fade-down-right" />
+                        <div className='img-container rounded-5 shadow' data-aos="fade-down-right">
+                            <Image
+                                src='/images/Goal.jpg'
+                                alt='Mission'
+                                layout="responsive"
+                                width={100}
+                                height={100}
+                                loading="lazy"
+                                className='img-fluid'
+                            />
+                        </div>
+
                     </Col>
                     <Col lg="5" className='mb-5' data-aos="zoom-in-left">
                         <h2 className='fw-bold sevillana-regular'>

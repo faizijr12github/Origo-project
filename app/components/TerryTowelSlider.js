@@ -12,6 +12,7 @@ import { Autoplay } from 'swiper/modules';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Image from 'next/image';
 
 const TerryTowelSlider = () => {
     useEffect(() => {
@@ -52,45 +53,94 @@ const TerryTowelSlider = () => {
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/towels/Terry Towels/Terry Towels 1.webp" />
+                                        <Image
+                                            src="/images/towels/Terry Towels/Terry Towels 1.webp"
+                                            alt="Terry Towels 1"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/towels/Terry Towels/Terry Towels 2.webp" />
+                                        <Image
+                                            src="/images/towels/Terry Towels/Terry Towels 2.webp"
+                                            alt="Terry Towels 2"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/towels/Terry Towels/Terry Towels 3.webp" />
+                                        <Image
+                                            src="/images/towels/Terry Towels/Terry Towels 3.webp"
+                                            alt="Terry Towels 3"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/towels/Terry Towels/Terry Towels 4.webp" />
+                                        <Image
+                                            src="/images/towels/Terry Towels/Terry Towels 4.webp"
+                                            alt="Terry Towels 4"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/towels/Terry Towels/Terry Towels 5.webp" />
+                                        <Image
+                                            src="/images/towels/Terry Towels/Terry Towels 5.webp"
+                                            alt="Terry Towels 5"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/towels/Terry Towels/Terry Towels 6.webp" />
+                                        <Image
+                                            src="/images/towels/Terry Towels/Terry Towels 6.webp"
+                                            alt="Terry Towels 6"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
+
                         </Swiper>
                     </Col>
                 </Row>

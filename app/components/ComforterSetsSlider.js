@@ -12,6 +12,7 @@ import { Autoplay } from 'swiper/modules';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Image from 'next/image';
 
 const ComforterSetsSlider = () => {
     useEffect(() => {
@@ -52,45 +53,94 @@ const ComforterSetsSlider = () => {
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/Home Textiles/Madeups/Comforter Set/Comforter Sets 1.webp" />
+                                        <Image
+                                            src="/images/Home Textiles/Madeups/Comforter Set/Comforter Sets 1.webp"
+                                            alt="Comforter Sets 1"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/Home Textiles/Madeups/Comforter Set/Comforter Sets 2.webp" />
+                                        <Image
+                                            src="/images/Home Textiles/Madeups/Comforter Set/Comforter Sets 2.webp"
+                                            alt="Comforter Sets 2"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/Home Textiles/Madeups/Comforter Set/Comforter Sets 3.webp" />
+                                        <Image
+                                            src="/images/Home Textiles/Madeups/Comforter Set/Comforter Sets 3.webp"
+                                            alt="Comforter Sets 3"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/Home Textiles/Madeups/Comforter Set/Comforter Sets 4.webp" />
+                                        <Image
+                                            src="/images/Home Textiles/Madeups/Comforter Set/Comforter Sets 4.webp"
+                                            alt="Comforter Sets 4"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/Home Textiles/Madeups/Comforter Set/Comforter Sets 5.webp" />
+                                        <Image
+                                            src="/images/Home Textiles/Madeups/Comforter Set/Comforter Sets 5.webp"
+                                            alt="Comforter Sets 5"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/Home Textiles/Madeups/Comforter Set/Comforter Sets 6.webp" />
+                                        <Image
+                                            src="/images/Home Textiles/Madeups/Comforter Set/Comforter Sets 6.webp"
+                                            alt="Comforter Sets 6"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
+
                         </Swiper>
                     </Col>
                 </Row>

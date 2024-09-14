@@ -30,10 +30,11 @@ const Footer = () => {
                             </ul>
                         </Col>
                         <Col lg="2" md="6" className='pt-5'>
-                        <h4 className='text-white fw-bold'>Industries</h4>
+                        <h4 className='text-white fw-bold'>Inquiries</h4>
                         <ul className="list-unstyled mt-4 text-white lh-lg">
-                                <li>Textiles</li>
-                                <li>Coal Energy</li>
+                                <li><a href="mailto:services@origobiz.com" className='text-white'>services@origobiz.com</a></li>
+                                <li><a href="mailto:textiles@origobiz.com" className='text-white'>textiles@origobiz.com</a></li>
+                                <li><a href="mailto:coalenergy@origobiz.com" className='text-white'>coalenergy@origobiz.com</a></li>
                             </ul>
                         </Col>
                         <Col lg="3" md="6" className='pt-5'>

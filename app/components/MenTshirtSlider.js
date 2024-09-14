@@ -12,6 +12,7 @@ import { Autoplay } from 'swiper/modules';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Image from 'next/image';
 
 const MenTshirtSlider = () => {
     useEffect(() => {
@@ -52,45 +53,94 @@ const MenTshirtSlider = () => {
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/garments/Mens Garments/Mens T Shirts/Men T Shirts 1.webp" />
+                                        <Image
+                                            src="/images/garments/Mens Garments/Mens T Shirts/Men T Shirts 1.webp"
+                                            alt="Men T Shirts 1"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/garments/Mens Garments/Mens T Shirts/Men T Shirts 2.webp" />
+                                        <Image
+                                            src="/images/garments/Mens Garments/Mens T Shirts/Men T Shirts 2.webp"
+                                            alt="Men T Shirts 2"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/garments/Mens Garments/Mens T Shirts/Men T Shirts 3.webp" />
+                                        <Image
+                                            src="/images/garments/Mens Garments/Mens T Shirts/Men T Shirts 3.webp"
+                                            alt="Men T Shirts 3"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/garments/Mens Garments/Mens T Shirts/Men T Shirts 4.webp" />
+                                        <Image
+                                            src="/images/garments/Mens Garments/Mens T Shirts/Men T Shirts 4.webp"
+                                            alt="Men T Shirts 4"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/garments/Mens Garments/Mens T Shirts/Men T Shirts 5.webp" />
+                                        <Image
+                                            src="/images/garments/Mens Garments/Mens T Shirts/Men T Shirts 5.webp"
+                                            alt="Men T Shirts 5"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/garments/Mens Garments/Mens T Shirts/Men T Shirts 6.webp" />
+                                        <Image
+                                            src="/images/garments/Mens Garments/Mens T Shirts/Men T Shirts 6.webp"
+                                            alt="Men T Shirts 6"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
+
                         </Swiper>
                     </Col>
                 </Row>

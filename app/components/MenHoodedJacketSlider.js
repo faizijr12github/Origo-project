@@ -12,6 +12,7 @@ import { Autoplay } from 'swiper/modules';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Image from 'next/image';
 
 const MenHoodedJacketSlider = () => {
     useEffect(() => {
@@ -52,45 +53,94 @@ const MenHoodedJacketSlider = () => {
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/garments/Mens Garments/Mens Hooded Jackets/Mens Hooded Jackets 1.webp" />
+                                        <Image
+                                            src="/images/garments/Mens Garments/Mens Hooded Jackets/Mens Hooded Jackets 1.webp"
+                                            alt="Mens Hooded Jackets 1"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/garments/Mens Garments/Mens Hooded Jackets/Mens Hooded Jackets 2.webp" />
+                                        <Image
+                                            src="/images/garments/Mens Garments/Mens Hooded Jackets/Mens Hooded Jackets 2.webp"
+                                            alt="Mens Hooded Jackets 2"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/garments/Mens Garments/Mens Hooded Jackets/Mens Hooded Jackets 3.webp" />
+                                        <Image
+                                            src="/images/garments/Mens Garments/Mens Hooded Jackets/Mens Hooded Jackets 3.webp"
+                                            alt="Mens Hooded Jackets 3"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/garments/Mens Garments/Mens Hooded Jackets/Mens Hooded Jackets 4.webp" />
+                                        <Image
+                                            src="/images/garments/Mens Garments/Mens Hooded Jackets/Mens Hooded Jackets 4.webp"
+                                            alt="Mens Hooded Jackets 4"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/garments/Mens Garments/Mens Hooded Jackets/Mens Hooded Jackets 5.webp" />
+                                        <Image
+                                            src="/images/garments/Mens Garments/Mens Hooded Jackets/Mens Hooded Jackets 5.webp"
+                                            alt="Mens Hooded Jackets 5"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/garments/Mens Garments/Mens Hooded Jackets/Mens Hooded Jackets 6.webp" />
+                                        <Image
+                                            src="/images/garments/Mens Garments/Mens Hooded Jackets/Mens Hooded Jackets 6.webp"
+                                            alt="Mens Hooded Jackets 6"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
+
                         </Swiper>
                     </Col>
                 </Row>

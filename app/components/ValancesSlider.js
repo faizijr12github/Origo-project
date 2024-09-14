@@ -12,6 +12,7 @@ import { Autoplay } from 'swiper/modules';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Image from 'next/image';
 
 const ValancesSlider = () => {
     useEffect(() => {
@@ -52,45 +53,94 @@ const ValancesSlider = () => {
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/Home Textiles/Madeups/Valance Sheets/Valance Sheets 1.webp" />
+                                        <Image
+                                            src="/images/Home Textiles/Madeups/Valance Sheets/Valance Sheets 1.webp"
+                                            alt="Valance Sheets 1"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/Home Textiles/Madeups/Valance Sheets/Valance Sheets 2.webp" />
+                                        <Image
+                                            src="/images/Home Textiles/Madeups/Valance Sheets/Valance Sheets 2.webp"
+                                            alt="Valance Sheets 2"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/Home Textiles/Madeups/Valance Sheets/Valance Sheets 3.webp" />
+                                        <Image
+                                            src="/images/Home Textiles/Madeups/Valance Sheets/Valance Sheets 3.webp"
+                                            alt="Valance Sheets 3"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/Home Textiles/Madeups/Valance Sheets/Valance Sheets 4.webp" />
+                                        <Image
+                                            src="/images/Home Textiles/Madeups/Valance Sheets/Valance Sheets 4.webp"
+                                            alt="Valance Sheets 4"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/Home Textiles/Madeups/Valance Sheets/Valance Sheets 5.webp" />
+                                        <Image
+                                            src="/images/Home Textiles/Madeups/Valance Sheets/Valance Sheets 5.webp"
+                                            alt="Valance Sheets 5"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/Home Textiles/Madeups/Valance Sheets/Valance Sheets 6.webp" />
+                                        <Image
+                                            src="/images/Home Textiles/Madeups/Valance Sheets/Valance Sheets 6.webp"
+                                            alt="Valance Sheets 6"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
+
                         </Swiper>
                     </Col>
                 </Row>

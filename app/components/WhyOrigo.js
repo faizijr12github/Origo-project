@@ -3,14 +3,16 @@ import { Col, Container, Row, Card } from 'react-bootstrap'
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Image from 'next/image';
+
 
 const WhyOrigo = () => {
   useEffect(() => {
     AOS.init({
-        // You can add options here
-        duration: 1300,
+      // You can add options here
+      duration: 1300,
     });
-}, []);
+  }, []);
   return (
     <>
       <Container fluid className='why-origo-bg py-5'>
@@ -19,7 +21,17 @@ const WhyOrigo = () => {
           <Row className='justify-content-around align-items-center'>
             <Col data-aos="fade-right" className='mt-5' lg="5">
               <Card className='border-0 bg-black text-center'>
-                <Card.Img loading="lazy" className='rounded-circle float-animation' variant="top" src="/images/Comprehensive-Solutions.png" />
+                <div className='img-container rounded-circle float-animation'>
+                  <Image
+                    src="/images/Comprehensive-Solutions.png"
+                    alt="Comprehensive Solutions"
+                    width={100}
+                    height={100}
+                    layout="fixed"
+                    loading="lazy"
+                  />
+                </div>
+
                 <Card.Body>
                   <Card.Title><h2 className='fw-bold text-orange'>Comprehensive Solutions</h2></Card.Title>
                   <Card.Text className='text-white'>
@@ -30,7 +42,17 @@ const WhyOrigo = () => {
             </Col>
             <Col data-aos="fade-left" className='mt-5' lg="5">
               <Card className='border-0 bg-black text-center'>
-                <Card.Img loading="lazy" className='rounded-circle float-animation' variant="top" src="/images/global-reach.png" />
+                <div className='img-container rounded-circle float-animation'>
+                  <Image
+                    src="/images/global-reach.png"
+                    alt="Global Reach"
+                    width={100}
+                    height={100}
+                    layout="fixed"
+                    loading="lazy"
+                  />
+                </div>
+
                 <Card.Body>
                   <Card.Title><h2 className='fw-bold text-orange'>Global Reach</h2></Card.Title>
                   <Card.Text className='text-white'>
@@ -43,7 +65,17 @@ const WhyOrigo = () => {
           <Row data-aos="fade-up" className='justify-content-around align-items-center'>
             <Col className='mt-5' lg="5">
               <Card className='border-0 bg-black text-center'>
-                <Card.Img loading="lazy" className='rounded-circle float-animation' variant="top" src="/images/Quality-Assurance.gif" />
+                <div className='img-container rounded-circle float-animation'>
+                  <Image
+                    src="/images/Quality-Assurance.webp"
+                    alt="Quality Assurance"
+                    width={100}
+                    height={100}
+                    layout="fixed"
+                    loading="lazy"
+                  />
+                </div>
+
                 <Card.Body>
                   <Card.Title><h2 className='fw-bold text-orange'>Quality Assurance</h2></Card.Title>
                   <Card.Text className='text-white'>
@@ -54,7 +86,17 @@ const WhyOrigo = () => {
             </Col>
             <Col className='mt-5' lg="5">
               <Card className='border-0 bg-black text-center'>
-                <Card.Img loading="lazy" className='rounded-circle float-animation' variant="top" src="/images/Innovation-Creativity.gif" />
+                <div className='img-container rounded-circle float-animation'>
+                  <Image
+                    src="/images/Innovation-Creativity.webp"
+                    alt="Innovation Creativity"
+                    width={100}
+                    height={100}
+                    layout="fixed"
+                    loading="lazy"
+                  />
+                </div>
+
                 <Card.Body>
                   <Card.Title><h2 className='fw-bold text-orange'>Innovation and Creativity</h2></Card.Title>
                   <Card.Text className='text-white'>
@@ -67,7 +109,18 @@ const WhyOrigo = () => {
           <Row className='justify-content-around align-items-center'>
             <Col data-aos="fade-right" className='mt-5' lg="5">
               <Card className='border-0 bg-black text-center'>
-                <Card.Img loading="lazy" className='rounded-circle float-animation' variant="top" src="/images/Strategic-Partnerships.png" />
+                <div className='img-container rounded-circle float-animation'>
+                  <Image
+                    src="/images/Strategic-Partnerships.png"
+                    alt="Strategic Partnerships"
+                    width={100}
+                    height={100}
+                    layout="fixed"
+                    loading="lazy"
+                    className='rounded-circle'
+                  />
+                </div>
+
                 <Card.Body>
                   <Card.Title><h2 className='fw-bold text-orange'>Strategic Partnerships</h2></Card.Title>
                   <Card.Text className='text-white'>
@@ -78,7 +131,17 @@ const WhyOrigo = () => {
             </Col>
             <Col data-aos="fade-left" className='mt-5' lg="5">
               <Card className='border-0 bg-black text-center'>
-                <Card.Img loading="lazy" className='rounded-circle float-animation' variant="top" src="/images/Industry-Expertise.gif" />
+                <div className='img-container rounded-circle float-animation'>
+                  <Image
+                    src="/images/Industry-Expertise.webp"
+                    alt="Industry Expertise"
+                    width={100}
+                    height={100}
+                    layout="fixed"
+                    loading="lazy"
+                  />
+                </div>
+
                 <Card.Body>
                   <Card.Title><h2 className='fw-bold text-orange'>Industry Expertise</h2></Card.Title>
                   <Card.Text className='text-white'>
@@ -91,7 +154,17 @@ const WhyOrigo = () => {
           <Row data-aos="fade-up" className='justify-content-around align-items-center'>
             <Col className='mt-5' lg="5">
               <Card className='border-0 bg-black text-center'>
-                <Card.Img loading="lazy" className='rounded-circle float-animation' variant="top" src="/images/Customer-Centric-Approach.gif" />
+                <div className='img-container rounded-circle float-animation'>
+                  <Image
+                    src="/images/Customer-Centric-Approach.webp"
+                    alt="Customer-Centric Approach"
+                    width={100}
+                    height={100}
+                    layout="fixed"
+                    loading="lazy"
+                  />
+                </div>
+
                 <Card.Body>
                   <Card.Title><h2 className='fw-bold text-orange'>Customer-Centric Approach</h2></Card.Title>
                   <Card.Text className='text-white'>
@@ -102,7 +175,17 @@ const WhyOrigo = () => {
             </Col>
             <Col className='mt-5' lg="5">
               <Card className='border-0 bg-black text-center'>
-                <Card.Img loading="lazy" className='rounded-circle float-animation' variant="top" src="/images/Sustainable-Practices.png" />
+                <div className='img-container rounded-circle float-animation'>
+                  <Image
+                    src="/images/Sustainable-Practices.png"
+                    alt="Sustainable Practices"
+                    width={100}
+                    height={100}
+                    layout="fixed"
+                    loading="lazy"
+                  />
+                </div>
+
                 <Card.Body>
                   <Card.Title><h2 className='fw-bold text-orange'>Sustainable Practices</h2></Card.Title>
                   <Card.Text className='text-white'>
@@ -115,7 +198,17 @@ const WhyOrigo = () => {
           <Row className='justify-content-around align-items-center'>
             <Col data-aos="fade-right" className='mt-5' lg="5">
               <Card className='border-0 bg-black text-center'>
-                <Card.Img loading="lazy" className='rounded-circle float-animation' variant="top" src="/images/Connecting-Buyers.gif" />
+                <div className='img-container rounded-circle float-animation'>
+                  <Image
+                    src="/images/Connecting-Buyers.webp"
+                    alt="Connecting Buyers"
+                    width={100}
+                    height={100}
+                    layout="fixed"
+                    loading="lazy"
+                  />
+                </div>
+
                 <Card.Body>
                   <Card.Title><h2 className='fw-bold text-orange'>Connecting Buyers with Unfamiliar Suppliers</h2></Card.Title>
                   <Card.Text className='text-white'>
@@ -126,7 +219,17 @@ const WhyOrigo = () => {
             </Col>
             <Col data-aos="fade-left" className='mt-5' lg="5">
               <Card className='border-0 bg-black text-center'>
-                <Card.Img loading="lazy" className='rounded-circle float-animation' variant="top" src="/images/Price-Negotiations.png" />
+                <div className='img-container rounded-circle float-animation'>
+                  <Image
+                    src="/images/Price-Negotiations.png"
+                    alt="Price Negotiations"
+                    width={100}
+                    height={100}
+                    layout="fixed"
+                    loading="lazy"
+                  />
+                </div>
+
                 <Card.Body>
                   <Card.Title><h2 className='fw-bold text-orange'>Excellent Price Negotiations</h2></Card.Title>
                   <Card.Text className='text-white'>

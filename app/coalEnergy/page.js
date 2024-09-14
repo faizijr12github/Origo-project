@@ -6,6 +6,7 @@ import Link from 'next/link'
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Image from 'next/image';
 
 const CoalEnergy = () => {
     useEffect(() => {
@@ -36,7 +37,18 @@ const CoalEnergy = () => {
                         <p className='mt-3'><i className="bi bi-check-circle-fill me-3"></i>Our commitment to quality, timely delivery, and competitive pricing makes Origo a preferred partner for businesses seeking dependable coal energy solutions.</p>
                     </Col>
                     <Col lg="5" className='mb-5'>
-                        <img loading="lazy" src='/images/coal.webp' alt='textile' className='img-fluid rounded' data-aos="zoom-in" data-aos-duration="3000" />
+                        <Image
+                            src='/images/coal.webp'
+                            alt='Coal'
+                            layout="responsive"
+                            width={100}
+                            height={100}
+                            loading="lazy"
+                            className='img-fluid rounded'
+                            data-aos="zoom-in"
+                            data-aos-duration="3000"
+                        />
+
                     </Col>
                 </Row>
             </Container>
@@ -74,7 +86,16 @@ const CoalEnergy = () => {
                             </div>
                         </Col>
                         <Col lg="5" className="mt-5 text-center">
-                            <img loading="lazy" src='/images/coal-img-2.webp' alt='coal' className='img-fluid float-animation' />
+                            <Image
+                                src='/images/coal-img-2.webp'
+                                alt='Coal'
+                                layout="responsive"
+                                width={100}
+                                height={100}
+                                loading="lazy"
+                                className='img-fluid float-animation'
+                            />
+
                         </Col>
 
                     </Row>
@@ -94,7 +115,16 @@ const CoalEnergy = () => {
                     <Col className='mt-5' data-aos="fade-up" lg='3' md='6'>
                         <Card className="expertise-card bg-transparent" style={{ width: '100%' }}>
                             <div className='img-container rounded-5'>
-                                <Card.Img loading="lazy" className='expertise-card-img rounded-5' variant="top" src="/images/pak-flag.webp" />
+                                <Image
+                                    src="/images/pak-flag.webp"
+                                    alt="Pak Flag"
+                                    layout="responsive"
+                                    width={100}
+                                    height={100}
+                                    loading="lazy"
+                                    className='img-fluid rounded-5'
+                                />
+
                             </div>
                             <Card.Body className='px-3 text-center text-white'>
                                 <Card.Title className="card-title fw-bold">Pakistan</Card.Title>
@@ -109,7 +139,16 @@ const CoalEnergy = () => {
                     <Col className='mt-5' data-aos="fade-down" lg='3' md='6'>
                         <Card className="expertise-card bg-transparent" style={{ width: '100%' }}>
                             <div className='img-container rounded-5'>
-                                <Card.Img loading="lazy" className='expertise-card-img rounded-5' variant="top" src="/images/sa-flag.webp" />
+                                <Image
+                                    src="/images/sa-flag.webp"
+                                    alt="SA Flag"
+                                    layout="responsive"
+                                    width={100}
+                                    height={100}
+                                    loading="lazy"
+                                    className='img-fluid rounded-5'
+                                />
+
                             </div>
                             <Card.Body className='px-3 text-center text-white'>
                                 <Card.Title className="card-title fw-bold">South Africa</Card.Title>
@@ -124,7 +163,16 @@ const CoalEnergy = () => {
                     <Col className='mt-5' data-aos="fade-up" lg='3' md='6'>
                         <Card className="expertise-card bg-transparent" style={{ width: '100%' }}>
                             <div className='img-container rounded-5'>
-                                <Card.Img loading="lazy" className='expertise-card-img rounded-5' variant="top" src="/images/indonesia-flag.webp" />
+                                <Image
+                                    src="/images/indonesia-flag.webp"
+                                    alt="Indonesia Flag"
+                                    layout="responsive"
+                                    width={100}
+                                    height={100}
+                                    loading="lazy"
+                                    className='img-fluid rounded-5'
+                                />
+
                             </div>
                             <Card.Body className='px-3 text-center text-white'>
                                 <Card.Title className="card-title fw-bold">Indonesia</Card.Title>
@@ -139,7 +187,16 @@ const CoalEnergy = () => {
                     <Col className='mt-5' data-aos="fade-down" lg='3' md='6'>
                         <Card className="expertise-card bg-transparent" style={{ width: '100%' }}>
                             <div className='img-container rounded-5'>
-                                <Card.Img loading="lazy" className='expertise-card-img rounded-5' variant="top" src="/images/afg-flag.webp" />
+                                <Image
+                                    src="/images/afg-flag.webp"
+                                    alt="Afghanistan Flag"
+                                    layout="responsive"
+                                    width={100}
+                                    height={100}
+                                    loading="lazy"
+                                    className='img-fluid rounded-5'
+                                />
+
                             </div>
                             <Card.Body className='px-3 text-center text-white'>
                                 <Card.Title className="card-title fw-bold">Afghanistan</Card.Title>

@@ -12,6 +12,7 @@ import { Autoplay } from 'swiper/modules';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Image from 'next/image';
 
 const HotelSheetingSlider = () => {
     useEffect(() => {
@@ -52,45 +53,94 @@ const HotelSheetingSlider = () => {
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/Home Textiles/Madeups/Hotel Sheeting/Hotel Sheeting 1.webp" />
+                                        <Image
+                                            src="/images/Home Textiles/Madeups/Hotel Sheeting/Hotel Sheeting 1.webp"
+                                            alt="Hotel Sheeting 1"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/Home Textiles/Madeups/Hotel Sheeting/Hotel Sheeting 2.webp" />
+                                        <Image
+                                            src="/images/Home Textiles/Madeups/Hotel Sheeting/Hotel Sheeting 2.webp"
+                                            alt="Hotel Sheeting 2"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/Home Textiles/Madeups/Hotel Sheeting/Hotel Sheeting 3.webp" />
+                                        <Image
+                                            src="/images/Home Textiles/Madeups/Hotel Sheeting/Hotel Sheeting 3.webp"
+                                            alt="Hotel Sheeting 3"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/Home Textiles/Madeups/Hotel Sheeting/Hotel Sheets 4.webp" />
+                                        <Image
+                                            src="/images/Home Textiles/Madeups/Hotel Sheeting/Hotel Sheets 4.webp"
+                                            alt="Hotel Sheets 4"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/Home Textiles/Madeups/Hotel Sheeting/Hotel Sheets 5.webp" />
+                                        <Image
+                                            src="/images/Home Textiles/Madeups/Hotel Sheeting/Hotel Sheets 5.webp"
+                                            alt="Hotel Sheets 5"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/Home Textiles/Madeups/Hotel Sheeting/Hotel Sheets 6.webp" />
+                                        <Image
+                                            src="/images/Home Textiles/Madeups/Hotel Sheeting/Hotel Sheets 6.webp"
+                                            alt="Hotel Sheets 6"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
+
                         </Swiper>
                     </Col>
                 </Row>

@@ -5,6 +5,7 @@ import { Container, Row, Col, Card } from 'react-bootstrap'
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Image from 'next/image';
 
 const Downloads = () => {
     useEffect(() => {
@@ -17,7 +18,7 @@ const Downloads = () => {
         <>
             {/* textile-hero */}
             <Container fluid className='download-hero'>
-                <Row className='d-flex flex-column align-items-center justify-content-center text-center h-700 pb-4'>
+                <Row className='d-flex flex-column align-items-center justify-content-center text-center'>
                     <Col lg="6" md="8" data-aos="zoom-out" data-aos-duration="3000">
                         <h1 className='fw-bold'>Downloads</h1>
                         <div className='hero-p mt-3'>
@@ -36,7 +37,16 @@ const Downloads = () => {
                     <Col className='mt-5' lg='4' md='6' data-aos="fade-up">
                         <Card className="expertise-card text-center mx-auto" style={{ width: '16rem' }}>
                             <div className='img-container'>
-                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/origo_business_services_logo.jpg" />
+                                <Image
+                                    className="expertise-card-img rounded-5"
+                                    src="/images/origo_business_services_logo.webp"
+                                    alt="Origo Business Services Logo"
+                                    layout="responsive"
+                                    width={100}
+                                    height={100}
+                                    loading="lazy"
+                                />
+
                             </div>
                             <Card.Body className='px-0'>
                                 <Card.Title className="card-title fw-bold">Origo Profile</Card.Title>
@@ -49,7 +59,16 @@ const Downloads = () => {
                     <Col className='mt-5' lg='4' md='6' data-aos="fade-down">
                         <Card className="expertise-card text-center mx-auto" style={{ width: '16rem' }}>
                             <div className='img-container'>
-                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/origo_business_services_logo.jpg" />
+                                <Image
+                                    className="expertise-card-img rounded-5"
+                                    src="/images/origo_business_services_logo.webp"
+                                    alt="Origo Business Services Logo"
+                                    layout="responsive"
+                                    width={100}
+                                    height={100}
+                                    loading="lazy"
+                                />
+
                             </div>
                             <Card.Body className='px-0'>
                                 <Card.Title className="card-title fw-bold">Coming Soon!</Card.Title>
@@ -59,7 +78,16 @@ const Downloads = () => {
                     <Col className='mt-5' lg='4' md='6' data-aos="fade-up">
                         <Card className="expertise-card text-center mx-auto" style={{ width: '16rem' }}>
                             <div className='img-container'>
-                                <Card.Img className='expertise-card-img rounded' variant="top" src="/images/origo_business_services_logo.jpg" />
+                                <Image
+                                    className="expertise-card-img rounded-5"
+                                    src="/images/origo_business_services_logo.webp"
+                                    alt="Origo Business Services Logo"
+                                    layout="responsive"
+                                    width={100}
+                                    height={100}
+                                    loading="lazy"
+                                />
+
                             </div>
                             <Card.Body className='px-0'>
                                 <Card.Title className="card-title fw-bold">Coming Soon!</Card.Title>

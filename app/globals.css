@@ -4,13 +4,27 @@
   font-style: normal;
 }
 
-.swiper-button-prev, .swiper-button-next {
+.swiper-button-prev,
+.swiper-button-next {
   color: white !important;
 }
 
-html, body {
+html,
+body {
   overflow-x: hidden;
   scroll-behavior: smooth;
+}
+
+.dropdown-item {
+  display: inline-block;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.dropdown-item:hover {
+  transform: translateX(10px) !important;
+  color: #ff6f00 !important;
+  background-color: transparent !important;
 }
 
 .slider-link:hover {
@@ -24,6 +38,7 @@ p {
 .text-orange {
   color: #ff6f00;
 }
+
 .bg-orange {
   background-color: #ff6f00;
 }
@@ -104,6 +119,7 @@ p {
   color: black !important;
   text-decoration: none;
 }
+
 .nav-link:hover {
   font-size: 18px !important;
   color: #ff6f00 !important;
@@ -138,6 +154,7 @@ p {
   min-height: 620px;
   background-blend-mode: darken;
 }
+
 .home-hero1 {
   background-color: rgba(0, 0, 0, 0.6);
   background-image: url('/images/textile-slider.webp');
@@ -150,6 +167,7 @@ p {
   min-height: 620px;
   background-blend-mode: darken;
 }
+
 .home-hero2 {
   background-color: rgba(0, 0, 0, 0.6);
   background-image: url('/images/coal-slider.webp');
@@ -227,8 +245,7 @@ p {
 }
 
 .why-origo-bg img {
-  width: 100px;
-  margin: auto;
+  margin: auto !important;
 }
 
 /* about us page */
@@ -256,10 +273,6 @@ p {
 
 .about-hero h1 {
   color: #ff6f00
-}
-
-.h-700 {
-  height: 700px;
 }
 
 .hero-p {
@@ -481,6 +494,7 @@ p {
   display: grid;
   place-content: center;
   text-align: center;
+  min-height: 500px;
   background-blend-mode: darken;
 }
 
@@ -509,6 +523,7 @@ p {
   background-position: center;
   padding: 25px 0px 60px 0px;
 }
+
 .section3-coal {
   background-color: #d9d9db;
 }

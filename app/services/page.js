@@ -5,6 +5,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Image from 'next/image';
 
 const Services = () => {
     useEffect(() => {
@@ -29,7 +30,18 @@ const Services = () => {
                         </Col>
                         <Col lg="5" className='mt-5'>
                             <div data-aos="fade-left"
-                                data-aos-anchor-placement="top-center"><img loading="lazy" src='/images/services-hero.webp' alt='services' className='img-fluid rounded-5 shadow float-animation' width={550} height={550} /></div>
+                                data-aos-anchor-placement="top-center"><div className='img-container rounded-5 shadow float-animation' data-aos="fade-up">
+                                    <Image
+                                        src='/images/services-hero.webp'
+                                        alt='Services'
+                                        layout="responsive"
+                                        width={550}
+                                        height={550}
+                                        loading="lazy"
+                                        className='img-fluid'
+                                    />
+                                </div>
+                            </div>
                         </Col>
                     </Row>
                 </Container>
@@ -37,7 +49,18 @@ const Services = () => {
             <Container className='mt-5' id='marketingServices'>
                 <Row className='justify-content-around align-items-center'>
                     <Col lg="5" className='mb-5'>
-                        <img loading="lazy" src='/images/crousel-img1.webp' alt='mission' className='img-fluid rounded-5 shadow' data-aos="fade-right" />
+                        <div className='img-container rounded-5 shadow' data-aos="fade-right">
+                            <Image
+                                src='/images/crousel-img1.jpg'
+                                alt='Mission'
+                                layout="responsive"
+                                width={800}
+                                height={600}
+                                loading="lazy"
+                                className='img-fluid'
+                            />
+                        </div>
+
                     </Col>
                     <Col lg="5" className='mb-5' data-aos="fade-up">
                         <h2 className='fw-bold'><i className="bi bi-buildings-fill me-2"></i>Marketing Services</h2>
@@ -52,14 +75,36 @@ const Services = () => {
                         <p className='mt-3'>Origo Business Services provides top-tier procurement solutions, ensuring you receive the best quality products and materials at competitive prices. We leverage our extensive network of trusted suppliers to source a wide range of goods, from pharmaceutical packaging to textiles and coal. Our procurement process is meticulous, focusing on timely delivery, cost efficiency, and compliance with global standards, so your business can operate smoothly and effectively.</p>
                     </Col>
                     <Col lg="5" className='mb-5 order-first order-lg-last'>
-                        <img loading="lazy" src='/images/crousel-img2.webp' alt='mission' className='img-fluid rounded-5 shadow' data-aos="fade-left"/>
+                        <div className='img-container rounded-5 shadow' data-aos="fade-left">
+                            <Image
+                                src='/images/crousel-img2.jpg'
+                                alt='Mission'
+                                layout="responsive"
+                                width={800}
+                                height={600}
+                                loading="lazy"
+                                className='img-fluid'
+                            />
+                        </div>
+
                     </Col>
                 </Row>
             </Container>
             <Container className='mt-5' id='projectExecutions'>
                 <Row className='justify-content-around align-items-center'>
                     <Col lg="5" className='mb-5'>
-                        <img loading="lazy" src='/images/crousel-img4.webp' alt='mission' className='img-fluid rounded-5 shadow' data-aos="fade-right"/>
+                        <div className='img-container rounded-5 shadow' data-aos="fade-right">
+                            <Image
+                                src='/images/crousel-img4.jpg'
+                                alt='Mission'
+                                layout="responsive"
+                                width={800}
+                                height={600}
+                                loading="lazy"
+                                className='img-fluid'
+                            />
+                        </div>
+
                     </Col>
                     <Col lg="5" className='mb-5' data-aos="fade-up">
                         <h2 className='fw-bold'><i className="bi bi-check-circle-fill me-2"></i>Project Execution</h2>
@@ -74,14 +119,36 @@ const Services = () => {
                         <p className='mt-3'>Origo Business Services specializes in building strategic partnerships that drive mutual growth and innovation. We connect businesses with complementary strengths, fostering collaborations that enhance market reach, share resources, and create new opportunities. Our expertise in identifying and aligning with the right partners ensures that each partnership is strategically beneficial, paving the way for long-term success and sustainable competitive advantage in the global marketplace.</p>
                     </Col>
                     <Col lg="5" className='mb-5 order-first order-lg-last'>
-                        <img loading="lazy" src='/images/crousel-img3.webp' alt='mission' className='img-fluid rounded-5 shadow' data-aos="fade-left"/>
+                        <div className='img-container rounded-5 shadow' data-aos="fade-left">
+                            <Image
+                                src='/images/crousel-img3.jpg'
+                                alt='Mission'
+                                layout="responsive"
+                                width={800}
+                                height={600}
+                                loading="lazy"
+                                className='img-fluid'
+                            />
+                        </div>
+
                     </Col>
                 </Row>
             </Container>
             <Container className='mt-5' id='businessDevelopment'>
                 <Row className='justify-content-around align-items-center'>
                     <Col lg="5" className='mb-5' data-aos="fade-right">
-                        <img loading="lazy" src='/images/mission.webp' alt='mission' className='img-fluid rounded-5 shadow' />
+                        <div className='img-container rounded-5 shadow'>
+                            <Image
+                                src='/images/mission.jpg'
+                                alt='Mission'
+                                layout="responsive"
+                                width={800}
+                                height={600}
+                                loading="lazy"
+                                className='img-fluid'
+                            />
+                        </div>
+
                     </Col>
                     <Col lg="5" className='mb-5' data-aos="fade-up">
                         <h2 className='fw-bold'><i className="bi bi-graph-up-arrow me-2"></i>Business Development</h2>

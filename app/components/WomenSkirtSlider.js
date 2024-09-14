@@ -12,6 +12,7 @@ import { Autoplay } from 'swiper/modules';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Image from 'next/image';
 
 const WomenSkirtSlider = () => {
     useEffect(() => {
@@ -52,45 +53,94 @@ const WomenSkirtSlider = () => {
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/garments/Women Garments/Women Skirts/Women Skirts 1.webp" />
+                                        <Image
+                                            src="/images/garments/Women Garments/Women Skirts/Women Skirts 1.webp"
+                                            alt="Women Skirts 1"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/garments/Women Garments/Women Skirts/Women Skirts 2.webp" />
+                                        <Image
+                                            src="/images/garments/Women Garments/Women Skirts/Women Skirts 2.webp"
+                                            alt="Women Skirts 2"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/garments/Women Garments/Women Skirts/Women Skirts 3.webp" />
+                                        <Image
+                                            src="/images/garments/Women Garments/Women Skirts/Women Skirts 3.webp"
+                                            alt="Women Skirts 3"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/garments/Women Garments/Women Skirts/Women Skirts 4.webp" />
+                                        <Image
+                                            src="/images/garments/Women Garments/Women Skirts/Women Skirts 4.webp"
+                                            alt="Women Skirts 4"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/garments/Women Garments/Women Skirts/Women Skirts 5.webp" />
+                                        <Image
+                                            src="/images/garments/Women Garments/Women Skirts/Women Skirts 5.webp"
+                                            alt="Women Skirts 5"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Card.Img className='expertise-card-img' variant="top" src="/images/garments/Women Garments/Women Skirts/Women Skirts 6.webp" />
+                                        <Image
+                                            src="/images/garments/Women Garments/Women Skirts/Women Skirts 6.webp"
+                                            alt="Women Skirts 6"
+                                            layout="responsive"
+                                            width={100}
+                                            height={100}
+                                            loading="lazy"
+                                            className='img-fluid rounded expertise-card-img'
+                                        />
                                     </div>
                                 </Card>
                             </SwiperSlide>
+
                         </Swiper>
                     </Col>
                 </Row>

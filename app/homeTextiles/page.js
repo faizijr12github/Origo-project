@@ -42,7 +42,7 @@ const HomeTextiles = () => {
             {/* White Fabrics */}
             <Container>
                 <h2 className='text-center pt-5'><span className='bg-black text-white px-5 py-3 rounded-5 shadow sevillana-regular'>Fabrics</span></h2>
-                <h2 id='whiteFabrics' className='pt-5 text-center fst-italic text-orange sevillana-regular'>White Fabrics</h2>
+                <h2 id='whiteFabrics' className='pt-5 text-center fst-italic text-orange'>White Fabrics</h2>
             </Container>
             <WhiteFabricSlider/>
             {/* Dyed Fabrics */}
@@ -89,7 +89,7 @@ const HomeTextiles = () => {
             <CurtainsSlider/>
             {/* Ironing boards */}
             <Container>
-                <h2 id='IroningBoard' className='text-center fst-italic text-orange'>Ironing Boards</h2>
+                <h2 id='IroningBoard' className='text-center fst-italic text-orange'>Ironing Board Covers</h2>
             </Container>
             <IroningBoardsSlider/>
             {/*  Individual Flat Sheets */}
