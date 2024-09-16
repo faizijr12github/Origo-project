@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Image from 'next/image';
+
 
 const Textiles = () => {
     useEffect(() => {
@@ -38,12 +38,10 @@ const Textiles = () => {
                         <p className='mt-3'><i className="bi bi-check-circle-fill me-3"></i>Whether you&rsquo;re looking to enhance your product offerings or enter new markets, Origo provides the expertise and resources needed to succeed in the competitive world of textiles.</p>
                     </Col>
                     <Col lg="5" className='mb-5 order-first order-lg-last'>
-                        <Image
+                        <img
                             src='/images/textiles.webp'
                             alt='textile'
                             layout="responsive"
-                            width={100}
-                            height={100}
                             loading="lazy"
                             className='img-fluid'
                             data-aos="zoom-in"
@@ -63,14 +61,12 @@ const Textiles = () => {
                         <Col data-aos="fade-down" className='mt-5' lg='4' md='6'>
                             <Card className="expertise-card bg-transparent" style={{ width: '100%' }}>
                                 <div className='img-container rounded-5'>
-                                    <Image
-                                        src='/images/homeTextiles/shirts.webp'
+                                    <img
+                                        src='/images/homeTextiles/shirts.jpg'
                                         alt='Home Textiles Shirts'
                                         layout="responsive"
-                                        width={100}
-                                        height={100}
                                         loading="lazy"
-                                        className='expertise-card-img rounded-5'
+                                        className='expertise-card-img img-fluid rounded-5'
                                     />
                                 </div>
                                 <Card.Body className='px-3 text-center text-white'>
@@ -85,14 +81,12 @@ const Textiles = () => {
                         <Col data-aos="fade-up" className='mt-5' lg='4' md='6'>
                             <Card className="expertise-card bg-transparent" style={{ width: '100%' }}>
                                 <div className='img-container rounded-5'>
-                                    <Image
-                                        src='/images/homeTextiles/garments.webp'
+                                    <img
+                                        src='/images/homeTextiles/garments.jpg'
                                         alt='Home Textiles Garments'
                                         layout="responsive"
-                                        width={100}
-                                        height={100}
                                         loading="lazy"
-                                        className='expertise-card-img rounded-5'
+                                        className='expertise-card-img img-fluid rounded-5'
                                     />
                                 </div>
                                 <Card.Body className='px-3 text-center text-white'>
@@ -107,14 +101,12 @@ const Textiles = () => {
                         <Col data-aos="fade-down" className='mt-5' lg='4' md='6'>
                             <Card className="expertise-card bg-transparent" style={{ width: '100%' }}>
                                 <div className='img-container rounded-5'>
-                                    <Image
-                                        src='/images/homeTextiles/towels.webp'
+                                    <img
+                                        src='/images/homeTextiles/towels.jpg'
                                         alt='Home Textiles Towels'
                                         layout="responsive"
-                                        width={100}
-                                        height={100}
                                         loading="lazy"
-                                        className='expertise-card-img rounded-5'
+                                        className='expertise-card-img img-fluid rounded-5'
                                     />
                                 </div>
                                 <Card.Body className='px-3 text-center text-white'>

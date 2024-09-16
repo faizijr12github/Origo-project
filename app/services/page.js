@@ -5,7 +5,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Image from 'next/image';
+
 
 const Services = () => {
     useEffect(() => {
@@ -31,12 +31,10 @@ const Services = () => {
                         <Col lg="5" className='mt-5'>
                             <div data-aos="fade-left"
                                 data-aos-anchor-placement="top-center"><div className='img-container rounded-5 shadow float-animation' data-aos="fade-up">
-                                    <Image
+                                    <img
                                         src='/images/services-hero.webp'
                                         alt='Services'
                                         layout="responsive"
-                                        width={550}
-                                        height={550}
                                         loading="lazy"
                                         className='img-fluid'
                                     />
@@ -50,12 +48,10 @@ const Services = () => {
                 <Row className='justify-content-around align-items-center'>
                     <Col lg="5" className='mb-5'>
                         <div className='img-container rounded-5 shadow' data-aos="fade-right">
-                            <Image
+                            <img
                                 src='/images/crousel-img1.jpg'
                                 alt='Mission'
                                 layout="responsive"
-                                width={800}
-                                height={600}
                                 loading="lazy"
                                 className='img-fluid'
                             />
@@ -76,12 +72,10 @@ const Services = () => {
                     </Col>
                     <Col lg="5" className='mb-5 order-first order-lg-last'>
                         <div className='img-container rounded-5 shadow' data-aos="fade-left">
-                            <Image
+                            <img
                                 src='/images/crousel-img2.jpg'
                                 alt='Mission'
                                 layout="responsive"
-                                width={800}
-                                height={600}
                                 loading="lazy"
                                 className='img-fluid'
                             />
@@ -94,12 +88,10 @@ const Services = () => {
                 <Row className='justify-content-around align-items-center'>
                     <Col lg="5" className='mb-5'>
                         <div className='img-container rounded-5 shadow' data-aos="fade-right">
-                            <Image
+                            <img
                                 src='/images/crousel-img4.jpg'
                                 alt='Mission'
                                 layout="responsive"
-                                width={800}
-                                height={600}
                                 loading="lazy"
                                 className='img-fluid'
                             />
@@ -120,12 +112,10 @@ const Services = () => {
                     </Col>
                     <Col lg="5" className='mb-5 order-first order-lg-last'>
                         <div className='img-container rounded-5 shadow' data-aos="fade-left">
-                            <Image
+                            <img
                                 src='/images/crousel-img3.jpg'
                                 alt='Mission'
                                 layout="responsive"
-                                width={800}
-                                height={600}
                                 loading="lazy"
                                 className='img-fluid'
                             />
@@ -138,12 +128,10 @@ const Services = () => {
                 <Row className='justify-content-around align-items-center'>
                     <Col lg="5" className='mb-5' data-aos="fade-right">
                         <div className='img-container rounded-5 shadow'>
-                            <Image
+                            <img
                                 src='/images/mission.jpg'
                                 alt='Mission'
                                 layout="responsive"
-                                width={800}
-                                height={600}
                                 loading="lazy"
                                 className='img-fluid'
                             />

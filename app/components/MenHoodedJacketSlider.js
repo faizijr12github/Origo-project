@@ -12,7 +12,7 @@ import { Autoplay } from 'swiper/modules';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Image from 'next/image';
+
 
 const MenHoodedJacketSlider = () => {
     useEffect(() => {
@@ -53,12 +53,11 @@ const MenHoodedJacketSlider = () => {
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Image
+                                        <img
                                             src="/images/garments/Mens Garments/Mens Hooded Jackets/Mens Hooded Jackets 1.webp"
                                             alt="Mens Hooded Jackets 1"
                                             layout="responsive"
-                                            width={100}
-                                            height={100}
+
                                             loading="lazy"
                                             className='img-fluid rounded expertise-card-img'
                                         />
@@ -68,12 +67,11 @@ const MenHoodedJacketSlider = () => {
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Image
+                                        <img
                                             src="/images/garments/Mens Garments/Mens Hooded Jackets/Mens Hooded Jackets 2.webp"
                                             alt="Mens Hooded Jackets 2"
                                             layout="responsive"
-                                            width={100}
-                                            height={100}
+
                                             loading="lazy"
                                             className='img-fluid rounded expertise-card-img'
                                         />
@@ -83,12 +81,11 @@ const MenHoodedJacketSlider = () => {
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Image
+                                        <img
                                             src="/images/garments/Mens Garments/Mens Hooded Jackets/Mens Hooded Jackets 3.webp"
                                             alt="Mens Hooded Jackets 3"
                                             layout="responsive"
-                                            width={100}
-                                            height={100}
+
                                             loading="lazy"
                                             className='img-fluid rounded expertise-card-img'
                                         />
@@ -98,12 +95,11 @@ const MenHoodedJacketSlider = () => {
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Image
+                                        <img
                                             src="/images/garments/Mens Garments/Mens Hooded Jackets/Mens Hooded Jackets 4.webp"
                                             alt="Mens Hooded Jackets 4"
                                             layout="responsive"
-                                            width={100}
-                                            height={100}
+
                                             loading="lazy"
                                             className='img-fluid rounded expertise-card-img'
                                         />
@@ -113,12 +109,11 @@ const MenHoodedJacketSlider = () => {
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Image
+                                        <img
                                             src="/images/garments/Mens Garments/Mens Hooded Jackets/Mens Hooded Jackets 5.webp"
                                             alt="Mens Hooded Jackets 5"
                                             layout="responsive"
-                                            width={100}
-                                            height={100}
+
                                             loading="lazy"
                                             className='img-fluid rounded expertise-card-img'
                                         />
@@ -128,12 +123,11 @@ const MenHoodedJacketSlider = () => {
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Image
+                                        <img
                                             src="/images/garments/Mens Garments/Mens Hooded Jackets/Mens Hooded Jackets 6.webp"
                                             alt="Mens Hooded Jackets 6"
                                             layout="responsive"
-                                            width={100}
-                                            height={100}
+
                                             loading="lazy"
                                             className='img-fluid rounded expertise-card-img'
                                         />

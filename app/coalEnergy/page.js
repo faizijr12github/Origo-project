@@ -6,7 +6,7 @@ import Link from 'next/link'
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Image from 'next/image';
+
 
 const CoalEnergy = () => {
     useEffect(() => {
@@ -37,12 +37,10 @@ const CoalEnergy = () => {
                         <p className='mt-3'><i className="bi bi-check-circle-fill me-3"></i>Our commitment to quality, timely delivery, and competitive pricing makes Origo a preferred partner for businesses seeking dependable coal energy solutions.</p>
                     </Col>
                     <Col lg="5" className='mb-5'>
-                        <Image
+                        <img
                             src='/images/coal.webp'
                             alt='Coal'
                             layout="responsive"
-                            width={100}
-                            height={100}
                             loading="lazy"
                             className='img-fluid rounded'
                             data-aos="zoom-in"
@@ -86,12 +84,10 @@ const CoalEnergy = () => {
                             </div>
                         </Col>
                         <Col lg="5" className="mt-5 text-center">
-                            <Image
+                            <img
                                 src='/images/coal-img-2.webp'
                                 alt='Coal'
                                 layout="responsive"
-                                width={100}
-                                height={100}
                                 loading="lazy"
                                 className='img-fluid float-animation'
                             />
@@ -115,14 +111,12 @@ const CoalEnergy = () => {
                     <Col className='mt-5' data-aos="fade-up" lg='3' md='6'>
                         <Card className="expertise-card bg-transparent" style={{ width: '100%' }}>
                             <div className='img-container rounded-5'>
-                                <Image
+                                <img
                                     src="/images/pak-flag.webp"
                                     alt="Pak Flag"
                                     layout="responsive"
-                                    width={100}
-                                    height={100}
                                     loading="lazy"
-                                    className='img-fluid rounded-5'
+                                    className='expertise-card-img img-fluid rounded-5'
                                 />
 
                             </div>
@@ -139,14 +133,12 @@ const CoalEnergy = () => {
                     <Col className='mt-5' data-aos="fade-down" lg='3' md='6'>
                         <Card className="expertise-card bg-transparent" style={{ width: '100%' }}>
                             <div className='img-container rounded-5'>
-                                <Image
+                                <img
                                     src="/images/sa-flag.webp"
                                     alt="SA Flag"
                                     layout="responsive"
-                                    width={100}
-                                    height={100}
                                     loading="lazy"
-                                    className='img-fluid rounded-5'
+                                    className='expertise-card-img img-fluid rounded-5'
                                 />
 
                             </div>
@@ -163,14 +155,12 @@ const CoalEnergy = () => {
                     <Col className='mt-5' data-aos="fade-up" lg='3' md='6'>
                         <Card className="expertise-card bg-transparent" style={{ width: '100%' }}>
                             <div className='img-container rounded-5'>
-                                <Image
+                                <img
                                     src="/images/indonesia-flag.webp"
                                     alt="Indonesia Flag"
                                     layout="responsive"
-                                    width={100}
-                                    height={100}
                                     loading="lazy"
-                                    className='img-fluid rounded-5'
+                                    className='expertise-card-img img-fluid rounded-5'
                                 />
 
                             </div>
@@ -187,14 +177,12 @@ const CoalEnergy = () => {
                     <Col className='mt-5' data-aos="fade-down" lg='3' md='6'>
                         <Card className="expertise-card bg-transparent" style={{ width: '100%' }}>
                             <div className='img-container rounded-5'>
-                                <Image
+                                <img
                                     src="/images/afg-flag.webp"
                                     alt="Afghanistan Flag"
                                     layout="responsive"
-                                    width={100}
-                                    height={100}
                                     loading="lazy"
-                                    className='img-fluid rounded-5'
+                                    className='expertise-card-img img-fluid rounded-5'
                                 />
 
                             </div>

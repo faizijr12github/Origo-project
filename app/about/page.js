@@ -5,7 +5,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Image from 'next/image';
+
 
 const About = () => {
 
@@ -51,12 +51,10 @@ const About = () => {
                     </Col>
                     <Col lg="5" className='mb-5 order-first order-lg-last'>
                         <div className='img-container rounded-5 shadow' data-aos="zoom-out">
-                            <Image
+                            <img
                                 src='/images/mission.jpg'
                                 alt='Mission'
                                 layout="responsive"
-                                width={100}
-                                height={100}
                                 loading="lazy"
                                 className='img-fluid'
                             />
@@ -69,12 +67,10 @@ const About = () => {
                 <Row className='justify-content-around align-items-center'>
                     <Col lg="5" className='mb-5'>
                         <div className='img-container rounded-5 shadow' data-aos="fade-down-right">
-                            <Image
+                            <img
                                 src='/images/Goal.jpg'
                                 alt='Mission'
                                 layout="responsive"
-                                width={100}
-                                height={100}
                                 loading="lazy"
                                 className='img-fluid'
                             />

@@ -4,7 +4,6 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import TopNav from "./components/TopNav";
 import Footer from "./components/Footer";
 import TopBtn from "./components/TopBtn";
-
 export const metadata = {
   title: "Origo Business Services",
   description: "Connecting Markets",

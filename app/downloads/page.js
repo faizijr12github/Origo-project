@@ -5,7 +5,7 @@ import { Container, Row, Col, Card } from 'react-bootstrap'
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Image from 'next/image';
+
 
 const Downloads = () => {
     useEffect(() => {
@@ -37,7 +37,7 @@ const Downloads = () => {
                     <Col className='mt-5' lg='4' md='6' data-aos="fade-up">
                         <Card className="expertise-card text-center mx-auto" style={{ width: '16rem' }}>
                             <div className='img-container'>
-                                <Image
+                                <img
                                     className="expertise-card-img rounded-5"
                                     src="/images/origo_business_services_logo.webp"
                                     alt="Origo Business Services Logo"
@@ -59,7 +59,7 @@ const Downloads = () => {
                     <Col className='mt-5' lg='4' md='6' data-aos="fade-down">
                         <Card className="expertise-card text-center mx-auto" style={{ width: '16rem' }}>
                             <div className='img-container'>
-                                <Image
+                                <img
                                     className="expertise-card-img rounded-5"
                                     src="/images/origo_business_services_logo.webp"
                                     alt="Origo Business Services Logo"
@@ -78,7 +78,7 @@ const Downloads = () => {
                     <Col className='mt-5' lg='4' md='6' data-aos="fade-up">
                         <Card className="expertise-card text-center mx-auto" style={{ width: '16rem' }}>
                             <div className='img-container'>
-                                <Image
+                                <img
                                     className="expertise-card-img rounded-5"
                                     src="/images/origo_business_services_logo.webp"
                                     alt="Origo Business Services Logo"

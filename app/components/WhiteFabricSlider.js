@@ -12,7 +12,7 @@ import { Autoplay } from 'swiper/modules';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Image from 'next/image';
+
 
 const WhiteFabricSlider = () => {
     useEffect(() => {
@@ -53,12 +53,10 @@ const WhiteFabricSlider = () => {
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Image
+                                        <img
                                             src="/images/Home Textiles/Fabrics/White Fabric/White Fabrics 1.webp"
                                             alt="White Fabrics 1"
                                             layout="responsive"
-                                            width={100}
-                                            height={100}
                                             loading="lazy"
                                             className='img-fluid rounded expertise-card-img'
                                         />
@@ -68,12 +66,10 @@ const WhiteFabricSlider = () => {
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Image
+                                        <img
                                             src="/images/Home Textiles/Fabrics/White Fabric/White Fabrics 2.webp"
                                             alt="White Fabrics 2"
                                             layout="responsive"
-                                            width={100}
-                                            height={100}
                                             loading="lazy"
                                             className='img-fluid rounded expertise-card-img'
                                         />
@@ -83,12 +79,10 @@ const WhiteFabricSlider = () => {
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Image
+                                        <img
                                             src="/images/Home Textiles/Fabrics/White Fabric/White Fabrics 3.webp"
                                             alt="White Fabrics 3"
                                             layout="responsive"
-                                            width={100}
-                                            height={100}
                                             loading="lazy"
                                             className='img-fluid rounded expertise-card-img'
                                         />
@@ -98,12 +92,10 @@ const WhiteFabricSlider = () => {
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Image
+                                        <img
                                             src="/images/Home Textiles/Fabrics/White Fabric/White Fabrics 4.webp"
                                             alt="White Fabrics 4"
                                             layout="responsive"
-                                            width={100}
-                                            height={100}
                                             loading="lazy"
                                             className='img-fluid rounded expertise-card-img'
                                         />
@@ -113,12 +105,10 @@ const WhiteFabricSlider = () => {
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Image
+                                        <img
                                             src="/images/Home Textiles/Fabrics/White Fabric/White Fabrics 5.webp"
                                             alt="White Fabrics 5"
                                             layout="responsive"
-                                            width={100}
-                                            height={100}
                                             loading="lazy"
                                             className='img-fluid rounded expertise-card-img'
                                         />
@@ -128,12 +118,10 @@ const WhiteFabricSlider = () => {
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Image
+                                        <img
                                             src="/images/Home Textiles/Fabrics/White Fabric/White Fabrics 6.webp"
                                             alt="White Fabrics 6"
                                             layout="responsive"
-                                            width={100}
-                                            height={100}
                                             loading="lazy"
                                             className='img-fluid rounded expertise-card-img'
                                         />

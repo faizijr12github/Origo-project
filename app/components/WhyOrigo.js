@@ -3,7 +3,7 @@ import { Col, Container, Row, Card } from 'react-bootstrap'
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Image from 'next/image';
+
 
 
 const WhyOrigo = () => {
@@ -22,7 +22,7 @@ const WhyOrigo = () => {
             <Col data-aos="fade-right" className='mt-5' lg="5">
               <Card className='border-0 bg-black text-center'>
                 <div className='img-container rounded-circle float-animation'>
-                  <Image
+                  <img
                     src="/images/Comprehensive-Solutions.png"
                     alt="Comprehensive Solutions"
                     width={100}
@@ -43,7 +43,7 @@ const WhyOrigo = () => {
             <Col data-aos="fade-left" className='mt-5' lg="5">
               <Card className='border-0 bg-black text-center'>
                 <div className='img-container rounded-circle float-animation'>
-                  <Image
+                  <img
                     src="/images/global-reach.png"
                     alt="Global Reach"
                     width={100}
@@ -66,7 +66,7 @@ const WhyOrigo = () => {
             <Col className='mt-5' lg="5">
               <Card className='border-0 bg-black text-center'>
                 <div className='img-container rounded-circle float-animation'>
-                  <Image
+                  <img
                     src="/images/Quality-Assurance.webp"
                     alt="Quality Assurance"
                     width={100}
@@ -87,7 +87,7 @@ const WhyOrigo = () => {
             <Col className='mt-5' lg="5">
               <Card className='border-0 bg-black text-center'>
                 <div className='img-container rounded-circle float-animation'>
-                  <Image
+                  <img
                     src="/images/Innovation-Creativity.webp"
                     alt="Innovation Creativity"
                     width={100}
@@ -110,7 +110,7 @@ const WhyOrigo = () => {
             <Col data-aos="fade-right" className='mt-5' lg="5">
               <Card className='border-0 bg-black text-center'>
                 <div className='img-container rounded-circle float-animation'>
-                  <Image
+                  <img
                     src="/images/Strategic-Partnerships.png"
                     alt="Strategic Partnerships"
                     width={100}
@@ -132,7 +132,7 @@ const WhyOrigo = () => {
             <Col data-aos="fade-left" className='mt-5' lg="5">
               <Card className='border-0 bg-black text-center'>
                 <div className='img-container rounded-circle float-animation'>
-                  <Image
+                  <img
                     src="/images/Industry-Expertise.webp"
                     alt="Industry Expertise"
                     width={100}
@@ -155,7 +155,7 @@ const WhyOrigo = () => {
             <Col className='mt-5' lg="5">
               <Card className='border-0 bg-black text-center'>
                 <div className='img-container rounded-circle float-animation'>
-                  <Image
+                  <img
                     src="/images/Customer-Centric-Approach.webp"
                     alt="Customer-Centric Approach"
                     width={100}
@@ -176,7 +176,7 @@ const WhyOrigo = () => {
             <Col className='mt-5' lg="5">
               <Card className='border-0 bg-black text-center'>
                 <div className='img-container rounded-circle float-animation'>
-                  <Image
+                  <img
                     src="/images/Sustainable-Practices.png"
                     alt="Sustainable Practices"
                     width={100}
@@ -199,7 +199,7 @@ const WhyOrigo = () => {
             <Col data-aos="fade-right" className='mt-5' lg="5">
               <Card className='border-0 bg-black text-center'>
                 <div className='img-container rounded-circle float-animation'>
-                  <Image
+                  <img
                     src="/images/Connecting-Buyers.webp"
                     alt="Connecting Buyers"
                     width={100}
@@ -220,7 +220,7 @@ const WhyOrigo = () => {
             <Col data-aos="fade-left" className='mt-5' lg="5">
               <Card className='border-0 bg-black text-center'>
                 <div className='img-container rounded-circle float-animation'>
-                  <Image
+                  <img
                     src="/images/Price-Negotiations.png"
                     alt="Price Negotiations"
                     width={100}

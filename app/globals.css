@@ -4,6 +4,10 @@
   font-style: normal;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 .swiper-button-prev,
 .swiper-button-next {
   color: white !important;

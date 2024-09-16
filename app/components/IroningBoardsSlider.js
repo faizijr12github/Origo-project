@@ -12,7 +12,7 @@ import { Autoplay } from 'swiper/modules';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Image from 'next/image';
+
 
 const IroningBoardsSlider = () => {
     useEffect(() => {
@@ -53,12 +53,10 @@ const IroningBoardsSlider = () => {
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Image
+                                        <img
                                             src="/images/Home Textiles/Madeups/Ironing Board Cover/Ironing Board Cover 1.webp"
                                             alt="Ironing Board Cover 1"
                                             layout="responsive"
-                                            width={100}
-                                            height={100}
                                             loading="lazy"
                                             className='img-fluid rounded expertise-card-img'
                                         />
@@ -68,12 +66,10 @@ const IroningBoardsSlider = () => {
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Image
+                                        <img
                                             src="/images/Home Textiles/Madeups/Ironing Board Cover/Ironing Board Cover 2.webp"
                                             alt="Ironing Board Cover 2"
                                             layout="responsive"
-                                            width={100}
-                                            height={100}
                                             loading="lazy"
                                             className='img-fluid rounded expertise-card-img'
                                         />
@@ -83,12 +79,10 @@ const IroningBoardsSlider = () => {
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Image
+                                        <img
                                             src="/images/Home Textiles/Madeups/Ironing Board Cover/Ironing Board Cover 3.webp"
                                             alt="Ironing Board Cover 3"
                                             layout="responsive"
-                                            width={100}
-                                            height={100}
                                             loading="lazy"
                                             className='img-fluid rounded expertise-card-img'
                                         />
@@ -98,12 +92,10 @@ const IroningBoardsSlider = () => {
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Image
+                                        <img
                                             src="/images/Home Textiles/Madeups/Ironing Board Cover/Ironing Board Cover 4.webp"
                                             alt="Ironing Board Cover 4"
                                             layout="responsive"
-                                            width={100}
-                                            height={100}
                                             loading="lazy"
                                             className='img-fluid rounded expertise-card-img'
                                         />
@@ -113,12 +105,10 @@ const IroningBoardsSlider = () => {
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Image
+                                        <img
                                             src="/images/Home Textiles/Madeups/Ironing Board Cover/Ironing Board Covers 5.webp"
                                             alt="Ironing Board Cover 5"
                                             layout="responsive"
-                                            width={100}
-                                            height={100}
                                             loading="lazy"
                                             className='img-fluid rounded expertise-card-img'
                                         />
@@ -128,12 +118,10 @@ const IroningBoardsSlider = () => {
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Image
+                                        <img
                                             src="/images/Home Textiles/Madeups/Ironing Board Cover/Ironing Board Covers 6.webp"
                                             alt="Ironing Board Cover 6"
                                             layout="responsive"
-                                            width={100}
-                                            height={100}
                                             loading="lazy"
                                             className='img-fluid rounded expertise-card-img'
                                         />

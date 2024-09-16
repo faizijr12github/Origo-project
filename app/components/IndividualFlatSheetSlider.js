@@ -12,7 +12,7 @@ import { Autoplay } from 'swiper/modules';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Image from 'next/image';
+
 
 const IndividualFlatSheetSlider = () => {
     useEffect(() => {
@@ -53,12 +53,10 @@ const IndividualFlatSheetSlider = () => {
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Image
+                                        <img
                                             src="/images/Home Textiles/Madeups/Individual Flat Sheets/Individual Flat Sheet 1.webp"
                                             alt="Individual Flat Sheet 1"
                                             layout="responsive"
-                                            width={100}
-                                            height={100}
                                             loading="lazy"
                                             className='img-fluid rounded expertise-card-img'
                                         />
@@ -68,12 +66,10 @@ const IndividualFlatSheetSlider = () => {
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Image
+                                        <img
                                             src="/images/Home Textiles/Madeups/Individual Flat Sheets/Individual Flat Sheets 2.webp"
                                             alt="Individual Flat Sheets 2"
                                             layout="responsive"
-                                            width={100}
-                                            height={100}
                                             loading="lazy"
                                             className='img-fluid rounded expertise-card-img'
                                         />
@@ -83,12 +79,10 @@ const IndividualFlatSheetSlider = () => {
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Image
+                                        <img
                                             src="/images/Home Textiles/Madeups/Individual Flat Sheets/Individual Flat Sheets 3.webp"
                                             alt="Individual Flat Sheets 3"
                                             layout="responsive"
-                                            width={100}
-                                            height={100}
                                             loading="lazy"
                                             className='img-fluid rounded expertise-card-img'
                                         />
@@ -98,12 +92,10 @@ const IndividualFlatSheetSlider = () => {
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Image
+                                        <img
                                             src="/images/Home Textiles/Madeups/Individual Flat Sheets/Individual Flat Sheets 4.webp"
                                             alt="Individual Flat Sheets 4"
                                             layout="responsive"
-                                            width={100}
-                                            height={100}
                                             loading="lazy"
                                             className='img-fluid rounded expertise-card-img'
                                         />
@@ -113,12 +105,10 @@ const IndividualFlatSheetSlider = () => {
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Image
+                                        <img
                                             src="/images/Home Textiles/Madeups/Individual Flat Sheets/Individual Flat Sheets 5.webp"
                                             alt="Individual Flat Sheets 5"
                                             layout="responsive"
-                                            width={100}
-                                            height={100}
                                             loading="lazy"
                                             className='img-fluid rounded expertise-card-img'
                                         />
@@ -128,12 +118,10 @@ const IndividualFlatSheetSlider = () => {
                             <SwiperSlide>
                                 <Card className="expertise-card" style={{ width: '100%' }}>
                                     <div className='img-container'>
-                                        <Image
+                                        <img
                                             src="/images/Home Textiles/Madeups/Individual Flat Sheets/Individual Flat Sheets 6.webp"
                                             alt="Individual Flat Sheets 6"
                                             layout="responsive"
-                                            width={100}
-                                            height={100}
                                             loading="lazy"
                                             className='img-fluid rounded expertise-card-img'
                                         />

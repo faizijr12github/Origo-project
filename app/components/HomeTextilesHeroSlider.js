@@ -14,7 +14,7 @@ import { Autoplay } from 'swiper/modules';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Image from 'next/image';
+
 
 const HomeTextilesHeroSlider = () => {
     useEffect(() => {
@@ -57,12 +57,10 @@ const HomeTextilesHeroSlider = () => {
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Image
+                                                <img
                                                     src="/images/Home Textiles/Fabrics/White Fabric/White Fabrics 6.webp"
                                                     alt="White Fabrics 6"
                                                     layout="responsive"
-                                                    width={100}
-                                                    height={100}
                                                     loading="lazy"
                                                     className='img-fluid rounded'
                                                 />
@@ -76,12 +74,10 @@ const HomeTextilesHeroSlider = () => {
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Image
+                                                <img
                                                     src="/images/Home Textiles/Fabrics/Dyed Fabrics/Dyed Fabrics 2.webp"
                                                     alt="Dyed Fabrics 2"
                                                     layout="responsive"
-                                                    width={100}
-                                                    height={100}
                                                     loading="lazy"
                                                     className='img-fluid rounded'
                                                 />
@@ -95,12 +91,10 @@ const HomeTextilesHeroSlider = () => {
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Image
+                                                <img
                                                     src="/images/Home Textiles/Fabrics/Print Fabrics/Print Fabrics 6.webp"
                                                     alt="Print Fabrics 6"
                                                     layout="responsive"
-                                                    width={100}
-                                                    height={100}
                                                     loading="lazy"
                                                     className='img-fluid rounded'
                                                 />
@@ -114,12 +108,10 @@ const HomeTextilesHeroSlider = () => {
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Image
+                                                <img
                                                     src="/images/Home Textiles/Madeups/Sheet Sets/Sheet Sets 3.webp"
                                                     alt="Sheet Sets 3"
                                                     layout="responsive"
-                                                    width={100}
-                                                    height={100}
                                                     loading="lazy"
                                                     className='img-fluid rounded'
                                                 />
@@ -133,12 +125,10 @@ const HomeTextilesHeroSlider = () => {
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Image
+                                                <img
                                                     src="/images/Home Textiles/Madeups/Quilt Cover Sets/Quilt Cover Sets 3.webp"
                                                     alt="Quilt Cover Sets 3"
                                                     layout="responsive"
-                                                    width={100}
-                                                    height={100}
                                                     loading="lazy"
                                                     className='img-fluid rounded'
                                                 />
@@ -152,12 +142,10 @@ const HomeTextilesHeroSlider = () => {
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Image
+                                                <img
                                                     src="/images/Home Textiles/Madeups/Comforter Set/Comforter Sets 6.webp"
                                                     alt="Comforter Sets 6"
                                                     layout="responsive"
-                                                    width={100}
-                                                    height={100}
                                                     loading="lazy"
                                                     className='img-fluid rounded'
                                                 />
@@ -171,12 +159,10 @@ const HomeTextilesHeroSlider = () => {
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Image
+                                                <img
                                                     src="/images/Home Textiles/Madeups/Mattress Cover/Mattress Covers 6.webp"
                                                     alt="Mattress Covers 6"
                                                     layout="responsive"
-                                                    width={100}
-                                                    height={100}
                                                     loading="lazy"
                                                     className='img-fluid rounded'
                                                 />
@@ -190,12 +176,10 @@ const HomeTextilesHeroSlider = () => {
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Image
+                                                <img
                                                     src="/images/Home Textiles/Madeups/Valance Sheets/Valance Sheets 1.webp"
                                                     alt="Valance Sheets 1"
                                                     layout="responsive"
-                                                    width={100}
-                                                    height={100}
                                                     loading="lazy"
                                                     className='img-fluid rounded'
                                                 />
@@ -209,12 +193,10 @@ const HomeTextilesHeroSlider = () => {
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Image
+                                                <img
                                                     src="/images/Home Textiles/Madeups/Curtains/Curtains 2.webp"
                                                     alt="Curtains 2"
                                                     layout="responsive"
-                                                    width={100}
-                                                    height={100}
                                                     loading="lazy"
                                                     className='img-fluid rounded'
                                                 />
@@ -228,12 +210,10 @@ const HomeTextilesHeroSlider = () => {
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Image
+                                                <img
                                                     src="/images/Home Textiles/Madeups/Ironing Board Cover/Ironing Board Cover 3.webp"
                                                     alt="Ironing Board Cover 3"
                                                     layout="responsive"
-                                                    width={100}
-                                                    height={100}
                                                     loading="lazy"
                                                     className='img-fluid rounded'
                                                 />
@@ -247,12 +227,10 @@ const HomeTextilesHeroSlider = () => {
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Image
+                                                <img
                                                     src="/images/Home Textiles/Madeups/Individual Flat Sheets/Individual Flat Sheets 5.webp"
                                                     alt="Individual Flat Sheets 5"
                                                     layout="responsive"
-                                                    width={100}
-                                                    height={100}
                                                     loading="lazy"
                                                     className='img-fluid rounded'
                                                 />
@@ -266,12 +244,10 @@ const HomeTextilesHeroSlider = () => {
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Image
+                                                <img
                                                     src="/images/Home Textiles/Madeups/Fitted Sheets/Fitted Sheet 6.webp"
                                                     alt="Fitted Sheet 6"
                                                     layout="responsive"
-                                                    width={100}
-                                                    height={100}
                                                     loading="lazy"
                                                     className='img-fluid rounded'
                                                 />
@@ -285,12 +261,10 @@ const HomeTextilesHeroSlider = () => {
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Image
+                                                <img
                                                     src="/images/Home Textiles/Madeups/Pillow Cases/Pillow Cases 2.webp"
                                                     alt="Pillow Cases 2"
                                                     layout="responsive"
-                                                    width={100}
-                                                    height={100}
                                                     loading="lazy"
                                                     className='img-fluid rounded'
                                                 />
@@ -304,12 +278,10 @@ const HomeTextilesHeroSlider = () => {
                                     <SwiperSlide>
                                         <Card className='border-0 htcards' style={{ width: '100%' }}>
                                             <div className='img-container'>
-                                                <Image
+                                                <img
                                                     src="/images/Home Textiles/Madeups/Hotel Sheeting/Hotel Sheeting 2.webp"
                                                     alt="Hotel Sheeting 2"
                                                     layout="responsive"
-                                                    width={100}
-                                                    height={100}
                                                     loading="lazy"
                                                     className='img-fluid rounded'
                                                 />

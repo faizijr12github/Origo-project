@@ -3,7 +3,7 @@ import { Col, Container, Row, Card } from 'react-bootstrap'
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Image from 'next/image';
+
 
 const Expertise = () => {
     useEffect(() => {
@@ -27,12 +27,10 @@ const Expertise = () => {
                     <Col data-aos="fade-up" className='mt-5' lg='4' md='6'>
                         <Card className="expertise-card" style={{ width: '100%' }}>
                             <div className='img-container rounded-5'>
-                                <Image
-                                    className='expertise-card-img rounded-5'
+                                <img
+                                    className='expertise-card-img img-fluid rounded-5'
                                     src="/images/crousel-img1.jpg"
                                     alt="Marketing Services"
-                                    width={500}
-                                    height={300}
                                     layout="responsive"
                                     loading="lazy"
                                 />
@@ -48,12 +46,10 @@ const Expertise = () => {
                     <Col data-aos="fade-down" className='mt-5' lg='4' md='6'>
                         <Card className="expertise-card" style={{ width: '100%' }}>
                             <div className='img-container rounded-5'>
-                                <Image
-                                    className='expertise-card-img rounded-5'
+                                <img
+                                    className='expertise-card-img img-fluid rounded-5'
                                     src="/images/crousel-img2.jpg"
                                     alt="Procurement Services"
-                                    width={500}
-                                    height={300}
                                     layout="responsive"
                                     loading="lazy"
                                 />
@@ -70,12 +66,10 @@ const Expertise = () => {
                     <Col data-aos="fade-up" className='mt-5' lg='4' md='6'>
                         <Card className="expertise-card" style={{ width: '100%' }}>
                             <div className='img-container rounded-5'>
-                                <Image
-                                    className='expertise-card-img rounded-5'
+                                <img
+                                    className='expertise-card-img img-fluid rounded-5'
                                     src="/images/crousel-img3.jpg"
                                     alt="Project Execution"
-                                    width={500}
-                                    height={300}
                                     layout="responsive"
                                     loading="lazy"
                                 />
@@ -92,12 +86,10 @@ const Expertise = () => {
                     <Col data-aos="fade-right" className='mt-5' lg='4' md='6'>
                         <Card className="expertise-card" style={{ width: '100%' }}>
                             <div className='img-container rounded-5'>
-                                <Image
-                                    className='expertise-card-img rounded-5'
+                                <img
+                                    className='expertise-card-img img-fluid rounded-5'
                                     src="/images/crousel-img4.jpg"
                                     alt="Strategic Partnerships"
-                                    width={500}
-                                    height={300}
                                     layout="responsive"
                                     loading="lazy"
                                 />
@@ -114,12 +106,10 @@ const Expertise = () => {
                     <Col data-aos="fade-left" className='mt-5' lg='4' md='6'>
                         <Card className="expertise-card" style={{ width: '100%' }}>
                             <div className='img-container rounded-5'>
-                                <Image
-                                    className='expertise-card-img rounded-5'
+                                <img
+                                    className='expertise-card-img img-fluid rounded-5'
                                     src="/images/Goal.jpg"
                                     alt="Business Development"
-                                    width={500}
-                                    height={300}
                                     layout="responsive"
                                     loading="lazy"
                                 />
